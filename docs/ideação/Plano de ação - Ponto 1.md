@@ -37,14 +37,26 @@ Desenvolver métodos para visualizar as informações do dataset e identificar a
 
 ### 1.2. Rastreamento e Avaliação de Jogadores da Copa do Mundo
 *   **Objetivo:** Identificar e coletar dados de desempenho de jogadores da Copa do Mundo 2022 em suas ligas anteriores.
-*   **Desafios:**
-    *   **Fonte de Dados:** Onde encontrar dados de ligas anteriores? (e.g., StatsBomb, Opta, FBref, APIs de futebol).
-    *   **Mapeamento de Jogadores:** Como garantir que os jogadores da Copa do Mundo sejam corretamente identificados nas ligas anteriores? (IDs de jogadores, nomes).
-    *   **Métricas de Desempenho:** Quais métricas são mais relevantes para avaliar o desempenho de um jogador em ligas anteriores que possam impactar seu desempenho na Copa do Mundo? (Gols, Assistências, Passes Completos, Dribles, Desarmes, xG, xA, etc.).
-*   **Passos:**
-    *   Identificar uma fonte de dados confiável para ligas anteriores.
-    *   Desenvolver um script para coletar e integrar esses dados com os dados da Copa do Mundo.
-    *   Definir um conjunto de métricas chave para avaliação de jogadores.
+*   **Análise de Viabilidade com Dados Atuais:**
+    *   Os datasets atualmente disponíveis (`wc2022_player_sog.csv` e os dados brutos da Copa do Mundo de 2022) contêm informações sobre jogadores e suas equipes nacionais *durante* a Copa do Mundo.
+    *   Os arquivos `players_data_light-2025_2026.csv` e `players_data-2025_2026.csv` na pasta `Datasets/players-data` referem-se a temporadas *posteriores* à Copa do Mundo de 2022.
+    *   **Conclusão:** Com os dados *atualmente disponíveis*, **não é possível** rastrear diretamente o desempenho dos jogadores em ligas anteriores à Copa do Mundo de 2022 para todos os jogadores. No entanto, podemos analisar ligas específicas se os dados estiverem disponíveis.
+*   **Análise de Caso: Lionel Messi (Ligue 1 2021/2022 vs. FIFA World Cup 2022)**
+    *   **Identificação da Liga Anterior:** Lionel Messi jogou pelo Paris Saint-Germain (PSG) na Ligue 1 (França) durante a temporada 2021/2022, imediatamente antes da Copa do Mundo de 2022.
+    *   **Disponibilidade de Dados:** Dados para a Ligue 1 2021/2022 estão disponíveis no dataset (`competition_id: 7`, `season_id: 108`).
+    *   **Processamento de Dados:** O script `data_processing.py` foi adaptado e executado para gerar os CSVs processados para a Ligue 1 2021/2022.
+    *   **Comparação de Desempenho (Chutes a Gol):**
+        *   **FIFA World Cup 2022 (7 partidas):**
+            *   Total de Chutes a Gol: 20
+            *   Média de Chutes a Gol por partida: 2.86
+        *   **Ligue 1 2021/2022 (26 partidas):**
+            *   Total de Chutes a Gol: 27
+            *   Média de Chutes a Gol por partida: 1.04
+    *   **Correlação/Insights:** Messi demonstrou uma média significativamente maior de chutes a gol por partida na Copa do Mundo de 2022 em comparação com sua temporada na Ligue 1 2021/2022. Isso pode indicar uma maior agressividade ofensiva ou um papel tático diferente na seleção nacional, possivelmente influenciado pelas altas apostas do torneio.
+*   **Próximos Passos para Viabilizar (Geral):**
+    *   **Aquisição de Dados Históricos Adicionais:** Para uma análise mais abrangente de outros jogadores, será necessário buscar e integrar fontes de dados externas que contenham o histórico de clubes e estatísticas de desempenho de jogadores em ligas anteriores a 2022.
+    *   **Mapeamento de Jogadores:** Desenvolver uma metodologia robusta para mapear os jogadores da Copa do Mundo com seus registros históricos em outras ligas (via IDs de jogadores ou correspondência de nomes).
+    *   **Métricas de Desempenho:** Definir quais métricas são mais relevantes para avaliar o desempenho de um jogador em ligas anteriores que possam impactar seu desempenho na Copa do Mundo (Gols, Assistências, Passes Completos, Dribles, Desarmes, xG, xA, etc.).
     *   Visualizar o desempenho dos jogadores antes da Copa do Mundo.
 
 ### 1.3. Avaliação e Agrupamento de Jogadores em "Times Parceiros"
@@ -55,6 +67,20 @@ Desenvolver métodos para visualizar as informações do dataset e identificar a
         *   Como formar esses times? Aleatoriamente? Por posição? Por pontuação geral?
         *   Considerar a viabilidade de simular o desempenho desses times.
     *   **Visualização:** Como apresentar os resultados desses agrupamentos? (e.g., comparação de métricas agregadas dos "times parceiros" vs. times reais).
+
+### 1.4. Análise de Viabilidade para "Campeonato Pernambucano Brasileiro de 2025"
+*   **Análise de Viabilidade com Dados Atuais:**
+    *   A análise do arquivo `competitions.json` (que lista todas as competições e temporadas disponíveis no dataset) **não revelou nenhuma entrada** para "Campeonato Pernambucano Brasileiro de 2025" ou qualquer competição similar no Brasil para o ano de 2025.
+    *   **Conclusão:** Com os dados *atualmente disponíveis*, **não é possível** estudar o "Campeonato Pernambucano Brasileiro de 2025".
+*   **Próximos Passos para Viabilizar:**
+    *   **Aquisição de Novo Dataset:** Para estudar este campeonato, seria necessário adquirir um novo dataset específico para o "Campeonato Pernambucano Brasileiro de 2025" de uma fonte de dados externa.
+
+### 1.5. Análise de Viabilidade para "Campeonato Brasileiro de 2025"
+*   **Análise de Viabilidade com Dados Atuais:**
+    *   A análise do arquivo `competitions.json` **não revelou nenhuma entrada** para qualquer campeonato brasileiro para o ano de 2025. Não há competições com `country_name: "Brazil"` ou `season_name` indicando "2025" para um campeonato brasileiro.
+    *   **Conclusão:** Com os dados *atualmente disponíveis*, **não é possível** estudar um "Campeonato Brasileiro de 2025".
+*   **Próximos Passos para Viabilizar:**
+    *   **Aquisição de Novo Dataset:** Para estudar este campeonato, seria necessário adquirir um novo dataset específico para um "Campeonato Brasileiro de 2025" de uma fonte de dados externa.
 
 ## Próximos Passos
 *   Pesquisar fontes de dados para desempenho de jogadores em ligas anteriores.

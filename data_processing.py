@@ -12,32 +12,32 @@ LINEUP_DIR = os.path.join(BASE_DIR, 'lineups')
 
 # --- Main Functions ---
 
-def get_world_cup_2022_match_ids():
+def get_match_data_for_competition_season(target_competition_name, target_season_name):
     """
-    Finds the competition_id and season_id for the 2022 World Cup
-    and returns all associated match_ids.
+    Finds the competition_id and season_id for a given competition and season
+    and returns all associated match_ids and match info.
     """
     with open(COMPETITIONS_FILE, 'r', encoding='utf-8') as f:
         competitions = json.load(f)
 
-    wc_comp_id, wc_season_id = None, None
+    comp_id, season_id = None, None
     for comp in competitions:
-        if comp['competition_name'] == 'FIFA World Cup' and comp['season_name'] == '2022':
-            wc_comp_id = comp['competition_id']
-            wc_season_id = comp['season_id']
+        if comp['competition_name'] == target_competition_name and comp['season_name'] == target_season_name:
+            comp_id = comp['competition_id']
+            season_id = comp['season_id']
             break
 
-    if not wc_comp_id:
-        raise ValueError("FIFA World Cup 2022 not found in competitions.json")
+    if not comp_id:
+        raise ValueError(f"{target_competition_name} {target_season_name} not found in competitions.json")
 
-    matches_file = os.path.join(MATCH_DIR, str(wc_comp_id), f'{wc_season_id}.json')
+    matches_file = os.path.join(MATCH_DIR, str(comp_id), f'{season_id}.json')
     with open(matches_file, 'r', encoding='utf-8') as f:
         matches = json.load(f)
 
     match_ids = [match['match_id'] for match in matches]
     match_info = {match['match_id']: match for match in matches}
     
-    print(f"Found {len(match_ids)} matches for FIFA World Cup 2022.")
+    print(f"Found {len(match_ids)} matches for {target_competition_name} {target_season_name}.")
     return match_ids, match_info
 
 def process_data(match_ids, match_info):
@@ -172,19 +172,21 @@ def main():
     """
     Main function to run the data processing pipeline.
     """
-    print("Starting data processing...")
+    print("Starting data processing for Ligue 1 2021/2022...")
     
-    # 1. Get match IDs
-    match_ids, match_info = get_world_cup_2022_match_ids()
+    # 1. Get match IDs for Ligue 1 2021/2022
+    competition_name = "Ligue 1"
+    season_name = "2021/2022"
+    match_ids, match_info = get_match_data_for_competition_season(competition_name, season_name)
     
     # 2. Process data and generate DataFrames
     df_team_outcome, df_team_sog, df_player_sog = process_data(match_ids, match_info)
     
     # 3. Save DataFrames to CSV
     try:
-        outcome_path = 'C:/Users/maced/Documents/Projetos/JACKBOT/wc2022_team_outcome.csv'
-        team_sog_path = 'C:/Users/maced/Documents/Projetos/JACKBOT/wc2022_team_sog.csv'
-        player_sog_path = 'C:/Users/maced/Documents/Projetos/JACKBOT/wc2022_player_sog.csv'
+        outcome_path = f'C:/Users/maced/Documents/Projetos/JACKBOT/ligue1_2021_2022_team_outcome.csv'
+        team_sog_path = f'C:/Users/maced/Documents/Projetos/JACKBOT/ligue1_2021_2022_team_sog.csv'
+        player_sog_path = f'C:/Users/maced/Documents/Projetos/JACKBOT/ligue1_2021_2022_player_sog.csv'
 
         df_team_outcome.to_csv(outcome_path, index=False)
         print(f"Successfully saved team outcome data to {outcome_path}")

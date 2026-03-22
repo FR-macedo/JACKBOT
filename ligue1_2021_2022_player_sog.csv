@@ -1,0 +1,1038 @@
+match_id,player_id,player_name,team_id,ht_passes,ht_touches,ht_dribbles,total_shots_on_goal
+3802643,2940,Jean Eudès Aholou,138,0,0,0,0
+3802643,2946,Frédéric Guilbert,138,27,18,0,0
+3802643,2989,Alexander Djiku,138,27,25,0,0
+3802643,3175,Eiji Kawashima,138,0,0,0,0
+3802643,3215,Dimitri Liénard,138,24,23,0,0
+3802643,3229,Maxime Le Marchand,138,0,0,0,0
+3802643,3375,Adrien Thomasson,138,31,27,0,0
+3802643,4407,Sanjin Prcić,138,29,22,0,0
+3802643,4598,Gerzino Nyamsi,138,29,23,0,0
+3802643,6401,Kevin Gameiro,138,12,22,1,1
+3802643,7208,Ludovic Ajorque,138,16,18,1,0
+3802643,7422,Ibrahima Sissoko,138,0,0,0,0
+3802643,8833,Karol Fila,138,0,0,0,0
+3802643,10479,Matz Sels,138,13,8,0,0
+3802643,10480,Anthony Caci,138,0,0,0,1
+3802643,18516,Habibou Mouhamadou Diallo,138,0,0,0,0
+3802643,19718,Jean-Ricner Bellegarde,138,22,25,0,0
+3802643,32028,Lucas Perrin,138,23,16,0,0
+3802643,104656,Moïse Orell Dion Sahi,138,0,0,0,0
+3802643,133136,Mouhamadou Diarra,138,0,0,0,0
+3802643,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802643,2999,Presnel Kimpembe,131,26,21,0,0
+3802643,3009,Kylian Mbappé Lottin,131,19,30,4,2
+3802643,3166,Marco Verratti,131,48,40,0,0
+3802643,3567,Georginio Wijnaldum,131,0,0,0,0
+3802643,3606,Ander Herrera Agüera,131,0,0,0,0
+3802643,4320,Neymar da Silva Santos Junior,131,30,37,2,1
+3802643,4372,Marcos Aoás Corrêa,131,30,26,0,0
+3802643,5201,Sergio Ramos García,131,38,37,0,0
+3802643,5245,Achraf Hakimi Mouh,131,29,23,1,1
+3802643,5503,Lionel Andrés Messi Cuccittini,131,35,41,2,2
+3802643,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802643,7036,Gianluigi Donnarumma,131,13,7,0,0
+3802643,8511,Thilo Kehrer,131,0,0,0,0
+3802643,13621,Danilo Luís Hélio Pereira,131,27,25,1,0
+3802643,15651,Juan Bernat Velasco,131,25,27,2,0
+3802643,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802643,39167,Xavi Simons,131,0,0,0,0
+3802643,41092,Nuno Mendes,131,0,0,0,0
+3802643,86485,Edouard Michut,131,0,0,0,0
+3803000,2974,Saîf-Eddine Khaoui,152,11,12,0,0
+3803000,7203,Jérôme Phojo,152,0,0,0,0
+3803000,7367,Grejohn Kyei,152,0,0,0,0
+3803000,7410,Jason Berthomier,152,25,28,0,1
+3803000,7562,Florent Ogier,152,0,0,0,0
+3803000,7626,Johan Gastien,152,46,39,2,0
+3803000,7643,Josué Albert,152,0,0,0,0
+3803000,8178,Jean-Claude Billong,152,10,7,0,0
+3803000,8454,Mohamed Bayo,152,13,16,1,0
+3803000,13597,Oriol Busquets Mas,152,0,0,0,0
+3803000,19019,Arial Benabent Mendy,152,23,20,2,1
+3803000,22125,Arthur Desmas,152,18,8,0,0
+3803000,22137,Yohann Magnin,152,22,21,0,0
+3803000,28376,Jim Allevinah,152,0,0,0,0
+3803000,29664,Jodel Dossou,152,12,19,1,2
+3803000,30234,Akim Zedadka,152,29,26,1,0
+3803000,33151,Lucas Da Cunha,152,0,0,0,0
+3803000,36552,Ouparine Djoco,152,0,0,0,0
+3803000,45047,Alidu Seidu,152,8,5,0,0
+3803000,169475,Naël Jaby,152,0,0,0,0
+3803000,2999,Presnel Kimpembe,131,37,32,0,0
+3803000,3009,Kylian Mbappé Lottin,131,36,43,3,6
+3803000,3166,Marco Verratti,131,52,49,1,0
+3803000,3432,Alexandre Letellier,131,0,0,0,0
+3803000,3436,Idrissa Gana Gueye,131,51,43,1,0
+3803000,3567,Georginio Wijnaldum,131,0,0,0,0
+3803000,4320,Neymar da Silva Santos Junior,131,47,56,2,4
+3803000,5201,Sergio Ramos García,131,58,52,0,0
+3803000,5245,Achraf Hakimi Mouh,131,35,33,0,0
+3803000,5503,Lionel Andrés Messi Cuccittini,131,35,43,4,1
+3803000,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3803000,7036,Gianluigi Donnarumma,131,11,9,0,0
+3803000,8511,Thilo Kehrer,131,0,0,0,0
+3803000,10450,Colin Dagba,131,0,0,0,0
+3803000,13621,Danilo Luís Hélio Pereira,131,34,30,0,0
+3803000,15651,Juan Bernat Velasco,131,0,0,0,0
+3803000,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3803000,41092,Nuno Mendes,131,30,26,2,0
+3803000,86485,Edouard Michut,131,0,0,0,0
+3803000,132019,El Chadaille Bitshiabu,131,0,0,0,0
+3802802,2995,Ángel Fabián Di María Hernández,131,39,41,0,0
+3802802,2999,Presnel Kimpembe,131,0,0,0,0
+3802802,3009,Kylian Mbappé Lottin,131,22,35,1,2
+3802802,3166,Marco Verratti,131,60,61,0,1
+3802802,3186,Julian Draxler,131,0,0,0,0
+3802802,3606,Ander Herrera Agüera,131,0,0,0,0
+3802802,4372,Marcos Aoás Corrêa,131,42,39,0,0
+3802802,5201,Sergio Ramos García,131,56,54,0,2
+3802802,5503,Lionel Andrés Messi Cuccittini,131,0,0,0,0
+3802802,5597,Keylor Navas Gamboa,131,17,10,0,0
+3802802,6987,Mauro Emanuel Icardi Rivero,131,5,16,0,1
+3802802,8511,Thilo Kehrer,131,38,29,0,0
+3802802,10450,Colin Dagba,131,0,0,0,0
+3802802,13621,Danilo Luís Hélio Pereira,131,39,42,0,1
+3802802,16308,Leandro Daniel Paredes,131,64,58,0,0
+3802802,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802802,38786,Denis Franchi,131,0,0,0,0
+3802802,39167,Xavi Simons,131,0,0,0,0
+3802802,41092,Nuno Mendes,131,24,20,2,0
+3802802,86485,Edouard Michut,131,0,0,0,0
+3802802,7378,Yunis Abdelhamid,156,26,21,0,0
+3802802,8854,Wout Faes,156,20,15,0,0
+3802802,8948,Anastasios Donis,156,0,0,0,0
+3802802,15731,Predrag Rajković,156,15,7,0,0
+3802802,15782,Thomas Foket,156,25,25,0,0
+3802802,22098,Azor Matusiwa,156,42,43,1,0
+3802802,23870,Nicolas Penneteau,156,0,0,0,0
+3802802,23922,Maxime Busi,156,38,37,2,0
+3802802,24909,Moreto Moro Cassamã,156,0,0,0,0
+3802802,26063,Jens-Lys Michel Cajuste,156,21,23,0,0
+3802802,29962,Nathanaël Mbuku,156,12,15,1,1
+3802802,30682,Alexis Flips,156,0,0,0,0
+3802802,31799,Andreaw Gravillon,156,17,11,0,0
+3802802,45039,Ilan Kebbal,156,0,0,0,0
+3802802,50429,Hugo Ekitike,156,21,28,2,1
+3802802,104614,Dion Lopy,156,0,0,0,0
+3802802,121294,Moustapha Mbow,156,0,0,0,0
+3802802,132418,Bradley Locko,156,17,22,0,1
+3802802,136680,N''Dri Philippe Koffi,156,0,0,0,0
+3802802,174498,Martin Adeline,156,0,0,0,0
+3802696,2995,Ángel Fabián Di María Hernández,131,40,41,1,0
+3802696,2999,Presnel Kimpembe,131,0,0,0,0
+3802696,3009,Kylian Mbappé Lottin,131,21,37,3,2
+3802696,3166,Marco Verratti,131,58,55,1,0
+3802696,3186,Julian Draxler,131,0,0,0,0
+3802696,3436,Idrissa Gana Gueye,131,46,42,1,0
+3802696,3567,Georginio Wijnaldum,131,38,35,0,0
+3802696,3606,Ander Herrera Agüera,131,0,0,0,0
+3802696,4320,Neymar da Silva Santos Junior,131,36,47,3,0
+3802696,4372,Marcos Aoás Corrêa,131,38,33,0,0
+3802696,5245,Achraf Hakimi Mouh,131,35,38,2,0
+3802696,5503,Lionel Andrés Messi Cuccittini,131,0,0,0,0
+3802696,5597,Keylor Navas Gamboa,131,12,3,0,0
+3802696,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802696,8511,Thilo Kehrer,131,37,35,0,0
+3802696,8553,Abdou Diallo,131,36,27,0,1
+3802696,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802696,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802696,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802696,35705,Arnaud Kalimuendo Muinga,131,0,0,0,0
+3802696,7378,Yunis Abdelhamid,156,25,20,0,2
+3802696,8088,Mitchell van Bergen,156,0,0,0,1
+3802696,8854,Wout Faes,156,13,12,0,0
+3802696,10038,Mathieu Cafaro,156,0,0,0,0
+3802696,10039,Ghislain Konan,156,0,0,0,0
+3802696,15731,Predrag Rajković,156,12,3,0,0
+3802696,15782,Thomas Foket,156,25,26,2,0
+3802696,18857,Valon Berisha,156,0,0,0,0
+3802696,24909,Moreto Moro Cassamã,156,30,28,2,0
+3802696,24987,Yehvann Diouf,156,0,0,0,0
+3802696,29962,Nathanaël Mbuku,156,17,21,1,0
+3802696,30682,Alexis Flips,156,0,0,0,0
+3802696,31308,Marshall Nyasha Munetsi,156,17,10,1,0
+3802696,31799,Andreaw Gravillon,156,23,18,0,0
+3802696,34865,El Bilal Toure,156,9,23,1,1
+3802696,45039,Ilan Kebbal,156,21,29,2,0
+3802696,46005,Fodé Doucouré,156,0,0,0,0
+3802696,50429,Hugo Ekitike,156,0,0,0,0
+3802696,104614,Dion Lopy,156,29,29,1,0
+3802696,132418,Bradley Locko,156,0,0,0,0
+3802699,2995,Ángel Fabián Di María Hernández,131,19,25,4,4
+3802699,2999,Presnel Kimpembe,131,52,45,0,0
+3802699,3186,Julian Draxler,131,0,0,0,0
+3802699,3436,Idrissa Gana Gueye,131,32,32,1,0
+3802699,3567,Georginio Wijnaldum,131,17,16,1,0
+3802699,3606,Ander Herrera Agüera,131,0,0,0,0
+3802699,4320,Neymar da Silva Santos Junior,131,20,32,6,1
+3802699,4372,Marcos Aoás Corrêa,131,36,30,0,1
+3802699,5503,Lionel Andrés Messi Cuccittini,131,19,26,2,0
+3802699,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802699,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,1
+3802699,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802699,7036,Gianluigi Donnarumma,131,19,12,0,0
+3802699,8511,Thilo Kehrer,131,30,26,0,0
+3802699,8553,Abdou Diallo,131,0,0,0,0
+3802699,10450,Colin Dagba,131,0,0,0,0
+3802699,13621,Danilo Luís Hélio Pereira,131,40,40,1,0
+3802699,15651,Juan Bernat Velasco,131,37,35,0,0
+3802699,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802699,41092,Nuno Mendes,131,0,0,0,0
+3802699,3007,Nanitamo Jonathan Ikoné,143,22,23,4,0
+3802699,3021,Kouadio Yves Dabila,143,0,0,0,0
+3802699,3154,Miguel Ângelo da Silva Rocha,143,22,20,0,0
+3802699,3377,Timothy Weah,143,0,0,0,0
+3802699,3593,Renato Júnior Luz Sanches,143,31,23,0,0
+3802699,3960,José Miguel da Rocha Fonte,143,20,19,0,0
+3802699,4256,Jonathan Bamba,143,21,24,0,0
+3802699,4270,Jérémy Pied,143,0,0,0,0
+3802699,4400,Adam Jakubech,143,0,0,0,0
+3802699,10349,Mehmet Zeki Çelik,143,26,22,1,0
+3802699,10848,Reinildo Isnard Mandava,143,21,16,2,0
+3802699,11086,Burak Yılmaz,143,19,31,0,1
+3802699,22343,Angel Gomes,143,0,0,0,0
+3802699,23640,Jonathan David,143,11,19,0,2
+3802699,29342,Ivo Grbić,143,10,4,0,0
+3802699,29594,Gabriel Gudmundsson,143,0,0,0,0
+3802699,29989,Yusuf Yazıcı,143,0,0,0,0
+3802699,29992,Tiago Emanuel Embaló Djaló,143,14,13,0,0
+3802699,32027,Isaac Lihadji,143,0,0,0,0
+3802699,48347,Amadou Onana,143,0,0,0,0
+3802685,2995,Ángel Fabián Di María Hernández,131,28,32,0,1
+3802685,2999,Presnel Kimpembe,131,54,46,0,0
+3802685,3009,Kylian Mbappé Lottin,131,0,0,0,2
+3802685,3166,Marco Verratti,131,54,53,1,0
+3802685,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802685,3567,Georginio Wijnaldum,131,0,0,0,1
+3802685,4372,Marcos Aoás Corrêa,131,46,36,0,0
+3802685,5245,Achraf Hakimi Mouh,131,32,29,1,0
+3802685,5503,Lionel Andrés Messi Cuccittini,131,37,51,1,0
+3802685,5597,Keylor Navas Gamboa,131,20,9,0,0
+3802685,6987,Mauro Emanuel Icardi Rivero,131,5,19,0,2
+3802685,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802685,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802685,8553,Abdou Diallo,131,0,0,0,0
+3802685,10450,Colin Dagba,131,0,0,0,0
+3802685,13621,Danilo Luís Hélio Pereira,131,37,37,0,0
+3802685,15651,Juan Bernat Velasco,131,20,18,0,0
+3802685,16308,Leandro Daniel Paredes,131,47,47,1,0
+3802685,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802685,41092,Nuno Mendes,131,0,0,0,0
+3802685,3010,Corentin Jean,168,0,0,0,0
+3802685,3130,Gaël Kakuta,168,12,19,0,1
+3802685,4350,Yannick Cahuzac,168,0,0,0,0
+3802685,4840,Massadio Haïdara,168,0,0,0,0
+3802685,4898,Ignatius Kpene Ganago,168,0,0,0,0
+3802685,7252,Jonathan Clauss,168,33,23,0,1
+3802685,7282,Jean-Louis Leca,168,11,6,0,0
+3802685,7324,Jonathan Gradit,168,23,19,0,0
+3802685,7791,Seko Fofana,168,37,35,2,2
+3802685,7979,Przemysław Frankowski,168,33,30,2,1
+3802685,9860,Florian Sotoca,168,0,0,0,0
+3802685,11820,Kevin Danso,168,16,15,0,0
+3802685,13851,Cheick Oumar Doucoure,168,27,21,0,1
+3802685,27063,Wuilker Fariñez Aray,168,0,0,0,0
+3802685,30415,Facundo Axel Medina,168,35,31,0,0
+3802685,30706,Charles Boli,168,0,0,0,0
+3802685,35705,Arnaud Kalimuendo Muinga,168,13,29,2,1
+3802685,36995,David Pereira da Costa,168,23,28,1,0
+3802685,74588,Christopher Wooh,168,0,0,0,0
+3802685,112221,Jonathan Varane,168,0,0,0,0
+3802665,2995,Ángel Fabián Di María Hernández,131,35,34,3,1
+3802665,3009,Kylian Mbappé Lottin,131,37,54,6,3
+3802665,3166,Marco Verratti,131,59,59,1,0
+3802665,3567,Georginio Wijnaldum,131,12,10,0,0
+3802665,3606,Ander Herrera Agüera,131,48,49,0,0
+3802665,4372,Marcos Aoás Corrêa,131,41,34,0,0
+3802665,5201,Sergio Ramos García,131,55,53,0,1
+3802665,5245,Achraf Hakimi Mouh,131,0,0,0,0
+3802665,5503,Lionel Andrés Messi Cuccittini,131,44,50,2,4
+3802665,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802665,7036,Gianluigi Donnarumma,131,15,5,0,0
+3802665,8511,Thilo Kehrer,131,29,22,0,0
+3802665,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802665,15651,Juan Bernat Velasco,131,56,56,2,0
+3802665,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802665,39167,Xavi Simons,131,0,0,0,0
+3802665,41092,Nuno Mendes,131,0,0,0,0
+3802665,86485,Edouard Michut,131,0,0,0,0
+3802665,105848,Ismaël Gharbi,131,0,0,0,0
+3802665,144062,Djeidi Gassama,131,0,0,0,0
+3802665,3019,Salomon Junior Sambia,139,0,0,0,0
+3802665,3070,Florent Mollet,139,17,21,3,1
+3802665,3118,Jordan Ferri,139,34,33,2,0
+3802665,3210,Valère Germain,139,0,0,0,0
+3802665,3224,Arnaud Souquet,139,18,13,0,0
+3802665,3753,Pedro Filipe Teodósio Mendes,139,0,0,0,0
+3802665,4121,Stephy Alvaro Mavididi,139,8,19,0,1
+3802665,4476,Nicolas Louis Marcel Cozza,139,15,13,0,0
+3802665,6408,Ambroise Oyongo Bitolo,139,0,0,0,0
+3802665,22823,Dimitry Bertaud,139,14,5,0,0
+3802665,23252,Mihailo Ristić,139,36,27,0,1
+3802665,23632,Leo Leroy,139,0,0,0,0
+3802665,25153,Matheus Soares Thuler,139,12,5,0,0
+3802665,29969,Joris Chotard,139,20,18,1,0
+3802665,32759,Nicholas Gioacchini,139,0,0,0,0
+3802665,34863,Mathis Carvalho,139,0,0,0,0
+3802665,112254,Maxime Esteve,139,16,17,1,0
+3802665,121296,Sacha Delaye,139,11,14,0,0
+3802752,2947,Anthony Lopes,137,16,9,0,0
+3802752,3533,Xherdan Shaqiri,137,20,18,0,1
+3802752,3551,Karl Brillant Toko Ekambi,137,17,24,1,2
+3802752,3811,Islam Slimani,137,8,19,0,0
+3802752,4308,Houssem Aouar,137,0,0,0,0
+3802752,4355,Emerson Palmieri dos Santos,137,27,23,2,0
+3802752,4386,Damien Da Silva,137,0,0,0,0
+3802752,5578,Jérôme Boateng,137,17,14,0,0
+3802752,8892,Julian Pollersbeck,137,0,0,0,0
+3802752,13116,Jason Denayer,137,15,12,0,0
+3802752,22600,Lucas Tolentino Coelho de Lima,137,17,22,2,2
+3802752,25142,Bruno Guimarães Rodriguez Moura,137,37,33,2,0
+3802752,27336,Henrique Silva Milagres,137,0,0,0,0
+3802752,32649,Mathis Rayan Cherki,137,0,0,0,0
+3802752,33158,Maxence Caqueret,137,23,20,2,0
+3802752,39018,Sinaly Diomande,137,0,0,0,0
+3802752,39260,Malo Gusto,137,21,18,0,0
+3802752,39420,Bradley Barcola,137,0,0,0,0
+3802752,40185,Junior Castello Lukeba,137,0,0,0,0
+3802752,106391,Habib Keita,137,0,0,0,0
+3802752,2995,Ángel Fabián Di María Hernández,131,24,24,5,1
+3802752,2999,Presnel Kimpembe,131,33,33,0,0
+3802752,3009,Kylian Mbappé Lottin,131,12,23,0,0
+3802752,3186,Julian Draxler,131,0,0,0,0
+3802752,3436,Idrissa Gana Gueye,131,29,31,0,0
+3802752,3567,Georginio Wijnaldum,131,0,0,0,0
+3802752,3606,Ander Herrera Agüera,131,40,35,0,0
+3802752,4320,Neymar da Silva Santos Junior,131,23,22,6,1
+3802752,4372,Marcos Aoás Corrêa,131,19,14,0,0
+3802752,5245,Achraf Hakimi Mouh,131,0,0,0,0
+3802752,5503,Lionel Andrés Messi Cuccittini,131,35,44,2,2
+3802752,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802752,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,1
+3802752,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802752,7036,Gianluigi Donnarumma,131,21,9,0,0
+3802752,8511,Thilo Kehrer,131,28,20,0,0
+3802752,8553,Abdou Diallo,131,0,0,0,0
+3802752,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802752,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802752,41092,Nuno Mendes,131,22,20,1,0
+3802809,2950,Jonas Martin,134,21,18,1,0
+3802809,3108,Baptiste Santamaría,134,0,0,0,0
+3802809,3190,Gaëtan Laborde,134,8,18,0,2
+3802809,3248,Hamari Traoré,134,19,15,0,1
+3802809,3426,Benjamin Bourigeaud,134,16,19,1,0
+3802809,3550,Flavien Tait,134,23,22,1,1
+3802809,4420,Martin Terrier,134,12,19,2,0
+3802809,8870,Alfred Benjamin Gomis,134,11,1,0,0
+3802809,9102,Serhou Guirassy,134,0,0,0,0
+3802809,12149,Nayef Aguerd,134,13,10,0,0
+3802809,16353,Birger Meling,134,17,14,0,0
+3802809,19598,Romain Jules Salin,134,0,0,0,0
+3802809,34167,Loïc Badé,134,0,0,0,0
+3802809,35658,Kamaldeen Sulemana,134,11,18,12,0
+3802809,38885,Matthis Abline,134,0,0,0,0
+3802809,39245,Lorenz Assignon,134,0,0,0,0
+3802809,39265,Warmed Omari,134,14,8,0,0
+3802809,44731,Loum Tchaouna,134,0,0,0,0
+3802809,44738,Lesley Chimuanya Ugochukwu,134,0,0,0,0
+3802809,45026,Adrien Truffert,134,0,0,0,0
+3802809,2995,Ángel Fabián Di María Hernández,131,28,31,0,0
+3802809,2999,Presnel Kimpembe,131,26,22,0,0
+3802809,3009,Kylian Mbappé Lottin,131,23,37,2,0
+3802809,3166,Marco Verratti,131,44,43,0,0
+3802809,3436,Idrissa Gana Gueye,131,38,36,0,0
+3802809,3567,Georginio Wijnaldum,131,0,0,0,0
+3802809,3606,Ander Herrera Agüera,131,0,0,0,0
+3802809,4320,Neymar da Silva Santos Junior,131,48,53,8,0
+3802809,4372,Marcos Aoás Corrêa,131,31,27,0,0
+3802809,5245,Achraf Hakimi Mouh,131,32,26,1,0
+3802809,5503,Lionel Andrés Messi Cuccittini,131,42,53,3,0
+3802809,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802809,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802809,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802809,7036,Gianluigi Donnarumma,131,22,10,0,0
+3802809,8511,Thilo Kehrer,131,0,0,0,0
+3802809,8553,Abdou Diallo,131,0,0,0,0
+3802809,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802809,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802809,41092,Nuno Mendes,131,36,29,4,0
+3802676,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802676,2999,Presnel Kimpembe,131,42,31,0,0
+3802676,3009,Kylian Mbappé Lottin,131,28,36,3,1
+3802676,3166,Marco Verratti,131,54,51,2,0
+3802676,3436,Idrissa Gana Gueye,131,47,44,0,1
+3802676,3567,Georginio Wijnaldum,131,0,0,0,0
+3802676,3606,Ander Herrera Agüera,131,0,0,0,0
+3802676,4320,Neymar da Silva Santos Junior,131,38,47,2,0
+3802676,4372,Marcos Aoás Corrêa,131,31,31,0,0
+3802676,5201,Sergio Ramos García,131,41,40,0,0
+3802676,5245,Achraf Hakimi Mouh,131,39,34,1,1
+3802676,5503,Lionel Andrés Messi Cuccittini,131,33,39,1,3
+3802676,5597,Keylor Navas Gamboa,131,20,10,0,0
+3802676,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802676,8511,Thilo Kehrer,131,0,0,0,0
+3802676,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802676,15651,Juan Bernat Velasco,131,0,0,0,0
+3802676,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802676,39167,Xavi Simons,131,0,0,0,0
+3802676,41092,Nuno Mendes,131,19,16,0,0
+3802676,3010,Corentin Jean,168,0,0,0,1
+3802676,3130,Gaël Kakuta,168,0,0,0,0
+3802676,3735,Wesley Saïd,168,0,0,0,0
+3802676,4350,Yannick Cahuzac,168,0,0,0,0
+3802676,4840,Massadio Haïdara,168,0,0,0,0
+3802676,4898,Ignatius Kpene Ganago,168,0,0,0,0
+3802676,7252,Jonathan Clauss,168,23,20,2,1
+3802676,7282,Jean-Louis Leca,168,13,3,0,0
+3802676,7324,Jonathan Gradit,168,22,17,0,0
+3802676,7791,Seko Fofana,168,29,32,3,0
+3802676,7979,Przemysław Frankowski,168,24,20,0,0
+3802676,9860,Florian Sotoca,168,22,25,0,0
+3802676,11820,Kevin Danso,168,13,11,1,0
+3802676,13851,Cheick Oumar Doucoure,168,25,23,1,0
+3802676,27063,Wuilker Fariñez Aray,168,0,0,0,0
+3802676,27473,Deiver Andrés Machado Mena,168,0,0,0,0
+3802676,35705,Arnaud Kalimuendo Muinga,168,12,21,0,1
+3802676,36995,David Pereira da Costa,168,25,25,1,0
+3802676,74588,Christopher Wooh,168,21,19,0,0
+3802676,176517,Brayann Pereira,168,0,0,0,0
+3802983,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802983,2999,Presnel Kimpembe,131,37,33,0,0
+3802983,3009,Kylian Mbappé Lottin,131,15,25,1,1
+3802983,3166,Marco Verratti,131,39,39,0,0
+3802983,3436,Idrissa Gana Gueye,131,26,23,0,0
+3802983,3567,Georginio Wijnaldum,131,0,0,0,0
+3802983,4320,Neymar da Silva Santos Junior,131,20,27,4,2
+3802983,4372,Marcos Aoás Corrêa,131,42,37,0,0
+3802983,5201,Sergio Ramos García,131,0,0,0,0
+3802983,5245,Achraf Hakimi Mouh,131,23,24,0,0
+3802983,5503,Lionel Andrés Messi Cuccittini,131,31,31,0,0
+3802983,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802983,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802983,7036,Gianluigi Donnarumma,131,9,6,0,0
+3802983,8511,Thilo Kehrer,131,0,0,0,0
+3802983,13621,Danilo Luís Hélio Pereira,131,26,23,0,0
+3802983,15651,Juan Bernat Velasco,131,0,0,0,0
+3802983,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802983,39167,Xavi Simons,131,0,0,0,0
+3802983,41092,Nuno Mendes,131,25,20,1,0
+3802983,3365,Valentin Rongier,147,34,32,0,0
+3802983,3491,Dimitri Payet,147,32,30,1,0
+3802983,3510,Sead Kolašinac,147,0,0,0,0
+3802983,3543,Steve Mandanda,147,0,0,0,0
+3802983,4433,Boubacar Kamara,147,51,50,0,0
+3802983,5243,Amine Harit,147,0,0,0,0
+3802983,6307,Duje Ćaleta-Car,147,33,29,0,1
+3802983,6792,Pau López Sabata,147,23,15,0,0
+3802983,6862,Cédric Bakambu,147,0,0,0,0
+3802983,6971,Cengiz Ünder,147,13,15,1,0
+3802983,6981,Gerson Santos da Silva,147,15,18,1,0
+3802983,7345,Mattéo Guendouzi Olié,147,23,29,2,0
+3802983,8105,Pol Mikel Lirola Kosok,147,0,0,0,0
+3802983,17592,William Saliba,147,51,45,2,0
+3802983,21026,Pape Gueye,147,21,22,1,0
+3802983,22203,Luan Peres Petroni,147,22,20,0,0
+3802983,33243,Luis Henrique Tomaz de Lima,147,0,0,0,0
+3802983,45956,Salim Ben Seghir,147,0,0,0,0
+3802983,83738,Oussama Targhalline,147,0,0,0,0
+3802983,88123,Cheikh Ahmadou Bamba Mbacke Dieng,147,0,0,0,0
+3802907,2990,Benjamin André,143,37,35,0,0
+3802907,3154,Miguel Ângelo da Silva Rocha,143,0,0,0,0
+3802907,3377,Timothy Weah,143,10,16,1,0
+3802907,3960,José Miguel da Rocha Fonte,143,25,23,0,0
+3802907,4256,Jonathan Bamba,143,25,25,3,1
+3802907,4270,Jérémy Pied,143,0,0,0,0
+3802907,10349,Mehmet Zeki Çelik,143,24,22,1,0
+3802907,10582,Leonardo Cesar Jardim,143,0,0,0,0
+3802907,16462,Hatem Ben Arfa,143,19,19,3,0
+3802907,21551,Sven Botman,143,30,30,0,2
+3802907,22343,Angel Gomes,143,0,0,0,0
+3802907,23640,Jonathan David,143,11,18,1,0
+3802907,24723,Edon Zhegrova,143,0,0,0,0
+3802907,29342,Ivo Grbić,143,12,5,0,0
+3802907,29594,Gabriel Gudmundsson,143,25,15,0,1
+3802907,29991,Domagoj Bradarić,143,0,0,0,0
+3802907,29992,Tiago Emanuel Embaló Djaló,143,0,0,0,0
+3802907,48347,Amadou Onana,143,25,27,1,1
+3802907,140480,Ugo Raghouber,143,0,0,0,0
+3802907,2995,Ángel Fabián Di María Hernández,131,14,21,2,0
+3802907,2999,Presnel Kimpembe,131,35,29,0,1
+3802907,3009,Kylian Mbappé Lottin,131,16,24,3,1
+3802907,3166,Marco Verratti,131,28,29,2,0
+3802907,3186,Julian Draxler,131,0,0,0,0
+3802907,4326,Layvin Kurzawa,131,0,0,0,0
+3802907,4372,Marcos Aoás Corrêa,131,40,36,0,0
+3802907,5245,Achraf Hakimi Mouh,131,28,30,0,0
+3802907,5503,Lionel Andrés Messi Cuccittini,131,31,37,2,3
+3802907,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802907,7036,Gianluigi Donnarumma,131,6,2,0,0
+3802907,8511,Thilo Kehrer,131,0,0,0,0
+3802907,10450,Colin Dagba,131,0,0,0,0
+3802907,13621,Danilo Luís Hélio Pereira,131,21,21,0,2
+3802907,15651,Juan Bernat Velasco,131,0,0,0,0
+3802907,16308,Leandro Daniel Paredes,131,36,28,0,0
+3802907,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802907,39167,Xavi Simons,131,0,0,0,0
+3802907,41092,Nuno Mendes,131,24,19,1,0
+3802907,86485,Edouard Michut,131,0,0,0,0
+3802902,2995,Ángel Fabián Di María Hernández,131,26,32,2,0
+3802902,2999,Presnel Kimpembe,131,27,23,0,0
+3802902,3009,Kylian Mbappé Lottin,131,19,33,1,1
+3802902,3166,Marco Verratti,131,44,40,0,0
+3802902,3186,Julian Draxler,131,0,0,0,0
+3802902,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802902,3567,Georginio Wijnaldum,131,0,0,0,0
+3802902,3606,Ander Herrera Agüera,131,0,0,0,0
+3802902,4320,Neymar da Silva Santos Junior,131,33,33,2,1
+3802902,4372,Marcos Aoás Corrêa,131,27,25,0,0
+3802902,5245,Achraf Hakimi Mouh,131,34,29,0,0
+3802902,5503,Lionel Andrés Messi Cuccittini,131,37,46,2,1
+3802902,5597,Keylor Navas Gamboa,131,13,3,0,0
+3802902,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802902,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802902,8511,Thilo Kehrer,131,0,0,0,0
+3802902,8553,Abdou Diallo,131,0,0,0,0
+3802902,13621,Danilo Luís Hélio Pereira,131,33,31,1,0
+3802902,15651,Juan Bernat Velasco,131,0,0,0,0
+3802902,41092,Nuno Mendes,131,21,16,0,0
+3802902,3365,Valentin Rongier,147,39,33,0,0
+3802902,3491,Dimitri Payet,147,27,29,0,0
+3802902,3543,Steve Mandanda,147,0,0,0,0
+3802902,4347,Jordan Amavi,147,0,0,0,0
+3802902,4433,Boubacar Kamara,147,29,27,0,0
+3802902,5243,Amine Harit,147,0,0,0,0
+3802902,5665,Arkadiusz Milik,147,9,22,0,0
+3802902,6307,Duje Ćaleta-Car,147,17,13,0,0
+3802902,6762,Álvaro González Soberón,147,0,0,0,0
+3802902,6792,Pau López Sabata,147,16,9,0,0
+3802902,6971,Cengiz Ünder,147,16,22,0,0
+3802902,6981,Gerson Santos da Silva,147,0,0,0,0
+3802902,7345,Mattéo Guendouzi Olié,147,29,32,2,1
+3802902,8105,Pol Mikel Lirola Kosok,147,23,24,6,0
+3802902,17592,William Saliba,147,35,29,1,0
+3802902,21026,Pape Gueye,147,0,0,0,0
+3802902,22203,Luan Peres Petroni,147,13,9,0,0
+3802902,33233,Leonardo Julián Balerdi Rossa,147,0,0,0,0
+3802902,39469,Konrad De La Fuente,147,0,0,0,0
+3802902,88123,Cheikh Ahmadou Bamba Mbacke Dieng,147,0,0,0,0
+3802818,2983,Jérémy Morel,165,0,0,0,0
+3802818,3770,Thomas Monconduit,165,17,14,0,0
+3802818,4821,Quentin Boisgard,165,0,0,0,1
+3802818,7199,Vincent Le Goff,165,24,19,0,0
+3802818,7200,Fabien Lemoine,165,0,0,0,0
+3802818,7260,Laurent Abergel,165,28,28,0,0
+3802818,7299,Jérôme Hergault,165,0,0,0,0
+3802818,7570,Julien Laporte,165,10,7,0,0
+3802818,9361,Houboulang Mendes,165,15,8,0,0
+3802818,10688,Armand Lauriente,165,0,0,0,0
+3802818,16620,Igor Silva de Almeida,165,0,0,0,0
+3802818,24021,Paul Nardi,165,0,0,0,0
+3802818,24959,Enzo Le Fée,165,17,16,2,0
+3802818,29712,Ibrahima Koné,165,8,14,0,0
+3802818,34335,Terem Igobor Moffi,165,5,12,0,2
+3802818,36553,Matthieu Dreyer,165,7,0,0,0
+3802818,48500,Moritz Jenz,165,0,0,0,0
+3802818,91207,Sambou Soumano,165,0,0,0,0
+3802818,95042,Dango Aboubacar Faissal Ouattara,165,9,13,1,1
+3802818,134033,Léo Pétrot,165,11,11,0,0
+3802818,2999,Presnel Kimpembe,131,44,39,0,0
+3802818,3009,Kylian Mbappé Lottin,131,29,42,4,3
+3802818,3432,Alexandre Letellier,131,0,0,0,0
+3802818,3436,Idrissa Gana Gueye,131,53,49,0,0
+3802818,3567,Georginio Wijnaldum,131,1,1,0,0
+3802818,4320,Neymar da Silva Santos Junior,131,39,48,6,3
+3802818,4372,Marcos Aoás Corrêa,131,55,47,0,0
+3802818,5201,Sergio Ramos García,131,0,0,0,0
+3802818,5245,Achraf Hakimi Mouh,131,50,46,2,0
+3802818,5503,Lionel Andrés Messi Cuccittini,131,36,39,1,1
+3802818,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802818,7036,Gianluigi Donnarumma,131,12,10,0,0
+3802818,8511,Thilo Kehrer,131,0,0,0,0
+3802818,10450,Colin Dagba,131,0,0,0,0
+3802818,13621,Danilo Luís Hélio Pereira,131,51,48,0,0
+3802818,16308,Leandro Daniel Paredes,131,40,37,0,0
+3802818,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802818,39167,Xavi Simons,131,0,0,0,0
+3802818,41092,Nuno Mendes,131,46,37,0,0
+3802818,86485,Edouard Michut,131,0,0,0,0
+3802683,2995,Ángel Fabián Di María Hernández,131,27,34,2,0
+3802683,3009,Kylian Mbappé Lottin,131,19,25,4,2
+3802683,3166,Marco Verratti,131,32,29,1,0
+3802683,3436,Idrissa Gana Gueye,131,28,25,0,0
+3802683,3567,Georginio Wijnaldum,131,8,11,0,0
+3802683,3606,Ander Herrera Agüera,131,0,0,0,0
+3802683,4372,Marcos Aoás Corrêa,131,31,26,0,0
+3802683,5245,Achraf Hakimi Mouh,131,22,19,0,0
+3802683,5503,Lionel Andrés Messi Cuccittini,131,20,30,0,0
+3802683,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802683,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802683,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802683,7036,Gianluigi Donnarumma,131,20,10,0,0
+3802683,8511,Thilo Kehrer,131,0,0,0,0
+3802683,8553,Abdou Diallo,131,27,26,1,0
+3802683,10450,Colin Dagba,131,0,0,0,0
+3802683,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802683,15651,Juan Bernat Velasco,131,25,22,0,0
+3802683,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802683,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802683,3446,Djibril Sidibé,129,29,29,0,0
+3802683,3763,Ruben Aguilar,129,0,0,0,0
+3802683,5177,Aleksandr Golovin,129,20,22,0,2
+3802683,5723,Gelson Dany Batalha Martins,129,15,18,2,0
+3802683,6723,Wissam Ben Yedder,129,11,21,1,0
+3802683,6855,Guillermo Alfonso Maripán Loaysa,129,25,26,0,1
+3802683,7439,Axel Disasi,129,34,35,1,0
+3802683,10463,Sofiane Diop,129,20,27,1,0
+3802683,10481,Aurélien Djani Tchouaméni,129,43,42,0,0
+3802683,11990,Youssouf Fofana,129,49,36,5,0
+3802683,15636,Myron Boadu,129,0,0,0,0
+3802683,20662,Alexander Nübel,129,20,11,0,0
+3802683,21306,Radosław Majecki,129,0,0,0,0
+3802683,21367,Wilson Isidor,129,0,0,0,0
+3802683,25100,Jean Lucas de Souza Oliveira,129,0,0,0,0
+3802683,25295,Caio Henrique Oliveira Silva,129,29,26,0,0
+3802683,27719,Strahinja Pavlović,129,0,0,0,0
+3802683,32915,Ismail Jakobs,129,0,0,0,0
+3802683,45114,Eliot Matazo,129,0,0,0,0
+3802683,45116,Chrislain Matsima,129,0,0,0,0
+3802690,2995,Ángel Fabián Di María Hernández,131,47,45,2,1
+3802690,2999,Presnel Kimpembe,131,59,56,0,0
+3802690,3436,Idrissa Gana Gueye,131,31,28,0,0
+3802690,3567,Georginio Wijnaldum,131,20,22,1,0
+3802690,3606,Ander Herrera Agüera,131,60,53,0,0
+3802690,4372,Marcos Aoás Corrêa,131,54,52,0,0
+3802690,5201,Sergio Ramos García,131,0,0,0,0
+3802690,5245,Achraf Hakimi Mouh,131,53,49,1,0
+3802690,5503,Lionel Andrés Messi Cuccittini,131,49,58,5,2
+3802690,5597,Keylor Navas Gamboa,131,10,3,0,0
+3802690,6987,Mauro Emanuel Icardi Rivero,131,6,30,0,1
+3802690,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802690,8553,Abdou Diallo,131,0,0,0,0
+3802690,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802690,39167,Xavi Simons,131,0,0,0,0
+3802690,41092,Nuno Mendes,131,60,50,1,0
+3802690,86485,Edouard Michut,131,0,0,0,0
+3802690,132017,Nathan Bitumazala,131,0,0,0,0
+3802690,132019,El Chadaille Bitshiabu,131,0,0,0,0
+3802690,136603,Sekou Oumar Yansane,131,0,0,0,0
+3802690,3770,Thomas Monconduit,165,12,8,0,1
+3802690,4821,Quentin Boisgard,165,0,0,0,0
+3802690,7199,Vincent Le Goff,165,9,5,0,0
+3802690,7260,Laurent Abergel,165,15,13,2,0
+3802690,7299,Jérôme Hergault,165,0,0,0,0
+3802690,7570,Julien Laporte,165,10,6,0,0
+3802690,8609,Adrian Grbic,165,0,0,0,0
+3802690,9361,Houboulang Mendes,165,12,10,0,0
+3802690,10688,Armand Lauriente,165,12,10,1,2
+3802690,16620,Igor Silva de Almeida,165,0,0,0,0
+3802690,24021,Paul Nardi,165,5,2,0,0
+3802690,24959,Enzo Le Fée,165,16,17,1,0
+3802690,34335,Terem Igobor Moffi,165,7,16,2,1
+3802690,36553,Matthieu Dreyer,165,0,0,0,0
+3802690,48500,Moritz Jenz,165,7,5,0,0
+3802690,91207,Sambou Soumano,165,0,0,0,0
+3802690,95042,Dango Aboubacar Faissal Ouattara,165,10,13,2,1
+3802690,134033,Léo Pétrot,165,0,0,0,0
+3802690,134916,Théo Le Bris,165,0,0,0,0
+3802690,150292,Baptiste Mouazan,165,0,0,0,0
+3802904,2999,Presnel Kimpembe,131,33,26,0,0
+3802904,3009,Kylian Mbappé Lottin,131,21,36,3,1
+3802904,3186,Julian Draxler,131,0,0,0,0
+3802904,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802904,3567,Georginio Wijnaldum,131,28,30,1,0
+3802904,4320,Neymar da Silva Santos Junior,131,24,33,6,1
+3802904,4372,Marcos Aoás Corrêa,131,30,26,0,0
+3802904,5245,Achraf Hakimi Mouh,131,26,28,5,0
+3802904,5503,Lionel Andrés Messi Cuccittini,131,30,34,1,0
+3802904,5597,Keylor Navas Gamboa,131,15,6,0,0
+3802904,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802904,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802904,8511,Thilo Kehrer,131,0,0,0,0
+3802904,8553,Abdou Diallo,131,0,0,0,0
+3802904,10450,Colin Dagba,131,0,0,0,0
+3802904,13621,Danilo Luís Hélio Pereira,131,35,33,0,0
+3802904,16308,Leandro Daniel Paredes,131,56,49,0,1
+3802904,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802904,39167,Xavi Simons,131,0,0,0,0
+3802904,41092,Nuno Mendes,131,32,26,2,0
+3802904,3164,Marcelo Antônio Guedes Filho,146,23,18,0,0
+3802904,4776,Enock Kwateng,146,27,21,1,0
+3802904,4903,Yacine Adli,146,25,23,2,1
+3802904,5661,M''Baye Babacar Niang,146,0,0,0,1
+3802904,7374,Rémi Oudin,146,25,20,2,2
+3802904,8230,Josuha Guilavogui,146,24,24,1,0
+3802904,10886,Fransérgio Rodrigues Barbosa,146,0,0,0,0
+3802904,12588,Alberth Josué Elis Martínez,146,8,22,3,0
+3802904,15822,Javairô Dilrosun,146,0,0,0,0
+3802904,23615,Gideon Mensah,146,0,0,0,0
+3802904,25041,Gaëtan Poussin,146,20,10,0,0
+3802904,27016,Stian Rode Gregersen,146,10,8,0,0
+3802904,27652,Anel Ahmedhodžić,146,21,18,0,0
+3802904,29966,Ui-Jo Hwang,146,9,22,1,1
+3802904,31891,Danylo Ignatenko,146,0,0,0,0
+3802904,35447,Jean Emile Junior Onana Onana,146,30,28,0,0
+3802904,39517,Timothee Pembele,146,0,0,0,0
+3802904,49688,Sékou Mara,146,0,0,0,0
+3802904,49765,Abdel Jalil Zaim Idriss Medioub,146,0,0,0,0
+3802904,174801,Tidiane Malbec,146,0,0,0,0
+3802837,2995,Ángel Fabián Di María Hernández,131,45,47,0,1
+3802837,2999,Presnel Kimpembe,131,0,0,0,0
+3802837,3009,Kylian Mbappé Lottin,131,13,22,4,2
+3802837,3436,Idrissa Gana Gueye,131,41,37,3,0
+3802837,4320,Neymar da Silva Santos Junior,131,37,44,5,2
+3802837,4372,Marcos Aoás Corrêa,131,28,29,1,2
+3802837,5201,Sergio Ramos García,131,49,44,0,0
+3802837,5245,Achraf Hakimi Mouh,131,33,31,1,0
+3802837,5503,Lionel Andrés Messi Cuccittini,131,34,34,3,1
+3802837,6823,Sergio Rico González,131,0,0,0,0
+3802837,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802837,7036,Gianluigi Donnarumma,131,11,6,0,0
+3802837,8511,Thilo Kehrer,131,0,0,0,0
+3802837,10450,Colin Dagba,131,0,0,0,0
+3802837,13621,Danilo Luís Hélio Pereira,131,30,26,0,0
+3802837,15651,Juan Bernat Velasco,131,28,28,0,0
+3802837,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802837,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802837,39167,Xavi Simons,131,0,0,0,0
+3802837,41092,Nuno Mendes,131,0,0,0,0
+3802837,3196,Wahbi Khazri,135,10,12,1,0
+3802837,3412,Assane Dioussé El Hadji,135,0,0,0,0
+3802837,4894,Zaydou Youssouf,135,0,0,0,0
+3802837,5518,Miguel Ángel Trauco Saavedra,135,21,20,0,0
+3802837,6661,Ryad Boudebouz,135,21,15,1,0
+3802837,7190,Denis Bouanga,135,11,15,6,2
+3802837,7386,Harold Moukoudi,135,0,0,0,0
+3802837,7608,Nelson Sissoko,135,10,6,1,0
+3802837,10475,Mahdi Camara,135,13,12,1,0
+3802837,10476,Timothée Kolodziejczak,135,17,17,0,1
+3802837,31031,Adil Aouchiche,135,17,23,2,0
+3802837,35277,Yvann Macon,135,17,18,0,0
+3802837,40807,Mickaël Nade,135,9,7,0,0
+3802837,43072,Jean-Philippe Krasso,135,0,0,0,1
+3802837,43805,Juan Ignacio Ramírez Polero,135,0,0,0,0
+3802837,46007,Lucas Gourna-Douath,135,0,0,0,0
+3802837,46008,Saidou Sow,135,0,0,0,0
+3802837,80305,Boubacar Fall,135,0,0,0,0
+3802837,82428,Etienne Green,135,11,3,0,0
+3802837,162065,Lucas Calodat,135,0,0,0,0
+3802984,2981,Alban Lafont,144,12,4,0,0
+3802984,3143,Andrei Girotto,144,20,14,0,0
+3802984,3149,Wylan Jean-Claude Cyprien,144,0,0,0,0
+3802984,3235,Ludovic Blas,144,27,29,0,3
+3802984,3363,Marcus Coco,144,8,16,3,0
+3802984,4390,Charles Traoré,144,0,0,0,0
+3802984,4403,Kalifa Coulibaly,144,6,16,0,1
+3802984,4412,Samuel Moutoussamy,144,22,13,1,0
+3802984,4422,Willem Geubbels,144,0,0,0,0
+3802984,6716,Sébastien Corchia,144,10,6,0,0
+3802984,7426,Jean-Charles Castelletto,144,11,8,0,0
+3802984,8485,Pedro Chirivella Burgos,144,29,25,0,0
+3802984,18239,Fábio Pereira da Silva,144,24,17,4,0
+3802984,22097,Randal Kolo Muani,144,11,25,4,2
+3802984,22111,Dennis Appiah,144,1,0,0,0
+3802984,34953,Denis Petrić,144,0,0,0,0
+3802984,44225,Osman Bukari,144,0,0,0,0
+3802984,86586,Quentin Merlin,144,0,0,0,0
+3802984,134035,Gor Manvelyan,144,0,0,0,0
+3802984,136686,Yannis M'Bemba,144,0,0,0,0
+3802984,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802984,3009,Kylian Mbappé Lottin,131,26,30,2,2
+3802984,3166,Marco Verratti,131,71,66,0,0
+3802984,3436,Idrissa Gana Gueye,131,43,38,1,0
+3802984,3567,Georginio Wijnaldum,131,0,0,0,0
+3802984,3606,Ander Herrera Agüera,131,0,0,0,0
+3802984,4320,Neymar da Silva Santos Junior,131,48,60,4,1
+3802984,5245,Achraf Hakimi Mouh,131,39,33,0,0
+3802984,5503,Lionel Andrés Messi Cuccittini,131,46,56,2,4
+3802984,5597,Keylor Navas Gamboa,131,9,7,0,0
+3802984,6823,Sergio Rico González,131,0,0,0,0
+3802984,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802984,8511,Thilo Kehrer,131,38,36,0,0
+3802984,8553,Abdou Diallo,131,46,42,1,0
+3802984,10450,Colin Dagba,131,0,0,0,0
+3802984,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802984,15651,Juan Bernat Velasco,131,43,41,0,0
+3802984,16308,Leandro Daniel Paredes,131,61,52,0,0
+3802984,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802984,41092,Nuno Mendes,131,0,0,0,0
+3802805,2995,Ángel Fabián Di María Hernández,131,17,22,0,1
+3802805,2999,Presnel Kimpembe,131,0,0,0,0
+3802805,3166,Marco Verratti,131,67,64,0,0
+3802805,3186,Julian Draxler,131,0,0,0,0
+3802805,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802805,3567,Georginio Wijnaldum,131,7,8,1,0
+3802805,4320,Neymar da Silva Santos Junior,131,33,48,3,0
+3802805,4372,Marcos Aoás Corrêa,131,44,38,0,0
+3802805,5503,Lionel Andrés Messi Cuccittini,131,41,43,1,0
+3802805,5597,Keylor Navas Gamboa,131,16,8,0,0
+3802805,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802805,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802805,8511,Thilo Kehrer,131,39,33,0,1
+3802805,8553,Abdou Diallo,131,51,49,1,0
+3802805,10450,Colin Dagba,131,0,0,0,0
+3802805,13621,Danilo Luís Hélio Pereira,131,33,31,1,0
+3802805,15651,Juan Bernat Velasco,131,53,48,3,0
+3802805,39167,Xavi Simons,131,0,0,0,0
+3802805,41092,Nuno Mendes,131,0,0,0,0
+3802805,86485,Edouard Michut,131,0,0,0,0
+3802805,3038,Andy Delort,136,0,0,0,2
+3802805,3197,Dante Bonfim da Costa Santos,136,42,37,0,1
+3802805,3360,Walter Daniel Benítez,136,11,6,0,0
+3802805,3600,Morgan Schneiderlin,136,0,0,0,0
+3802805,3951,Mario Lemina,136,35,34,0,0
+3802805,4435,Amine Gouiri,136,21,27,0,2
+3802805,6302,Kasper Dolberg,136,9,19,1,0
+3802805,7611,Alexis Claude Maurice,136,0,0,0,0
+3802805,8063,Justin Kluivert,136,23,23,5,1
+3802805,8534,Pablo Paulino Rosario,136,30,28,1,0
+3802805,8666,Calvin Stengs,136,0,0,0,0
+3802805,11532,Jean-Clair Todibo,136,34,32,0,0
+3802805,22072,Khéphren Thuram-Ulien,136,24,20,1,0
+3802805,29305,Jordan Lotomba,136,0,0,0,0
+3802805,31030,Marcin Bulka,136,0,0,0,0
+3802805,32015,Hichem Boudaoui,136,0,0,0,0
+3802805,33221,Melvin Bard,136,25,23,0,0
+3802805,39120,Flavius Daniliuc,136,28,18,0,0
+3802805,45189,Evann Guessand,136,0,0,0,0
+3802805,45548,Bilal Brahimi,136,0,0,0,0
+3802709,2995,Ángel Fabián Di María Hernández,131,0,0,0,2
+3802709,2999,Presnel Kimpembe,131,45,38,0,0
+3802709,3009,Kylian Mbappé Lottin,131,22,35,2,3
+3802709,3186,Julian Draxler,131,0,0,0,0
+3802709,3436,Idrissa Gana Gueye,131,48,50,2,0
+3802709,3567,Georginio Wijnaldum,131,10,15,1,0
+3802709,4320,Neymar da Silva Santos Junior,131,49,51,2,0
+3802709,4372,Marcos Aoás Corrêa,131,40,34,0,0
+3802709,5503,Lionel Andrés Messi Cuccittini,131,41,45,1,1
+3802709,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802709,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802709,7036,Gianluigi Donnarumma,131,15,9,0,0
+3802709,8511,Thilo Kehrer,131,23,17,0,0
+3802709,8553,Abdou Diallo,131,0,0,0,0
+3802709,10450,Colin Dagba,131,0,0,0,0
+3802709,13621,Danilo Luís Hélio Pereira,131,38,29,0,2
+3802709,15651,Juan Bernat Velasco,131,0,0,0,0
+3802709,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802709,39167,Xavi Simons,131,0,0,0,0
+3802709,41092,Nuno Mendes,131,35,28,1,0
+3802709,3389,Eliaquim Mangala,135,5,4,0,0
+3802709,3412,Assane Dioussé El Hadji,135,0,0,0,0
+3802709,3416,Gabriel Moisés Antunes da Silva,135,0,0,0,0
+3802709,3469,Bakary Sako,135,0,0,0,0
+3802709,4260,Romain Hamouma,135,0,0,0,0
+3802709,4894,Zaydou Youssouf,135,12,11,0,1
+3802709,6661,Ryad Boudebouz,135,20,24,0,0
+3802709,7190,Denis Bouanga,135,16,32,4,2
+3802709,7193,Paul Bernardoni,135,14,3,0,0
+3802709,7241,Arnaud Nordin,135,7,14,3,2
+3802709,7329,Sada Thioub,135,0,0,0,0
+3802709,7386,Harold Moukoudi,135,0,0,0,0
+3802709,10475,Mahdi Camara,135,9,8,0,1
+3802709,10476,Timothée Kolodziejczak,135,30,25,0,0
+3802709,12557,Falaye Sacko,135,16,7,0,0
+3802709,31031,Adil Aouchiche,135,0,0,0,0
+3802709,40807,Mickaël Nade,135,11,6,0,0
+3802709,43074,Aimen Moueffek,135,0,0,0,0
+3802709,46007,Lucas Gourna-Douath,135,13,10,1,0
+3802709,82428,Etienne Green,135,0,0,0,0
+3802948,2995,Ángel Fabián Di María Hernández,131,35,45,4,5
+3802948,2999,Presnel Kimpembe,131,36,31,2,0
+3802948,3009,Kylian Mbappé Lottin,131,22,38,3,4
+3802948,3166,Marco Verratti,131,49,44,2,0
+3802948,3432,Alexandre Letellier,131,0,0,0,0
+3802948,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802948,3567,Georginio Wijnaldum,131,0,0,0,1
+3802948,3606,Ander Herrera Agüera,131,0,0,0,0
+3802948,4320,Neymar da Silva Santos Junior,131,37,45,2,1
+3802948,4372,Marcos Aoás Corrêa,131,50,48,0,0
+3802948,5201,Sergio Ramos García,131,49,44,0,0
+3802948,5245,Achraf Hakimi Mouh,131,36,34,0,0
+3802948,5503,Lionel Andrés Messi Cuccittini,131,51,49,1,0
+3802948,5597,Keylor Navas Gamboa,131,16,6,0,0
+3802948,8511,Thilo Kehrer,131,0,0,0,0
+3802948,13621,Danilo Luís Hélio Pereira,131,32,27,1,0
+3802948,15651,Juan Bernat Velasco,131,0,0,0,0
+3802948,39167,Xavi Simons,131,0,0,0,0
+3802948,41092,Nuno Mendes,131,0,0,0,0
+3802948,86485,Edouard Michut,131,0,0,0,0
+3802948,2997,Ibrahima Niane,141,0,0,0,0
+3802948,3414,Vincent Pajot,141,16,16,1,0
+3802948,4425,Opa N''Guette,141,0,0,0,0
+3802948,4448,Alexandre Oukidja,141,0,0,0,0
+3802948,4777,Farid Boulaya,141,23,23,1,0
+3802948,5655,Dylan Daniel Mahmoud Bronn,141,14,8,0,0
+3802948,7295,Sikou Niakate,141,0,0,0,0
+3802948,7536,Didier Lamkel Zé,141,14,23,4,0
+3802948,22318,Marc-Aurèle Caillard,141,10,0,0,0
+3802948,23331,Boubakar Kouyate,141,13,9,0,0
+3802948,30447,Jean-Armel Kana-Biyik,141,12,10,0,0
+3802948,41052,Fali Candé,141,20,22,2,1
+3802948,49163,Louis Didace Mafouta,141,0,0,0,0
+3802948,50498,Pape Matar Sarr,141,22,25,0,0
+3802948,58878,Boubacar Traore,141,19,16,0,0
+3802948,61466,Lenny Lacroix,141,0,0,0,0
+3802948,86899,William Mikelbrencis,141,20,19,1,0
+3802948,90954,Lenny Joseph,141,0,0,0,0
+3802948,134918,Amadou Salif Mbengue,141,0,0,0,0
+3802948,183768,Danley Jean Jacques,141,0,0,0,0
+3802930,2952,Yoann Salmier,133,0,0,0,0
+3802930,2987,Tristan Dingomé,133,0,0,0,0
+3802930,3419,Jessy Moulin,133,7,3,0,0
+3802930,3768,Oualid El Hajjam,133,0,0,0,0
+3802930,4106,Ike Ugbo,133,10,19,0,1
+3802930,4378,Rominigue Kouamé N''Guessan,133,29,23,2,0
+3802930,7219,Florian Tardieu,133,36,31,0,1
+3802930,7228,Yoann Touzghar,133,0,0,0,0
+3802930,7364,Xavier Chavalerin,133,22,23,0,0
+3802930,7505,Renaud Ripart,133,11,21,2,0
+3802930,10064,Sebastien Renot,133,0,0,0,0
+3802930,12064,Mama Samba Baldé,133,0,0,0,1
+3802930,16078,Erik Palmer-Brown,133,10,10,0,0
+3802930,22073,Giulian Biancone,133,19,12,0,0
+3802930,29321,Dylan Chambost,133,0,0,0,0
+3802930,31015,Abdu Conté,133,18,17,0,0
+3802930,34793,Yasser Larouci,133,23,25,5,0
+3802930,35471,Issa Kabore,133,30,23,4,0
+3802930,132320,Derek Mazou-Sacko,133,0,0,0,0
+3802930,183770,Mamadou Camara,133,0,0,0,0
+3802930,2995,Ángel Fabián Di María Hernández,131,23,28,0,1
+3802930,2999,Presnel Kimpembe,131,38,33,0,0
+3802930,3009,Kylian Mbappé Lottin,131,28,32,2,2
+3802930,3166,Marco Verratti,131,53,48,2,0
+3802930,3436,Idrissa Gana Gueye,131,0,0,0,0
+3802930,3567,Georginio Wijnaldum,131,0,0,0,0
+3802930,3606,Ander Herrera Agüera,131,0,0,0,0
+3802930,4320,Neymar da Silva Santos Junior,131,29,39,2,2
+3802930,4372,Marcos Aoás Corrêa,131,43,37,0,1
+3802930,5201,Sergio Ramos García,131,0,0,0,0
+3802930,5245,Achraf Hakimi Mouh,131,23,21,2,0
+3802930,5503,Lionel Andrés Messi Cuccittini,131,32,37,2,0
+3802930,5597,Keylor Navas Gamboa,131,8,4,0,0
+3802930,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802930,8511,Thilo Kehrer,131,0,0,0,0
+3802930,13621,Danilo Luís Hélio Pereira,131,38,34,0,0
+3802930,15651,Juan Bernat Velasco,131,0,0,0,0
+3802930,41092,Nuno Mendes,131,36,37,1,0
+3802930,105848,Ismaël Gharbi,131,0,0,0,0
+3802930,132019,El Chadaille Bitshiabu,131,0,0,0,0
+3802793,2995,Ángel Fabián Di María Hernández,131,44,44,0,1
+3802793,2999,Presnel Kimpembe,131,58,55,0,0
+3802793,3009,Kylian Mbappé Lottin,131,21,33,1,1
+3802793,3166,Marco Verratti,131,0,0,0,0
+3802793,3436,Idrissa Gana Gueye,131,25,28,0,0
+3802793,4372,Marcos Aoás Corrêa,131,57,47,0,0
+3802793,5245,Achraf Hakimi Mouh,131,52,50,0,0
+3802793,5503,Lionel Andrés Messi Cuccittini,131,29,42,1,1
+3802793,5597,Keylor Navas Gamboa,131,0,0,0,0
+3802793,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802793,6998,Rafael Alcântara do Nascimento,131,0,0,0,0
+3802793,7036,Gianluigi Donnarumma,131,9,6,1,0
+3802793,8511,Thilo Kehrer,131,0,0,0,0
+3802793,8553,Abdou Diallo,131,0,0,0,0
+3802793,10450,Colin Dagba,131,0,0,0,0
+3802793,13621,Danilo Luís Hélio Pereira,131,49,43,0,0
+3802793,16308,Leandro Daniel Paredes,131,0,0,0,0
+3802793,28346,Eric Junior Dina Ebimbe,131,27,27,0,1
+3802793,41092,Nuno Mendes,131,43,33,1,1
+3802793,86485,Edouard Michut,131,0,0,0,0
+3802793,3038,Andy Delort,136,15,28,0,1
+3802793,3197,Dante Bonfim da Costa Santos,136,16,11,0,0
+3802793,3360,Walter Daniel Benítez,136,16,5,0,0
+3802793,3600,Morgan Schneiderlin,136,22,20,0,0
+3802793,3951,Mario Lemina,136,17,16,1,0
+3802793,4435,Amine Gouiri,136,0,0,0,0
+3802793,6302,Kasper Dolberg,136,13,13,0,1
+3802793,7438,Hassane Kamara,136,0,0,0,0
+3802793,7611,Alexis Claude Maurice,136,0,0,0,0
+3802793,8063,Justin Kluivert,136,19,21,1,0
+3802793,8666,Calvin Stengs,136,0,0,0,0
+3802793,10040,Youcef Atal,136,0,0,0,0
+3802793,11532,Jean-Clair Todibo,136,14,10,0,0
+3802793,22072,Khéphren Thuram-Ulien,136,0,0,0,0
+3802793,29305,Jordan Lotomba,136,18,15,1,0
+3802793,31030,Marcin Bulka,136,0,0,0,0
+3802793,32015,Hichem Boudaoui,136,16,18,0,0
+3802793,33151,Lucas Da Cunha,136,0,0,0,0
+3802793,33221,Melvin Bard,136,18,13,0,0
+3802793,39120,Flavius Daniliuc,136,0,0,0,0
+3802839,2981,Alban Lafont,144,9,4,0,0
+3802839,3143,Andrei Girotto,144,12,9,0,2
+3802839,3149,Wylan Jean-Claude Cyprien,144,0,0,0,0
+3802839,3235,Ludovic Blas,144,20,13,2,2
+3802839,3256,Nicolas Pallois,144,16,11,0,0
+3802839,3363,Marcus Coco,144,0,0,0,0
+3802839,4390,Charles Traoré,144,0,0,0,0
+3802839,4403,Kalifa Coulibaly,144,0,0,0,0
+3802839,4422,Willem Geubbels,144,0,0,0,0
+3802839,6716,Sébastien Corchia,144,0,0,0,0
+3802839,7426,Jean-Charles Castelletto,144,9,8,0,0
+3802839,7684,Rémy Descamps,144,0,0,0,0
+3802839,8485,Pedro Chirivella Burgos,144,24,23,0,0
+3802839,8510,Jean-Kévin Augustin,144,0,0,0,0
+3802839,18163,Moses Daddy-Ajala Simon,144,10,20,2,1
+3802839,22097,Randal Kolo Muani,144,10,21,1,1
+3802839,22111,Dennis Appiah,144,9,5,0,0
+3802839,33205,Roli Pereira de Sa,144,0,0,0,0
+3802839,44225,Osman Bukari,144,16,13,2,0
+3802839,86586,Quentin Merlin,144,22,24,1,1
+3802839,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802839,2999,Presnel Kimpembe,131,46,40,0,0
+3802839,3009,Kylian Mbappé Lottin,131,20,30,5,2
+3802839,3166,Marco Verratti,131,59,54,0,0
+3802839,3186,Julian Draxler,131,0,0,0,1
+3802839,3436,Idrissa Gana Gueye,131,53,47,0,1
+3802839,3567,Georginio Wijnaldum,131,22,25,1,0
+3802839,3606,Ander Herrera Agüera,131,0,0,0,0
+3802839,4320,Neymar da Silva Santos Junior,131,42,52,3,3
+3802839,4372,Marcos Aoás Corrêa,131,31,28,0,0
+3802839,5245,Achraf Hakimi Mouh,131,0,0,0,0
+3802839,5503,Lionel Andrés Messi Cuccittini,131,31,38,3,1
+3802839,5597,Keylor Navas Gamboa,131,18,11,0,0
+3802839,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802839,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802839,8511,Thilo Kehrer,131,45,38,1,0
+3802839,8553,Abdou Diallo,131,0,0,0,0
+3802839,13621,Danilo Luís Hélio Pereira,131,0,0,0,0
+3802839,15651,Juan Bernat Velasco,131,39,37,2,1
+3802839,41092,Nuno Mendes,131,0,0,0,0
+3802795,2950,Jonas Martin,134,31,31,1,0
+3802795,3108,Baptiste Santamaría,134,11,14,2,0
+3802795,3190,Gaëtan Laborde,134,11,18,0,0
+3802795,3248,Hamari Traoré,134,25,18,0,0
+3802795,3426,Benjamin Bourigeaud,134,14,16,0,1
+3802795,4420,Martin Terrier,134,13,19,1,0
+3802795,8870,Alfred Benjamin Gomis,134,0,0,0,0
+3802795,9102,Serhou Guirassy,134,0,0,0,0
+3802795,12149,Nayef Aguerd,134,16,14,0,0
+3802795,16353,Birger Meling,134,19,14,0,0
+3802795,28914,Lovro Majer,134,16,12,1,0
+3802795,34167,Loïc Badé,134,0,0,0,0
+3802795,35658,Kamaldeen Sulemana,134,0,0,0,0
+3802795,36360,Doğan Alemdar,134,19,7,0,0
+3802795,39245,Lorenz Assignon,134,0,0,0,0
+3802795,39265,Warmed Omari,134,16,14,2,0
+3802795,44731,Loum Tchaouna,134,0,0,0,0
+3802795,44734,Andy Alune Diouf,134,0,0,0,0
+3802795,44737,Mathys Tel,134,0,0,0,0
+3802795,45026,Adrien Truffert,134,0,0,0,0
+3802795,2995,Ángel Fabián Di María Hernández,131,0,0,0,0
+3802795,2999,Presnel Kimpembe,131,47,46,0,0
+3802795,3009,Kylian Mbappé Lottin,131,27,36,3,1
+3802795,3166,Marco Verratti,131,57,56,0,0
+3802795,3186,Julian Draxler,131,15,15,0,0
+3802795,3567,Georginio Wijnaldum,131,0,0,0,0
+3802795,4372,Marcos Aoás Corrêa,131,49,46,0,0
+3802795,5245,Achraf Hakimi Mouh,131,50,42,0,0
+3802795,5503,Lionel Andrés Messi Cuccittini,131,37,39,1,0
+3802795,5597,Keylor Navas Gamboa,131,11,7,0,0
+3802795,6987,Mauro Emanuel Icardi Rivero,131,0,0,0,0
+3802795,7036,Gianluigi Donnarumma,131,0,0,0,0
+3802795,8511,Thilo Kehrer,131,0,0,0,0
+3802795,10450,Colin Dagba,131,0,0,0,0
+3802795,15651,Juan Bernat Velasco,131,53,48,1,0
+3802795,16308,Leandro Daniel Paredes,131,64,58,0,0
+3802795,28346,Eric Junior Dina Ebimbe,131,0,0,0,0
+3802795,39167,Xavi Simons,131,26,29,1,0
+3802795,41092,Nuno Mendes,131,0,0,0,0
+3802795,132019,El Chadaille Bitshiabu,131,0,0,0,0
