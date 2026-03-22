@@ -91,21 +91,38 @@ def process_data(match_ids, match_info):
             outcome = 'Win'
         elif match_details['home_score'] < match_details['away_score']:
             outcome = 'Loss'
+        
+        home_ht_goals = ht_goals.get(home_team_id, 0)
+        away_ht_goals = ht_goals.get(away_team_id, 0)
+        home_ht_shots = ht_shots.get(home_team_id, 0)
+        away_ht_shots = ht_shots.get(away_team_id, 0)
+        home_ht_sog = ht_sog.get(home_team_id, 0)
+        away_ht_sog = ht_sog.get(away_team_id, 0)
+        home_ht_corners = ht_corners.get(home_team_id, 0)
+        away_ht_corners = ht_corners.get(away_team_id, 0)
+        home_ht_fouls = ht_fouls.get(home_team_id, 0)
+        away_ht_fouls = ht_fouls.get(away_team_id, 0)
             
         team_outcome_data.append({
             'match_id': match_id,
             'home_team_id': home_team_id,
             'away_team_id': away_team_id,
-            'home_ht_goals': ht_goals.get(home_team_id, 0),
-            'away_ht_goals': ht_goals.get(away_team_id, 0),
-            'home_ht_shots': ht_shots.get(home_team_id, 0),
-            'away_ht_shots': ht_shots.get(away_team_id, 0),
-            'home_ht_sog': ht_sog.get(home_team_id, 0),
-            'away_ht_sog': ht_sog.get(away_team_id, 0),
-            'home_ht_corners': ht_corners.get(home_team_id, 0),
-            'away_ht_corners': ht_corners.get(away_team_id, 0),
-            'home_ht_fouls': ht_fouls.get(home_team_id, 0),
-            'away_ht_fouls': ht_fouls.get(away_team_id, 0),
+            'home_ht_goals': home_ht_goals,
+            'away_ht_goals': away_ht_goals,
+            'home_ht_shots': home_ht_shots,
+            'away_ht_shots': away_ht_shots,
+            'home_ht_sog': home_ht_sog,
+            'away_ht_sog': away_ht_sog,
+            'home_ht_corners': home_ht_corners,
+            'away_ht_corners': away_ht_corners,
+            'home_ht_fouls': home_ht_fouls,
+            'away_ht_fouls': away_ht_fouls,
+            # New Difference Features
+            'ht_goals_diff': home_ht_goals - away_ht_goals,
+            'ht_shots_diff': home_ht_shots - away_ht_shots,
+            'ht_sog_diff': home_ht_sog - away_ht_sog,
+            'ht_corners_diff': home_ht_corners - away_ht_corners,
+            'ht_fouls_diff': home_ht_fouls - away_ht_fouls,
             'final_outcome': outcome
         })
 

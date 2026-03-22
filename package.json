@@ -1,0 +1,21 @@
+{
+  "name": "jackbot-analysis",
+  "version": "1.0.0",
+  "description": "A project to analyze and predict soccer match outcomes.",
+  "main": "index.js",
+  "scripts": {
+    "run:baseline": "python data_processing.py && python train_baseline.py",
+    "run:improved": "python data_processing.py && python train_improved.py",
+    "visualize:baseline": "python data_processing.py && python visualize_baseline_results.py",
+    "visualize:improved": "python data_processing.py && python visualize_improved_results.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "python",
+    "data-science",
+    "machine-learning",
+    "sports-analytics"
+  ],
+  "author": "",
+  "license": "ISC"
+}
