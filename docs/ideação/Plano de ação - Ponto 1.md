@@ -94,7 +94,102 @@ Desenvolver métodos para visualizar as informações do dataset e identificar a
 *   **Próximos Passos para Viabilizar:**
     *   **Aquisição de Novo Dataset:** Para estudar este campeonato, seria necessário adquirir um novo dataset específico para um "Campeonato Brasileiro de 2025" de uma fonte de dados externa.
 
-## Próximos Passos
-*   Pesquisar fontes de dados para desempenho de jogadores em ligas anteriores.
-*   Aprofundar a análise e visualização dos datasets existentes, focando nas features identificadas como relevantes.
-*   Considerar a criação de novas features a partir dos dados brutos (e.g., posse de bola, passes completos, etc.) para enriquecer os modelos.
+## Análise da Performance de Messi e Pontos Relevantes para o Modelo:
+
+1.  **Variável Alvo Principal:** `total_shots_on_goal` (total de chutes a gol) é a variável alvo primária para a previsão de desempenho individual do jogador. A diferença significativa na média de chutes a gol de Messi entre a Copa do Mundo (2.86) e a Ligue 1 (1.04) ressalta a importância do contexto da competição.
+
+2.  **Estatísticas do Primeiro Tempo como Preditores:**
+    *   `ht_passes` (passes no primeiro tempo), `ht_touches` (toques no primeiro tempo) e `ht_dribbles` (dribles no primeiro tempo) são fortes candidatos a features preditivas. Eles quantificam o envolvimento e as ações ofensivas do jogador no primeiro tempo, que podem correlacionar-se com seu desempenho geral na partida.
+
+3.  **"Efeito Torneio" / Features Contextuais:**
+    *   A disparidade no desempenho de Messi sugere que o *tipo de competição* é um fator altamente relevante. Uma feature binária (e.g., `is_world_cup: 1/0`) ou categórica para `competition_type` pode ser crucial para o modelo.
+    *   Este "efeito torneio" pode indicar que jogadores de alto nível elevam seu desempenho em competições de alta pressão. O modelo deve ser capaz de capturar essa dinâmica.
+
+4.  **Identidade do Jogador (`player_id`, `player_name`):**
+    *   `player_id` deve ser tratado como uma feature categórica (ou incorporado via embeddings) para capturar as características únicas de cada jogador.
+    *   O histórico de desempenho de um jogador (e.g., média de `total_shots_on_goal` em várias temporadas/ligas) é uma feature fundamental para estabelecer uma linha de base de seu desempenho típico.
+
+5.  **Contexto da Equipe (`team_id`):**
+    *   O `team_id` (representando a seleção nacional ou o clube) é relevante, pois o desempenho de um jogador é influenciado pela equipe e táticas. Features relacionadas à força da equipe, forma ou estilo de jogo podem ser incorporadas.
+
+**Pontos Mais Relevantes para o Nosso Modelo (baseado na análise de Messi):**
+
+*   **Variável Alvo:** `total_shots_on_goal` (para desempenho do jogador).
+*   **Features Preditivas Chave:**
+    *   **Atividade do Jogador no Primeiro Tempo:** `ht_passes`, `ht_touches`, `ht_dribbles`.
+    *   **Tipo/Contexto da Competição:** Uma feature que indique o tipo de competição (Copa do Mundo, liga, etc.) para capturar o "efetio torneio".
+    *   **Linha de Base Histórica do Jogador:** O desempenho médio do jogador em competições anteriores (e.g., média de `total_shots_on_goal` da liga de clubes).
+    *   **Identidade do Jogador:** `player_id` como feature categórica.
+    *   **Identidade/Contexto da Equipe:** `team_id` como feature categórica.
+
+## Próximos Passos (Plano Revisado)
+
+Com base nas análises anteriores e na decisão de não adquirir novos dados, o plano de ação é revisado para focar na otimização e re-treinamento de modelos com os datasets existentes.
+
+### 1. Refinamento do Pré-processamento de Dados:
+*   **Remoção de Features Irrelevantes:** Modificar `data_processing.py` para remover a feature `ht_corners_diff` do `df_team_outcome`, pois foi identificada como uniformemente zero e sem valor preditivo.
+*   **Generalização do Processamento:** Garantir que `data_processing.py` possa ser facilmente executado para diferentes competições/temporadas disponíveis, facilitando a combinação de dados.
+
+### 2. Criação de um Dataset Maior e Enriquecido:
+*   **Combinação de Datasets:** Integrar os dados processados da Copa do Mundo de 2022 (`wc2022_player_sog.csv`, `wc2022_team_outcome.csv`, `wc2022_team_sog.csv`) com os dados da Ligue 1 2021/2022 (`ligue1_2021_2022_player_sog.csv`, `ligue1_2021_2022_team_outcome.csv`, `ligue1_2021_2022_team_sog.csv`) em um único conjunto de dados maior.
+*   **Feature Engineering (Cross-Competição):**
+    *   Para cada jogador, calcular métricas de desempenho médio de competições anteriores (e.g., média de `ht_passes`, `ht_touches`, `ht_dribbles`, `total_shots_on_goal` da Ligue 1 para prever o desempenho na Copa do Mundo).
+    *   Criar uma feature `competition_type` (e.g., 'World Cup', 'Ligue 1') para capturar o "efeito torneio" identificado na análise de Messi.
+    *   Considerar outras features contextuais (e.g., fase da competição, importância do jogo).
+
+### 3. Re-treinamento e Avaliação do Modelo:
+*   **Seleção do Alvo:** Focar na previsão de `total_shots_on_goal` para jogadores como um alvo principal, utilizando as features enriquecidas.
+*   **Treinamento do Modelo:** Utilizar o dataset combinado e as novas features para treinar modelos preditivos (e.g., modelos de regressão para `total_shots_on_goal`).
+*   **Avaliação:** Avaliar o desempenho do modelo, buscando melhorias na precisão e na capacidade de generalização.
+
+#### Resultados da Avaliação do Modelo Inicial (RandomForestRegressor):
+*   **Mean Absolute Error (MAE): 0.25** - O modelo prevê os chutes a gol com uma diferença média de 0.25, o que é razoável considerando a natureza dos dados.
+*   **R-squared (R2): 0.17** - O R2 teve uma pequena melhora de 0.15 para 0.17, indicando que o modelo ainda explica uma pequena parte da variância nos chutes a gol dos jogadores. Há um espaço considerável para melhoria.
+
+#### Importância das Features (com features enriquecidas - RandomForestRegressor):
+1.  `avg_total_sog_ligue1` (0.218): A média de chutes a gol na Ligue 1 continua sendo a feature mais importante.
+2.  `ht_touches` (0.209): Toques no primeiro tempo permanecem muito importantes.
+3.  `ht_passes` (0.153): Passes no primeiro tempo continuam significativos.
+4.  `player_id_encoded` (0.102): A identidade do jogador continua crucial.
+5.  `player_id_x_world_cup` (0.100): O termo de interação entre o ID do jogador e o tipo de competição "World Cup" é agora a quinta feature mais importante. Isso sugere que o modelo está capturando diferenças de desempenho específicas do jogador no contexto da Copa do Mundo, validando parcialmente o "efetio torneio" como algo individualizado.
+6.  `team_id_encoded` (0.090): A identidade da equipe ainda desempenha um papel.
+7.  `ht_dribbles` (0.072): Dribles no primeiro tempo contribuem.
+8.  `player_id_x_ligue_1` (0.013): O termo de interação para a Ligue 1 tem menor importância, possivelmente porque as médias históricas já capturam grande parte do desempenho na Ligue 1.
+9.  `avg_ht_passes_ligue1`, `avg_ht_touches_ligue1`, `avg_ht_dribbles_ligue1` (baixa importância): As médias individuais de estatísticas do primeiro tempo da Ligue 1 continuam com baixa importância.
+10. `competition_type_Ligue 1` (0.002) e `competition_type_World Cup` (0.002): As features de tipo de competição one-hot encoded ainda têm importância muito baixa. Isso reforça a ideia de que o "efeito torneio" é mais sobre a interação do jogador com o torneio do que um efeito geral da competição em si.
+
+#### Resultados da Avaliação do Modelo (GradientBoostingRegressor):
+*   **Mean Absolute Error (MAE): 0.24** - Uma pequena melhora no MAE.
+*   **R-squared (R2): 0.26** - Uma melhora significativa no R2 (de 0.17 para 0.26), indicando que o Gradient Boosting é mais eficaz em explicar a variância.
+
+#### Importância das Features (com features enriquecidas - GradientBoostingRegressor):
+1.  `avg_total_sog_ligue1` (0.409): A importância desta feature aumentou significativamente, reforçando o valor do desempenho histórico.
+2.  `ht_passes` (0.190): Agora em segundo lugar, mostrando forte poder preditivo.
+3.  `ht_touches` (0.160): Continua muito importante.
+4.  `ht_dribbles` (0.078): Sua importância também aumentou.
+5.  `player_id_x_world_cup` (0.067): O termo de interação com a Copa do Mundo continua importante, mas sua importância relativa diminuiu em comparação com as features de topo.
+6.  `team_id_encoded` (0.037): Continua relevante.
+7.  `player_id_encoded` (0.023): Sua importância diminuiu significativamente.
+8.  `avg_ht_touches_ligue1`, `avg_ht_dribbles_ligue1`, `player_id_x_ligue_1`, `avg_ht_passes_ligue1` (baixa importância): Estas features mantêm baixa importância relativa.
+9.  `competition_type_Ligue 1` (0.004) e `competition_type_World Cup` (0.00004): As features diretas de tipo de competição continuam com importância muito baixa, especialmente para a Copa do Mundo.
+
+### 4. Análise de Generalização do "Efeito Torneio":
+*   Estender a análise comparativa de desempenho (similar à de Messi) para outros jogadores presentes em ambos os datasets (Copa do Mundo e Ligue 1) para verificar se o "efetio torneio" é um padrão generalizável.
+
+### 5. Visualização Aprofundada:
+*   Criar visualizações que explorem as novas features e a relação entre o desempenho em diferentes competições.
+*   Visualizar a distribuição do "efeito torneio" entre os jogadores.
+
+## Próximos Passos Refinados:
+
+1.  **Aprofundar Feature Engineering:**
+    *   Explorar métodos mais sofisticados para capturar o "efeito torneio" (e.g., termos de interação, codificações mais complexas).
+    *   Considerar outras features dos dados brutos de eventos (se disponíveis e relevantes, como xG, xA, passes-chave, desarmes, etc.).
+    *   Criar features que representem a "forma" do jogador (e.g., desempenho médio nas últimas N partidas).
+2.  **Melhoria do Modelo:**
+    *   Realizar otimização de hiperparâmetros para o `GradientBoostingRegressor` para tentar melhorar ainda mais o R2.
+    *   Experimentar com outros algoritmos de regressão (e.g., XGBoost, LightGBM) se o desempenho do Gradient Boosting não for satisfatório após a otimização.
+3.  **Exploração de Dados Adicional:**
+    *   Investigar a baixa importância das features diretas `competition_type`. O "efeito torneio" é realmente menos generalizável, ou a representação da feature precisa ser aprimorada?
+    *   Analisar o desempenho de outros jogadores que participaram tanto da Ligue 1 quanto da Copa do Mundo para validar ou refutar a generalização do "efeito torneio".
+    *   Realizar uma análise mais aprofundada da relação entre as features de atividade no primeiro tempo (`ht_passes`, `ht_touches`, `ht_dribbles`) e `total_shots_on_goal`.

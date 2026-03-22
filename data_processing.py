@@ -121,7 +121,6 @@ def process_data(match_ids, match_info):
             'ht_goals_diff': home_ht_goals - away_ht_goals,
             'ht_shots_diff': home_ht_shots - away_ht_shots,
             'ht_sog_diff': home_ht_sog - away_ht_sog,
-            'ht_corners_diff': home_ht_corners - away_ht_corners,
             'ht_fouls_diff': home_ht_fouls - away_ht_fouls,
             'final_outcome': outcome
         })
