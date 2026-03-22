@@ -1,0 +1,1 @@
+1. Precisamos de dois modelos de IA, 

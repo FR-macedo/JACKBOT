@@ -1,0 +1,3245 @@
+match_id,player_id,player_name,team_id,ht_passes,ht_touches,ht_dribbles,total_shots_on_goal
+3857256,3500,Granit Xhaka,773,27,19,0,2
+3857256,3533,Xherdan Shaqiri,773,12,26,0,1
+3857256,3913,Edimilson Fernandes,773,0,0,0,0
+3857256,5537,Fabian Lukas Schär,773,30,23,0,0
+3857256,5538,Denis Lemi Zakaria Lako Lado,773,0,0,0,0
+3857256,5543,Haris Seferović,773,0,0,0,0
+3857256,5544,Ricardo Iván Rodríguez Araya,773,22,19,0,0
+3857256,5545,Breel-Donald Embolo,773,9,20,1,2
+3857256,5549,Manuel Obafemi Akanji,773,31,26,0,0
+3857256,6983,Remo Freuler,773,12,9,1,1
+3857256,7796,Silvan Widmer,773,29,17,0,0
+3857256,8561,Fabian Frei,773,0,0,0,0
+3857256,12326,Renato Steffen,773,0,0,0,0
+3857256,16016,Michel Aebischer,773,0,0,0,0
+3857256,16022,Christian Fassnacht,773,0,0,0,1
+3857256,16026,Djibril Sow,773,20,22,0,0
+3857256,17974,Gregor Kobel,773,18,8,0,0
+3857256,29003,Jonas Omlin,773,0,0,0,0
+3857256,29006,Noah Okafor,773,0,0,0,0
+3857256,29012,Eray Ervin Cömert,773,0,0,0,0
+3857256,30401,Ruben Vargas,773,12,21,0,0
+3857256,41655,Ardon Jashari,773,0,0,0,0
+3857256,50436,Fabian Rieder,773,0,0,0,0
+3857256,3512,Marko Grujić,786,0,0,0,0
+3857256,3831,Dušan Tadić,786,20,28,3,0
+3857256,4269,Aleksandar Mitrović,786,12,27,0,1
+3857256,5589,Sergej Milinković-Savić,786,22,18,0,0
+3857256,5591,Filip Kostić,786,31,23,0,0
+3857256,5603,Nikola Milenković,786,29,28,0,0
+3857256,5833,Nemanja Radonjić,786,0,0,0,0
+3857256,6318,Andrija Živković,786,18,16,1,0
+3857256,6319,Luka Jović,786,0,0,0,0
+3857256,6321,Milos Veljkovic,786,23,18,0,0
+3857256,6687,Saša Lukić,786,25,22,0,0
+3857256,6698,Marko Dmitrović,786,0,0,0,0
+3857256,6901,Nemanja Maksimović,786,0,0,0,0
+3857256,7117,Filip Đuričić,786,0,0,0,0
+3857256,7145,Darko Lazović,786,0,0,0,0
+3857256,7993,Filip Mladenović,786,0,0,0,0
+3857256,10477,Stefan Mitrović,786,0,0,0,0
+3857256,15731,Predrag Rajković,786,0,0,0,0
+3857256,16489,Nemanja Gudelj,786,0,0,0,0
+3857256,18015,Dušan Vlahović,786,4,15,1,3
+3857256,18737,Srđan Babić,786,0,0,0,0
+3857256,20600,Vanja Milinković Savić,786,18,8,0,0
+3857256,24267,Uroš Račić,786,0,0,0,0
+3857256,27719,Strahinja Pavlović,786,35,26,0,0
+3857256,30179,Ivan Ilić,786,0,0,0,0
+3857256,43666,Strahinja Eraković,786,0,0,0,0
+3869151,2995,Ángel Fabián Di María Hernández,779,0,0,0,0
+3869151,3090,Nicolás Hernán Otamendi,779,65,55,0,0
+3869151,5503,Lionel Andrés Messi Cuccittini,779,27,32,0,2
+3869151,5507,Nicolás Alejandro Tagliafico,779,0,0,0,0
+3869151,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3869151,6312,Franco Armani,779,0,0,0,0
+3869151,6377,Ángel Martín Correa,779,0,0,0,0
+3869151,6694,Gerónimo Rulli,779,0,0,0,0
+3869151,6909,Damián Emiliano Martínez,779,17,15,0,0
+3869151,7006,Alejandro Darío Gómez,779,28,32,2,0
+3869151,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3869151,7797,Rodrigo Javier De Paul,779,44,45,0,0
+3869151,11456,Lautaro Javier Martínez,779,0,0,0,2
+3869151,16308,Leandro Daniel Paredes,779,0,0,0,0
+3869151,19597,Marcos Javier Acuña,779,43,41,0,0
+3869151,20572,Cristian Gabriel Romero,779,45,40,1,0
+3869151,21081,Juan Marcos Foyth,779,0,0,0,0
+3869151,26404,Guido Rodríguez,779,0,0,0,0
+3869151,27768,Lisandro Martínez,779,0,0,0,0
+3869151,27886,Alexis Mac Allister,779,22,31,1,0
+3869151,28263,Gonzalo Ariel Montiel,779,0,0,0,0
+3869151,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3869151,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3869151,29201,Nahuel Molina Lucero,779,36,31,1,0
+3869151,29560,Julián Álvarez,779,6,13,0,1
+3869151,38718,Enzo Fernandez,779,64,57,0,0
+3869151,3240,Mathew Ryan,792,28,23,0,0
+3869151,3281,Aaron Mooy,792,32,26,0,0
+3869151,5479,Aziz Eraltay Behich,792,23,18,0,0
+3869151,5481,Mathew Leckie,792,11,18,0,0
+3869151,5490,Jackson Irvine,792,19,18,0,0
+3869151,8346,Craig Goodwin,792,0,0,0,0
+3869151,8859,Ajdin Hrustic,792,0,0,0,0
+3869151,9430,Jason Cummings,792,0,0,0,0
+3869151,9980,Jamie MacLaren,792,0,0,0,0
+3869151,15957,Miloš Degenek,792,28,19,2,0
+3869151,16549,Danny Vuković,792,0,0,0,0
+3869151,22293,Harry Souttar,792,42,40,0,0
+3869151,22371,Bailey Wright,792,0,0,0,0
+3869151,24475,Awer Mabil,792,0,0,0,0
+3869151,28370,Fran Karačić,792,0,0,0,0
+3869151,33446,Thomas Deng,792,0,0,0,0
+3869151,33465,Joel King,792,0,0,0,0
+3869151,33477,Riley McGree,792,12,13,1,0
+3869151,33488,Keanu Baccus,792,13,13,0,0
+3869151,33492,Mitchell Thomas Duke,792,11,20,1,0
+3869151,33495,Kye Rowles,792,40,36,0,0
+3869151,33502,Cameron Peter Devlin,792,0,0,0,0
+3869151,33564,Andrew Redmayne,792,0,0,0,0
+3869151,33572,Nathaniel Atkinson,792,0,0,0,0
+3869151,36158,Marco Tilio,792,0,0,0,0
+3869151,227697,Garang Kuol,792,0,0,0,1
+3857257,3043,Christian Dannemann Eriksen,776,36,33,1,0
+3857257,3570,Pierre-Emile Højbjerg,776,39,26,0,0
+3857257,3815,Kasper Schmeichel,776,24,17,0,0
+3857257,3959,Andreas Christensen,776,41,36,0,0
+3857257,4447,Martin Braithwaite Christensen,776,11,23,1,0
+3857257,5524,Jens Stryger Larsen,776,0,0,0,0
+3857257,5534,Simon Thorup Kjær,776,0,0,0,0
+3857257,5536,Yussuf Yurary Poulsen,776,0,0,0,0
+3857257,5732,Andreas Evald Cornelius,776,0,0,0,0
+3857257,6302,Kasper Dolberg,776,0,0,0,2
+3857257,6797,Daniel Wass,776,0,0,0,0
+3857257,7097,Christian Nørgaard,776,0,0,0,0
+3857257,8247,Joachim Andersen,776,56,50,0,0
+3857257,12420,Frederik Rønnow,776,0,0,0,0
+3857257,16190,Rasmus Nissen Kristensen,776,44,39,0,0
+3857257,16294,Robert Skov,776,0,0,0,0
+3857257,16554,Joakim Mæhle,776,36,30,2,0
+3857257,17042,Andreas Skov Olsen,776,30,37,0,1
+3857257,17043,Victor Nelsson,776,0,0,0,0
+3857257,18722,Mathias Jensen,776,28,33,1,1
+3857257,21261,Jonas Older Wind,776,0,0,0,0
+3857257,24443,Mikkel Damsgaard,776,0,0,0,0
+3857257,24547,Alexander Hartmann Bah,776,0,0,0,0
+3857257,27038,Oliver Christensen,776,0,0,0,0
+3857257,27569,Jesper Lindstrøm,776,13,20,5,0
+3857257,3240,Mathew Ryan,792,25,10,0,0
+3857257,3281,Aaron Mooy,792,23,14,1,0
+3857257,5479,Aziz Eraltay Behich,792,22,16,1,0
+3857257,5481,Mathew Leckie,792,19,26,5,1
+3857257,5490,Jackson Irvine,792,8,6,0,0
+3857257,8346,Craig Goodwin,792,21,22,0,0
+3857257,8859,Ajdin Hrustic,792,0,0,0,0
+3857257,9430,Jason Cummings,792,0,0,0,0
+3857257,9980,Jamie MacLaren,792,0,0,0,0
+3857257,15957,Miloš Degenek,792,17,12,1,0
+3857257,16549,Danny Vuković,792,0,0,0,0
+3857257,22293,Harry Souttar,792,11,6,0,0
+3857257,22371,Bailey Wright,792,0,0,0,0
+3857257,24475,Awer Mabil,792,0,0,0,0
+3857257,28370,Fran Karačić,792,0,0,0,0
+3857257,33446,Thomas Deng,792,0,0,0,0
+3857257,33465,Joel King,792,0,0,0,0
+3857257,33477,Riley McGree,792,12,24,0,1
+3857257,33488,Keanu Baccus,792,0,0,0,0
+3857257,33492,Mitchell Thomas Duke,792,13,29,0,2
+3857257,33495,Kye Rowles,792,24,13,0,0
+3857257,33502,Cameron Peter Devlin,792,0,0,0,0
+3857257,33564,Andrew Redmayne,792,0,0,0,0
+3857257,33572,Nathaniel Atkinson,792,0,0,0,0
+3857257,36158,Marco Tilio,792,0,0,0,0
+3857257,227697,Garang Kuol,792,0,0,0,0
+3857258,3063,Danilo Luiz da Silva,781,43,33,0,0
+3857258,3067,Ederson Santana de Moraes,781,0,0,0,0
+3857258,3202,Gabriel Fernando de Jesus,781,0,0,0,0
+3857258,3247,Fábio Henrique Tavares,781,0,0,0,0
+3857258,3280,Richarlison de Andrade,781,7,11,0,2
+3857258,3295,Thiago Emiliano da Silva,781,45,39,0,0
+3857258,4320,Neymar da Silva Santos Junior,781,30,42,4,1
+3857258,4324,Daniel Alves da Silva,781,0,0,0,0
+3857258,4372,Marcos Aoás Corrêa,781,37,29,0,0
+3857258,5539,Carlos Henrique Casimiro,781,27,26,0,1
+3857258,5547,Alisson Ramsés Becker,781,15,5,0,0
+3857258,6945,Alex Sandro Lobo Silva,781,51,41,0,0
+3857258,9904,Frederico Rodrigues Santos,781,0,0,0,1
+3857258,10595,Raphael Dias Belloli,781,19,23,2,2
+3857258,11183,Alex Nicolao Telles,781,0,0,0,0
+3857258,11493,Gleison Bremer Silva Nascimento,781,0,0,0,0
+3857258,13620,Éder Gabriel Militão,781,0,0,0,0
+3857258,18395,Vinícius José Paixão de Oliveira Júnior,781,20,28,3,1
+3857258,22600,Lucas Tolentino Coelho de Lima,781,32,28,0,0
+3857258,25101,Weverton Pereira da Silva,781,0,0,0,0
+3857258,25104,Rodrygo Silva de Goes,781,0,0,0,1
+3857258,25142,Bruno Guimarães Rodriguez Moura,781,0,0,0,0
+3857258,25154,Éverton Augusto de Barros Ribeiro,781,0,0,0,0
+3857258,25305,Pedro Guilherme Abreu dos Santos,781,0,0,0,0
+3857258,25363,Antony Matheus dos Santos,781,0,0,0,0
+3857258,29976,Gabriel Teodoro Martinelli Silva,781,0,0,0,0
+3857258,3512,Marko Grujić,786,0,0,0,0
+3857258,3831,Dušan Tadić,786,16,18,0,0
+3857258,4269,Aleksandar Mitrović,786,13,18,0,0
+3857258,5589,Sergej Milinković-Savić,786,21,23,1,0
+3857258,5591,Filip Kostić,786,0,0,0,0
+3857258,5603,Nikola Milenković,786,23,16,0,0
+3857258,5833,Nemanja Radonjić,786,0,0,0,0
+3857258,6318,Andrija Živković,786,21,21,0,0
+3857258,6319,Luka Jović,786,0,0,0,0
+3857258,6321,Milos Veljkovic,786,28,25,0,0
+3857258,6687,Saša Lukić,786,25,20,0,0
+3857258,6698,Marko Dmitrović,786,0,0,0,0
+3857258,6901,Nemanja Maksimović,786,0,0,0,0
+3857258,7117,Filip Đuričić,786,0,0,0,0
+3857258,7145,Darko Lazović,786,0,0,0,0
+3857258,7993,Filip Mladenović,786,18,16,2,0
+3857258,10477,Stefan Mitrović,786,0,0,0,0
+3857258,15731,Predrag Rajković,786,0,0,0,0
+3857258,16489,Nemanja Gudelj,786,28,25,0,0
+3857258,18015,Dušan Vlahović,786,0,0,0,0
+3857258,18737,Srđan Babić,786,0,0,0,0
+3857258,20600,Vanja Milinković Savić,786,21,10,0,0
+3857258,24267,Uroš Račić,786,0,0,0,0
+3857258,27719,Strahinja Pavlović,786,18,17,1,0
+3857258,30179,Ivan Ilić,786,0,0,0,0
+3857258,43666,Strahinja Eraković,786,0,0,0,0
+3857288,3196,Wahbi Khazri,777,0,0,0,1
+3857288,3557,Naïm Sliti,777,12,17,1,0
+3857288,3767,Ellyes Joris Skhiri,777,21,11,1,0
+3857288,5647,Ali Maâloul,777,0,0,0,0
+3857288,5650,Ferjani Sassi,777,0,0,0,0
+3857288,5651,Yassine Meriah,777,35,30,0,0
+3857288,5653,Mouez Hassen,777,0,0,0,0
+3857288,5655,Dylan Daniel Mahmoud Bronn,777,33,25,0,0
+3857288,6342,Aymen Mathlouthi,777,0,0,0,0
+3857288,6347,Ghilane Chalali,777,0,0,0,0
+3857288,9236,Mohamed Dräger,777,20,15,2,0
+3857288,16352,Issam Jebali,777,10,24,1,0
+3857288,23910,Youssef Msakni,777,14,24,2,2
+3857288,25582,Nader Ghandri,777,0,0,0,0
+3857288,30681,Ali Abdi,777,25,21,0,0
+3857288,32450,Montassar Omar Talbi,777,22,16,0,1
+3857288,35592,Anis Ben Slimane,777,0,0,0,0
+3857288,44955,Aïssa Bilal Laïdouni,777,19,16,0,0
+3857288,50988,Hannibal Mejbri,777,0,0,0,0
+3857288,68749,Seifeddine Jaziri,777,0,0,0,0
+3857288,102816,Mohamed Ali Ben Romdhane,777,0,0,0,0
+3857288,105943,Aymen Dahmen,777,13,6,0,0
+3857288,105944,Wajdi Kechrida,777,0,0,0,0
+3857288,128793,Taha Yassine Khenissi,777,0,0,0,0
+3857288,136296,Bechir Ben Said,777,0,0,0,0
+3857288,163049,Bilel Ifa,777,0,0,0,0
+3857288,3240,Mathew Ryan,792,17,9,0,0
+3857288,3281,Aaron Mooy,792,27,17,0,0
+3857288,5479,Aziz Eraltay Behich,792,26,19,1,0
+3857288,5481,Mathew Leckie,792,19,27,0,0
+3857288,5490,Jackson Irvine,792,18,14,0,0
+3857288,8346,Craig Goodwin,792,23,27,0,0
+3857288,8859,Ajdin Hrustic,792,0,0,0,0
+3857288,9430,Jason Cummings,792,0,0,0,0
+3857288,9980,Jamie MacLaren,792,0,0,0,0
+3857288,15957,Miloš Degenek,792,0,0,0,0
+3857288,16549,Danny Vuković,792,0,0,0,0
+3857288,22293,Harry Souttar,792,23,17,0,0
+3857288,22371,Bailey Wright,792,0,0,0,0
+3857288,24475,Awer Mabil,792,0,0,0,0
+3857288,28370,Fran Karačić,792,29,16,1,0
+3857288,33446,Thomas Deng,792,0,0,0,0
+3857288,33465,Joel King,792,0,0,0,0
+3857288,33477,Riley McGree,792,18,27,0,0
+3857288,33488,Keanu Baccus,792,0,0,0,0
+3857288,33492,Mitchell Thomas Duke,792,13,29,1,2
+3857288,33495,Kye Rowles,792,23,13,0,0
+3857288,33502,Cameron Peter Devlin,792,0,0,0,0
+3857288,33564,Andrew Redmayne,792,0,0,0,0
+3857288,36158,Marco Tilio,792,0,0,0,0
+3857288,227697,Garang Kuol,792,0,0,0,0
+3857267,2941,Ismaïla Sarr,787,15,24,3,1
+3857267,3404,Youssouf Sabaly,787,25,20,0,0
+3857267,3436,Idrissa Gana Gueye,787,19,18,1,0
+3857267,3675,Fodé Ballo Touré,787,0,0,0,0
+3857267,3684,Cheikhou Kouyaté,787,0,0,0,0
+3857267,4506,Nampalys Mendy,787,0,0,0,0
+3857267,5675,Kalidou Koulibaly,787,17,10,0,1
+3857267,7379,Edouard Mendy,787,11,7,0,0
+3857267,8553,Abdou Diallo,787,19,15,0,0
+3857267,8870,Alfred Benjamin Gomis,787,0,0,0,0
+3857267,10603,Mamadou Loum N''Diaye,787,0,0,0,0
+3857267,13314,Famara Diedhiou,787,0,0,0,0
+3857267,15970,Pape Abou Cissé,787,0,0,0,0
+3857267,17456,Timothy Dieng,787,0,0,0,0
+3857267,20611,Boulaye Dia,787,5,9,2,0
+3857267,20758,Krépin Diatta,787,0,0,0,0
+3857267,21026,Pape Gueye,787,19,14,1,1
+3857267,31751,Pathé Ismaël Ciss,787,19,16,2,0
+3857267,32915,Ismail Jakobs,787,22,12,0,0
+3857267,34893,Moustapha Name,787,0,0,0,0
+3857267,39595,Formose Mendy,787,0,0,0,0
+3857267,50497,Nicolas Jackson,787,0,0,0,0
+3857267,50498,Pape Matar Sarr,787,0,0,0,0
+3857267,80484,Iliman Ndiaye,787,11,13,5,0
+3857267,88123,Cheikh Ahmadou Bamba Mbacke Dieng,787,0,0,0,0
+3857267,312414,Moussa N''Diaye,787,0,0,0,0
+3857267,12583,Carlos Armando Gruezo Arboleda,3565,14,14,0,0
+3857267,12803,Romario Andrés Ibarra Mina,3565,0,0,0,0
+3857267,15486,Diego José Palacios Espinoza,3565,0,0,0,0
+3857267,24085,Pervis Josué Estupiñán Tenorio,3565,17,16,2,0
+3857267,25083,Xavier Ricardo Arreaga Bermello,3565,0,0,0,0
+3857267,25352,Robert Abel Arboleda Escobar,3565,0,0,0,0
+3857267,28511,Ángel Israel Mena Delgado,3565,0,0,0,0
+3857267,28559,Enner Remberto Valencia Lastra,3565,6,15,0,0
+3857267,30111,Felix Eduardo Torres Caicedo,3565,30,25,0,0
+3857267,31152,Gonzalo Jordy Plata Jiménez,3565,12,13,1,1
+3857267,32677,Alexander Domínguez Carabalí,3565,0,0,0,0
+3857267,34194,Eduar Ayrton Preciado García,3565,0,0,0,0
+3857267,34396,Michael Steveen Estrada Martínez,3565,4,17,0,0
+3857267,36148,José Adoni Cifuentes Charcopa,3565,0,0,0,1
+3857267,37522,Hernán Ismael Galíndez,3565,25,9,0,0
+3857267,37726,Moisés Isaac Caicedo Corozo,3565,19,17,0,1
+3857267,37737,Angelo Smit Preciado Quiñónez,3565,17,11,0,0
+3857267,37742,Wellington Moisés Ramírez Preciado,3565,0,0,0,0
+3857267,37945,Alan Steven Franco Palma,3565,5,7,0,0
+3857267,38004,Piero Martín Hincapié Reyna,3565,42,39,0,0
+3857267,40211,Jeremy Leonel Sarmiento Morante,3565,0,0,0,1
+3857267,41593,William Joel Pacho Tenorio,3565,0,0,0,0
+3857267,51969,Jackson Gabriel Porozo Vernaza,3565,0,0,0,0
+3857267,91090,Djorkaeff Neicer Reasco González,3565,0,0,0,0
+3857267,348757,Kevin José Rodríguez Cortez,3565,0,0,0,0
+3869321,2988,Memphis Depay,941,29,37,3,0
+3869321,3264,Vincent Janssen,941,0,0,0,0
+3869321,3306,Nathan Aké,941,37,33,0,0
+3869321,3311,Daley Blind,941,19,20,0,0
+3869321,3669,Virgil van Dijk,941,47,42,1,1
+3869321,4318,Davy Klaassen,941,0,0,0,0
+3869321,6994,Marten de Roon,941,26,25,0,0
+3869321,7745,Steven Berghuis,941,0,0,0,1
+3869321,7787,Stefan de Vrij,941,0,0,0,0
+3869321,7829,Wout Weghorst,941,0,0,0,3
+3869321,7838,Remko Pasveer,941,0,0,0,0
+3869321,7891,Teun Koopmeiners,941,0,0,0,1
+3869321,8069,Matthijs de Ligt,941,0,0,0,0
+3869321,8118,Frenkie de Jong,941,38,34,1,0
+3869321,8124,Tyrell Malacia,941,0,0,0,0
+3869321,8125,Denzel Dumfries,941,22,18,0,0
+3869321,8259,Steven Bergwijn,941,17,21,0,0
+3869321,8326,Andries Noppert,941,22,12,0,0
+3869321,16185,Justin Bijlow,941,0,0,0,0
+3869321,20033,Luuk de Jong,941,0,0,0,1
+3869321,20750,Cody Mathès Gakpo,941,17,22,1,0
+3869321,21547,Noa Lang,941,0,0,0,0
+3869321,21809,Jurriën David Norman Timber,941,39,36,1,0
+3869321,21879,Kenneth Taylor,941,0,0,0,0
+3869321,32712,Jeremie Frimpong,941,0,0,0,0
+3869321,39167,Xavi Simons,941,0,0,0,0
+3869321,2995,Ángel Fabián Di María Hernández,779,0,0,0,0
+3869321,3090,Nicolás Hernán Otamendi,779,35,26,0,0
+3869321,5503,Lionel Andrés Messi Cuccittini,779,16,17,2,3
+3869321,5507,Nicolás Alejandro Tagliafico,779,0,0,0,0
+3869321,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3869321,6312,Franco Armani,779,0,0,0,0
+3869321,6377,Ángel Martín Correa,779,0,0,0,0
+3869321,6694,Gerónimo Rulli,779,0,0,0,0
+3869321,6909,Damián Emiliano Martínez,779,13,5,0,0
+3869321,7006,Alejandro Darío Gómez,779,0,0,0,0
+3869321,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3869321,7797,Rodrigo Javier De Paul,779,34,36,2,1
+3869321,11456,Lautaro Javier Martínez,779,0,0,0,2
+3869321,16308,Leandro Daniel Paredes,779,0,0,0,1
+3869321,19597,Marcos Javier Acuña,779,14,17,0,0
+3869321,20572,Cristian Gabriel Romero,779,35,27,0,0
+3869321,21081,Juan Marcos Foyth,779,0,0,0,0
+3869321,26404,Guido Rodríguez,779,0,0,0,0
+3869321,27768,Lisandro Martínez,779,15,11,0,0
+3869321,27886,Alexis Mac Allister,779,15,22,0,0
+3869321,28263,Gonzalo Ariel Montiel,779,0,0,0,1
+3869321,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3869321,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3869321,29201,Nahuel Molina Lucero,779,26,27,0,1
+3869321,29560,Julián Álvarez,779,9,24,2,0
+3869321,38718,Enzo Fernandez,779,26,22,0,0
+3857287,3083,Heung-Min Son,791,15,15,2,0
+3857287,3135,Chang-Hoon Kwon,791,0,0,0,0
+3857287,5604,Young-Gwon Kim,791,27,24,0,0
+3857287,5618,Woo-Young Jung,791,36,28,0,0
+3857287,5619,Hyeon-Woo Jo,791,0,0,0,0
+3857287,5620,Hee-Chan Hwang,791,0,0,0,0
+3857287,5623,Jae-Sung Lee,791,23,21,0,0
+3857287,5986,Chul Hong,791,0,0,0,0
+3857287,22067,Woo-Yeong Jeong,791,0,0,0,0
+3857287,22740,Kang-In Lee,791,0,0,0,0
+3857287,23264,Seung-Ho Paik,791,0,0,0,0
+3857287,23763,In-Beom Hwang,791,38,32,0,0
+3857287,29966,Ui-Jo Hwang,791,3,20,1,0
+3857287,37641,Seung-Gyu Kim,791,14,9,0,0
+3857287,40538,Jin-Su Kim,791,18,16,0,0
+3857287,40542,Gue-Sung Cho,791,0,0,0,0
+3857287,40550,Bum-Keun Song,791,0,0,0,0
+3857287,40558,Jun-Ho Son,791,0,0,0,0
+3857287,40564,Kyung-Won Kwon,791,0,0,0,0
+3857287,40578,Tae-Hwan Kim,791,0,0,0,0
+3857287,40664,Min-Kyu Song,791,0,0,0,0
+3857287,40672,Moon-Hwan Kim,791,39,25,0,0
+3857287,41495,Jong-Gyu Yoon,791,0,0,0,0
+3857287,41711,Sang-Ho Na,791,13,21,2,0
+3857287,43565,Min Jae Kim,791,33,25,0,0
+3857287,99479,Yu-Min Cho,791,0,0,0,0
+3857287,4319,Edinson Roberto Cavani Gómez,783,0,0,0,0
+3857287,5246,Luis Alberto Suárez Díaz,783,7,18,0,0
+3857287,5248,José Martín Cáceres Silva,783,42,32,0,0
+3857287,5249,Diego Roberto Godín Leal,783,35,34,0,0
+3857287,5255,Matías Vecino Falero,783,19,22,1,1
+3857287,5258,Giorgian Daniel De Arrascaeta Benedetti,783,0,0,0,0
+3857287,5259,José María Giménez de Vargas,783,33,30,0,0
+3857287,5260,Rodrigo Bentancur Colmán,783,31,29,1,0
+3857287,5264,Guillermo Varela Olivera,783,0,0,0,0
+3857287,5266,Lucas Torreira Di Pascua,783,0,0,0,0
+3857287,5267,Néstor Fernando Muslera Micol,783,0,0,0,0
+3857287,6297,Maximiliano Gómez González,783,0,0,0,0
+3857287,6300,Sebastián Coates Nión,783,0,0,0,0
+3857287,6773,Federico Santiago Valverde Dipetta,783,20,18,0,0
+3857287,7104,Mathías Olivera Miramontes,783,30,19,1,0
+3857287,26323,Carlos Sebastián Sosa Silva,783,0,0,0,0
+3857287,28729,Diego Nicolás De La Cruz Arcosa,783,0,0,0,0
+3857287,32478,Darwin Gabriel Núñez Ribeiro,783,10,12,1,0
+3857287,33099,José Luis Rodríguez Bebanz,783,0,0,0,0
+3857287,34476,Matías Nicolás Viña Susperreguy,783,0,0,0,0
+3857287,36288,Facundo Pellistri Rebollo,783,8,15,1,0
+3857287,36659,Manuel Ugarte Ribeiro,783,0,0,0,0
+3857287,36666,Agustín Canobbio Graviz,783,0,0,0,0
+3857287,36710,Sergio Rochet Álvarez,783,9,2,0,0
+3857287,44649,Facundo Daniel Torres Pérez,783,0,0,0,0
+3869486,3193,Bernardo Mota Veiga de Carvalho e Silva,780,35,36,1,0
+3869486,4272,João Mário Naval da Costa Eduardo,780,0,0,0,0
+3869486,5204,Bruno Miguel Borges Fernandes,780,27,31,1,0
+3869486,5205,Rui Pedro dos Santos Patrício,780,0,0,0,0
+3869486,5206,Rúben Santos Gato Alves Dias,780,56,50,0,0
+3869486,5207,Cristiano Ronaldo dos Santos Aveiro,780,0,0,0,1
+3869486,5209,Raphaël Adelino José Guerreiro,780,26,19,0,0
+3869486,5214,William Silva de Carvalho,780,0,0,0,0
+3869486,5218,André Miguel Valente Silva,780,0,0,0,0
+3869486,7005,João Pedro Cavaco Cancelo,780,0,0,0,0
+3869486,9927,Rúben Diogo Da Silva Neves,780,57,54,0,0
+3869486,10868,Ricardo Jorge Luz Horta,780,0,0,0,0
+3869486,11184,Otávio Edmilson da Silva Monteiro,780,39,32,0,0
+3869486,12041,João Félix Sequeira,780,11,15,3,2
+3869486,12169,João Maria Lobo Alves Palhinha Gonçalves,780,0,0,0,0
+3869486,16028,José Diogo Dalot Teixeira,780,16,13,0,0
+3869486,18360,Rafael Alexandre Conceição Leão,780,0,0,0,0
+3869486,18866,José Pedro Malheiro de Sá,780,0,0,0,0
+3869486,20016,Kléper Laveran Lima Ferreira,780,54,48,0,0
+3869486,32975,Diogo Meireles Costa,780,18,7,0,0
+3869486,34639,Vitor Machado Ferreira,780,0,0,0,0
+3869486,38803,Gonçalo Matias Ramos,780,3,11,1,0
+3869486,40874,Matheus Luiz Nunes,780,0,0,0,0
+3869486,143854,António João Pereira Albuquerque Tavares Silva,780,0,0,0,0
+3869486,3625,Sofiane Boufal,788,11,18,2,1
+3869486,3634,Abdelhamid Sabiri,788,0,0,0,0
+3869486,5219,Romain Saïss,788,14,8,0,0
+3869486,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3869486,5234,Sofyan Amrabat,788,14,8,0,0
+3869486,5237,Hakim Ziyech,788,23,23,0,0
+3869486,5245,Achraf Hakimi Mouh,788,25,21,2,0
+3869486,6301,Youssef En-Nesyri,788,6,17,0,1
+3869486,6785,Yassine Bounou,788,18,10,0,0
+3869486,7459,Jawad El Yamiq,788,18,12,0,0
+3869486,21214,Ilias Chair,788,0,0,0,0
+3869486,21736,Zakaria Aboukhlal,788,0,0,0,1
+3869486,23774,Selim Amallah,788,7,10,2,0
+3869486,31295,Yahia Attiyat allah,788,18,12,0,0
+3869486,46258,Azzedine Ounahi,788,17,21,1,0
+3869486,59493,Abderrazak Hamdallah,788,0,0,0,0
+3869486,67700,Badr Banoun,788,0,0,0,0
+3869486,102668,Yahya Jabrane,788,0,0,0,0
+3869486,131037,Anass Zaroury,788,0,0,0,0
+3869486,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3869486,139016,Achraf Dari,788,0,0,0,0
+3869486,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3869486,156734,Bilal El Khannous,788,0,0,0,0
+3869486,296254,Walid Cheddira,788,0,0,0,0
+3869685,2972,Marcus Thuram,771,1,6,2,0
+3869685,3009,Kylian Mbappé Lottin,771,10,17,1,4
+3869685,3026,Adrien Rabiot,771,21,16,0,1
+3869685,3099,Hugo Lloris,771,12,3,0,0
+3869685,3379,Alphonse Areola,771,0,0,0,0
+3869685,3543,Steve Mandanda,771,0,0,0,0
+3869685,3604,Olivier Giroud,771,9,10,0,0
+3869685,4445,Jules Koundé,771,23,18,0,0
+3869685,5476,Benjamin Pavard,771,0,0,0,0
+3869685,5477,Ousmane Dembélé,771,13,13,1,0
+3869685,5485,Raphaël Varane,771,26,21,0,0
+3869685,5487,Antoine Griezmann,771,13,11,1,0
+3869685,6704,Theo Bernard François Hernández,771,26,17,1,0
+3869685,7153,Jordan Veretout,771,0,0,0,0
+3869685,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3869685,7439,Axel Disasi,771,0,0,0,0
+3869685,8217,Kingsley Coman,771,0,0,0,1
+3869685,8519,Dayotchanculle Upamecano,771,27,25,0,0
+3869685,10481,Aurélien Djani Tchouaméni,771,27,19,2,0
+3869685,11135,Ibrahima Konaté,771,0,0,0,0
+3869685,11990,Youssouf Fofana,771,0,0,0,0
+3869685,17592,William Saliba,771,0,0,0,0
+3869685,22097,Randal Kolo Muani,771,2,4,0,2
+3869685,24778,Eduardo Camavinga,771,0,0,0,0
+3869685,2995,Ángel Fabián Di María Hernández,779,24,31,8,1
+3869685,3090,Nicolás Hernán Otamendi,779,42,37,0,0
+3869685,5503,Lionel Andrés Messi Cuccittini,779,24,33,1,5
+3869685,5507,Nicolás Alejandro Tagliafico,779,29,20,0,0
+3869685,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,1
+3869685,6312,Franco Armani,779,0,0,0,0
+3869685,6377,Ángel Martín Correa,779,0,0,0,0
+3869685,6694,Gerónimo Rulli,779,0,0,0,0
+3869685,6909,Damián Emiliano Martínez,779,12,8,0,0
+3869685,7006,Alejandro Darío Gómez,779,0,0,0,0
+3869685,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3869685,7797,Rodrigo Javier De Paul,779,34,35,2,1
+3869685,11456,Lautaro Javier Martínez,779,0,0,0,1
+3869685,16308,Leandro Daniel Paredes,779,0,0,0,1
+3869685,19597,Marcos Javier Acuña,779,0,0,0,0
+3869685,20572,Cristian Gabriel Romero,779,39,30,0,0
+3869685,21081,Juan Marcos Foyth,779,0,0,0,0
+3869685,26404,Guido Rodríguez,779,0,0,0,0
+3869685,27768,Lisandro Martínez,779,0,0,0,0
+3869685,27886,Alexis Mac Allister,779,24,27,1,1
+3869685,28263,Gonzalo Ariel Montiel,779,0,0,0,1
+3869685,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3869685,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3869685,29201,Nahuel Molina Lucero,779,28,19,0,0
+3869685,29560,Julián Álvarez,779,13,20,0,1
+3869685,38718,Enzo Fernandez,779,43,37,0,1
+3857260,5173,Abdullah Ibrahim Otayf,799,0,0,0,0
+3857260,5187,Salem Mohammed Al Dawsari,799,7,15,0,1
+3857260,5188,Hattan Babhir,799,0,0,0,0
+3857260,5713,Mohammed Kanoo,799,14,20,3,0
+3857260,5714,Mohammed Khalil Al Owais,799,20,1,0,0
+3857260,5715,Ali Albulayhi,799,14,4,0,0
+3857260,51094,Abdulelah Al Amri,799,18,10,0,0
+3857260,51096,Ali Al Hassan,799,8,6,0,0
+3857260,51099,Firas Tariq Nasser Al Albirakan,799,13,19,0,0
+3857260,51103,Abdullah Mohammed Madu,799,0,0,0,0
+3857260,51469,Saleh Khalid Al Shehri,799,7,16,1,1
+3857260,51470,Riyadh Sharahili,799,3,1,0,0
+3857260,51546,Hassan Mohammed Al-Tambakti,799,10,8,0,0
+3857260,51632,Sami Khalil Al Naji,799,0,0,0,0
+3857260,51663,Mohammed Al Rubaie Al Yami,799,0,0,0,0
+3857260,51705,Abdulrahman Al-Obood,799,0,0,0,0
+3857260,51710,Saud Abdullah Abdul Hamid,799,11,6,2,0
+3857260,54144,Nawaf Shaker Al Abid,799,0,0,0,0
+3857260,54149,Nawaf Alaqidi,799,0,0,0,0
+3857260,57620,Sultan Abdullah Salim Al Ghannam,799,18,13,0,0
+3857260,74623,Nasser Al Dawsari,799,0,0,0,0
+3857260,121539,Haitham Mohammed Asiri,799,0,0,0,0
+3857260,5563,José Andrés Guardado Hernández,794,0,0,0,0
+3857260,5567,Edson Omar Álvarez Velázquez,794,34,27,0,1
+3857260,5568,Raúl Alonso Jiménez Rodríguez,794,0,0,0,0
+3857260,5571,Hirving Rodrigo Lozano Bahena,794,18,27,2,2
+3857260,5573,Héctor Alfredo Moreno Herrera,794,41,32,0,0
+3857260,5575,Héctor Miguel Herrera López,794,0,0,0,0
+3857260,5576,Jesús Daniel Gallardo Vasconcelos,794,31,19,0,0
+3857260,5577,Francisco Guillermo Ochoa Magaña,794,26,16,0,0
+3857260,11388,Néstor Alejandro Araújo Razo,794,0,0,0,0
+3857260,15452,Carlos Uriel Antuna Romero,794,0,0,0,0
+3857260,15872,Érick Gabriel Gutiérrez Galaviz,794,0,0,0,0
+3857260,26280,Orbelín Pineda Alvarado,794,17,21,1,1
+3857260,26297,Carlos Alberto Rodríguez Gómez,794,0,0,0,0
+3857260,26301,Ernesto Alexis Vega Rojas,794,13,17,0,1
+3857260,26318,Rogelio Gabriel Funes Mori,794,0,0,0,0
+3857260,26336,Johan Felipe Vásquez Ibarra,794,0,0,0,0
+3857260,26368,César Jasib Montes Castro,794,51,47,0,0
+3857260,26375,Roberto Carlos Alvarado Hernández,794,0,0,0,0
+3857260,26386,Luis Francisco Romo Barrón,794,0,0,0,0
+3857260,26389,Alfredo Talavera Díaz,794,0,0,0,0
+3857260,26400,Henry Josué Martín Mex,794,8,11,0,1
+3857260,26406,Jorge Eduardo Sánchez Ramos,794,21,20,1,0
+3857260,27896,Gerardo Daniel Arteaga Zamora,794,0,0,0,0
+3857260,28522,Rodolfo Cota Robles,794,0,0,0,0
+3857260,28825,Luis Gerardo Chávez Magallón,794,28,19,0,4
+3857260,30500,Kevin Nahin Álvarez Campos,794,0,0,0,0
+3857264,2995,Ángel Fabián Di María Hernández,779,36,38,7,2
+3857264,3090,Nicolás Hernán Otamendi,779,31,27,0,0
+3857264,5503,Lionel Andrés Messi Cuccittini,779,29,41,1,4
+3857264,5507,Nicolás Alejandro Tagliafico,779,0,0,0,1
+3857264,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3857264,6312,Franco Armani,779,0,0,0,0
+3857264,6377,Ángel Martín Correa,779,0,0,0,0
+3857264,6694,Gerónimo Rulli,779,0,0,0,0
+3857264,6909,Damián Emiliano Martínez,779,8,2,0,0
+3857264,7006,Alejandro Darío Gómez,779,0,0,0,0
+3857264,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3857264,7797,Rodrigo Javier De Paul,779,55,47,2,1
+3857264,11456,Lautaro Javier Martínez,779,0,0,0,0
+3857264,16308,Leandro Daniel Paredes,779,0,0,0,0
+3857264,19597,Marcos Javier Acuña,779,36,28,0,0
+3857264,20572,Cristian Gabriel Romero,779,21,15,0,0
+3857264,21081,Juan Marcos Foyth,779,0,0,0,0
+3857264,26404,Guido Rodríguez,779,0,0,0,0
+3857264,27768,Lisandro Martínez,779,0,0,0,0
+3857264,27886,Alexis Mac Allister,779,29,24,0,2
+3857264,28263,Gonzalo Ariel Montiel,779,0,0,0,0
+3857264,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3857264,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3857264,29201,Nahuel Molina Lucero,779,44,35,0,0
+3857264,29560,Julián Álvarez,779,14,15,0,3
+3857264,38718,Enzo Fernandez,779,47,40,0,0
+3857264,3034,Kamil Glik,789,15,13,0,0
+3857264,3637,Grzegorz Krychowiak,789,13,11,0,0
+3857264,4626,Jan Bednarek,789,0,0,0,0
+3857264,4664,Sebastian Szymański,789,0,0,0,0
+3857264,4682,Robert Gumny,789,0,0,0,0
+3857264,4685,Artur Jędrzejczyk,789,0,0,0,0
+3857264,4734,Matty Cash,789,18,13,0,0
+3857264,5660,Piotr Zieliński,789,21,16,1,0
+3857264,5665,Arkadiusz Milik,789,0,0,0,0
+3857264,5667,Kamil Grosicki,789,0,0,0,0
+3857264,5668,Robert Lewandowski,789,11,24,2,0
+3857264,5669,Wojciech Szczęsny,789,22,10,1,0
+3857264,5673,Bartosz Bereszyński,789,20,13,0,0
+3857264,7979,Przemysław Frankowski,789,12,19,0,0
+3857264,8021,Szymon Żurkowski,789,0,0,0,0
+3857264,8704,Mateusz Wieteska,789,0,0,0,0
+3857264,8714,Damian Szymański,789,0,0,0,0
+3857264,8836,Karol Świderski,789,8,9,0,0
+3857264,11508,Łukasz Skorupski,789,0,0,0,0
+3857264,11737,Krystian Bielik,789,22,25,0,0
+3857264,12493,Krzysztof Piątek,789,0,0,0,0
+3857264,24413,Kamil Grabara,789,0,0,0,0
+3857264,28453,Michał Skóraś,789,0,0,0,0
+3857264,31955,Jakub Kamiński,789,0,0,0,0
+3857264,44166,Jakub Piotr Kiwior,789,21,19,0,0
+3857264,50502,Nicola Zalewski,789,0,0,0,0
+3857266,2972,Marcus Thuram,771,0,0,0,0
+3857266,3009,Kylian Mbappé Lottin,771,22,35,1,4
+3857266,3026,Adrien Rabiot,771,24,21,0,1
+3857266,3099,Hugo Lloris,771,16,6,0,0
+3857266,3379,Alphonse Areola,771,0,0,0,0
+3857266,3543,Steve Mandanda,771,0,0,0,0
+3857266,3604,Olivier Giroud,771,8,21,0,0
+3857266,4445,Jules Koundé,771,31,24,0,0
+3857266,5476,Benjamin Pavard,771,0,0,0,0
+3857266,5477,Ousmane Dembélé,771,19,25,4,0
+3857266,5485,Raphaël Varane,771,24,22,0,0
+3857266,5487,Antoine Griezmann,771,32,27,0,1
+3857266,6704,Theo Bernard François Hernández,771,38,37,2,0
+3857266,7153,Jordan Veretout,771,0,0,0,0
+3857266,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3857266,7439,Axel Disasi,771,0,0,0,0
+3857266,8217,Kingsley Coman,771,0,0,0,0
+3857266,8519,Dayotchanculle Upamecano,771,31,23,0,0
+3857266,10481,Aurélien Djani Tchouaméni,771,33,29,0,0
+3857266,11135,Ibrahima Konaté,771,0,0,0,0
+3857266,11990,Youssouf Fofana,771,0,0,0,0
+3857266,17592,William Saliba,771,0,0,0,0
+3857266,22097,Randal Kolo Muani,771,0,0,0,0
+3857266,24778,Eduardo Camavinga,771,0,0,0,0
+3857266,3043,Christian Dannemann Eriksen,776,30,28,0,0
+3857266,3570,Pierre-Emile Højbjerg,776,37,32,1,0
+3857266,3815,Kasper Schmeichel,776,10,5,0,0
+3857266,3959,Andreas Christensen,776,39,39,0,1
+3857266,4447,Martin Braithwaite Christensen,776,0,0,0,0
+3857266,5524,Jens Stryger Larsen,776,0,0,0,0
+3857266,5534,Simon Thorup Kjær,776,0,0,0,0
+3857266,5536,Yussuf Yurary Poulsen,776,0,0,0,0
+3857266,5732,Andreas Evald Cornelius,776,15,18,0,0
+3857266,6302,Kasper Dolberg,776,0,0,0,0
+3857266,6797,Daniel Wass,776,0,0,0,0
+3857266,7097,Christian Nørgaard,776,0,0,0,0
+3857266,8247,Joachim Andersen,776,26,25,0,0
+3857266,12420,Frederik Rønnow,776,0,0,0,0
+3857266,16190,Rasmus Nissen Kristensen,776,41,36,2,0
+3857266,16294,Robert Skov,776,0,0,0,0
+3857266,16554,Joakim Mæhle,776,22,19,0,0
+3857266,17042,Andreas Skov Olsen,776,0,0,0,0
+3857266,17043,Victor Nelsson,776,41,31,0,0
+3857266,18722,Mathias Jensen,776,0,0,0,0
+3857266,21261,Jonas Older Wind,776,0,0,0,0
+3857266,24443,Mikkel Damsgaard,776,17,17,0,0
+3857266,24547,Alexander Hartmann Bah,776,0,0,0,0
+3857266,27038,Oliver Christensen,776,0,0,0,0
+3857266,27569,Jesper Lindstrøm,776,13,15,4,1
+3857289,2995,Ángel Fabián Di María Hernández,779,18,28,6,0
+3857289,3090,Nicolás Hernán Otamendi,779,56,46,0,0
+3857289,5503,Lionel Andrés Messi Cuccittini,779,20,24,2,1
+3857289,5507,Nicolás Alejandro Tagliafico,779,0,0,0,0
+3857289,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3857289,6312,Franco Armani,779,0,0,0,0
+3857289,6377,Ángel Martín Correa,779,0,0,0,0
+3857289,6694,Gerónimo Rulli,779,0,0,0,0
+3857289,6909,Damián Emiliano Martínez,779,17,10,0,0
+3857289,7006,Alejandro Darío Gómez,779,0,0,0,0
+3857289,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3857289,7797,Rodrigo Javier De Paul,779,36,30,1,0
+3857289,11456,Lautaro Javier Martínez,779,5,15,0,0
+3857289,16308,Leandro Daniel Paredes,779,0,0,0,0
+3857289,19597,Marcos Javier Acuña,779,19,15,0,0
+3857289,20572,Cristian Gabriel Romero,779,0,0,0,0
+3857289,21081,Juan Marcos Foyth,779,0,0,0,0
+3857289,26404,Guido Rodríguez,779,41,37,0,0
+3857289,27768,Lisandro Martínez,779,36,32,0,0
+3857289,27886,Alexis Mac Allister,779,25,29,1,0
+3857289,28263,Gonzalo Ariel Montiel,779,34,31,1,0
+3857289,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3857289,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3857289,29201,Nahuel Molina Lucero,779,0,0,0,0
+3857289,29560,Julián Álvarez,779,0,0,0,0
+3857289,38718,Enzo Fernandez,779,0,0,0,1
+3857289,5563,José Andrés Guardado Hernández,794,16,12,0,0
+3857289,5567,Edson Omar Álvarez Velázquez,794,0,0,0,0
+3857289,5568,Raúl Alonso Jiménez Rodríguez,794,0,0,0,0
+3857289,5571,Hirving Rodrigo Lozano Bahena,794,4,23,0,0
+3857289,5573,Héctor Alfredo Moreno Herrera,794,17,12,0,0
+3857289,5575,Héctor Miguel Herrera López,794,13,8,1,0
+3857289,5576,Jesús Daniel Gallardo Vasconcelos,794,13,6,0,0
+3857289,5577,Francisco Guillermo Ochoa Magaña,794,16,10,0,0
+3857289,11388,Néstor Alejandro Araújo Razo,794,22,19,0,0
+3857289,15452,Carlos Uriel Antuna Romero,794,0,0,0,0
+3857289,15872,Érick Gabriel Gutiérrez Galaviz,794,1,2,0,0
+3857289,26280,Orbelín Pineda Alvarado,794,0,0,0,0
+3857289,26297,Carlos Alberto Rodríguez Gómez,794,0,0,0,0
+3857289,26301,Ernesto Alexis Vega Rojas,794,6,17,0,1
+3857289,26318,Rogelio Gabriel Funes Mori,794,0,0,0,0
+3857289,26336,Johan Felipe Vásquez Ibarra,794,0,0,0,0
+3857289,26368,César Jasib Montes Castro,794,17,16,0,0
+3857289,26375,Roberto Carlos Alvarado Hernández,794,0,0,0,0
+3857289,26386,Luis Francisco Romo Barrón,794,0,0,0,0
+3857289,26389,Alfredo Talavera Díaz,794,0,0,0,0
+3857289,26400,Henry Josué Martín Mex,794,0,0,0,0
+3857289,26406,Jorge Eduardo Sánchez Ramos,794,0,0,0,0
+3857289,27896,Gerardo Daniel Arteaga Zamora,794,0,0,0,0
+3857289,28522,Rodolfo Cota Robles,794,0,0,0,0
+3857289,28825,Luis Gerardo Chávez Magallón,794,16,14,0,0
+3857289,30500,Kevin Nahin Álvarez Campos,794,15,15,2,0
+3857269,3063,Danilo Luiz da Silva,781,0,0,0,0
+3857269,3067,Ederson Santana de Moraes,781,0,0,0,0
+3857269,3202,Gabriel Fernando de Jesus,781,0,0,0,0
+3857269,3247,Fábio Henrique Tavares,781,0,0,0,0
+3857269,3280,Richarlison de Andrade,781,5,15,1,0
+3857269,3295,Thiago Emiliano da Silva,781,51,48,0,0
+3857269,4324,Daniel Alves da Silva,781,0,0,0,0
+3857269,4372,Marcos Aoás Corrêa,781,59,53,0,0
+3857269,5539,Carlos Henrique Casimiro,781,21,16,0,1
+3857269,5547,Alisson Ramsés Becker,781,9,5,0,0
+3857269,6945,Alex Sandro Lobo Silva,781,42,28,1,0
+3857269,9904,Frederico Rodrigues Santos,781,22,25,0,0
+3857269,10595,Raphael Dias Belloli,781,29,29,0,1
+3857269,11183,Alex Nicolao Telles,781,0,0,0,0
+3857269,11493,Gleison Bremer Silva Nascimento,781,0,0,0,0
+3857269,13620,Éder Gabriel Militão,781,39,34,0,0
+3857269,18395,Vinícius José Paixão de Oliveira Júnior,781,11,27,1,1
+3857269,22600,Lucas Tolentino Coelho de Lima,781,39,37,0,0
+3857269,25101,Weverton Pereira da Silva,781,0,0,0,0
+3857269,25104,Rodrygo Silva de Goes,781,0,0,0,1
+3857269,25142,Bruno Guimarães Rodriguez Moura,781,0,0,0,1
+3857269,25154,Éverton Augusto de Barros Ribeiro,781,0,0,0,0
+3857269,25305,Pedro Guilherme Abreu dos Santos,781,0,0,0,0
+3857269,25363,Antony Matheus dos Santos,781,0,0,0,0
+3857269,29976,Gabriel Teodoro Martinelli Silva,781,0,0,0,0
+3857269,3500,Granit Xhaka,773,35,31,0,0
+3857269,3533,Xherdan Shaqiri,773,0,0,0,0
+3857269,3913,Edimilson Fernandes,773,0,0,0,0
+3857269,5537,Fabian Lukas Schär,773,0,0,0,0
+3857269,5538,Denis Lemi Zakaria Lako Lado,773,0,0,0,0
+3857269,5543,Haris Seferović,773,0,0,0,0
+3857269,5544,Ricardo Iván Rodríguez Araya,773,32,22,1,0
+3857269,5545,Breel-Donald Embolo,773,3,13,1,0
+3857269,5549,Manuel Obafemi Akanji,773,41,38,0,0
+3857269,5550,Yann Sommer,773,24,17,0,0
+3857269,6983,Remo Freuler,773,26,22,2,0
+3857269,7796,Silvan Widmer,773,28,27,0,0
+3857269,8561,Fabian Frei,773,0,0,0,0
+3857269,8814,Nico Elvedi,773,42,37,0,0
+3857269,12326,Renato Steffen,773,0,0,0,0
+3857269,16016,Michel Aebischer,773,0,0,0,0
+3857269,16022,Christian Fassnacht,773,0,0,0,0
+3857269,16026,Djibril Sow,773,16,14,1,0
+3857269,17974,Gregor Kobel,773,0,0,0,0
+3857269,29003,Jonas Omlin,773,0,0,0,0
+3857269,29012,Eray Ervin Cömert,773,0,0,0,0
+3857269,30401,Ruben Vargas,773,17,17,1,0
+3857269,41655,Ardon Jashari,773,0,0,0,0
+3857269,46313,Philipp Köhn,773,0,0,0,0
+3857269,50436,Fabian Rieder,773,15,14,0,0
+3857294,2988,Memphis Depay,941,28,45,1,1
+3857294,3264,Vincent Janssen,941,0,0,0,0
+3857294,3306,Nathan Aké,941,52,48,0,0
+3857294,3311,Daley Blind,941,53,53,0,1
+3857294,3669,Virgil van Dijk,941,49,38,0,0
+3857294,4318,Davy Klaassen,941,24,29,0,0
+3857294,6994,Marten de Roon,941,43,42,0,0
+3857294,7745,Steven Berghuis,941,0,0,0,0
+3857294,7787,Stefan de Vrij,941,0,0,0,0
+3857294,7829,Wout Weghorst,941,0,0,0,0
+3857294,7838,Remko Pasveer,941,0,0,0,0
+3857294,7891,Teun Koopmeiners,941,0,0,0,0
+3857294,8069,Matthijs de Ligt,941,0,0,0,0
+3857294,8118,Frenkie de Jong,941,57,59,1,1
+3857294,8124,Tyrell Malacia,941,0,0,0,0
+3857294,8125,Denzel Dumfries,941,33,28,0,0
+3857294,8259,Steven Bergwijn,941,0,0,0,0
+3857294,8326,Andries Noppert,941,13,6,0,0
+3857294,16185,Justin Bijlow,941,0,0,0,0
+3857294,20033,Luuk de Jong,941,0,0,0,0
+3857294,20750,Cody Mathès Gakpo,941,25,32,0,1
+3857294,21547,Noa Lang,941,0,0,0,0
+3857294,21809,Jurriën David Norman Timber,941,60,53,1,0
+3857294,21879,Kenneth Taylor,941,0,0,0,0
+3857294,32712,Jeremie Frimpong,941,0,0,0,0
+3857294,39167,Xavi Simons,941,0,0,0,0
+3857294,40784,Akram Hassan Afif,3566,35,37,0,0
+3857294,124488,Hassan Khalid Al Heidos,3566,16,18,3,1
+3857294,124490,Ahmed Alaa Eldin Abdelmotaal,3566,0,0,0,0
+3857294,124492,Karim Boudiaf,3566,0,0,0,0
+3857294,124493,Boualem Khoukhi,3566,17,16,0,0
+3857294,124494,Abdelkarim Hassan Al Haj Fadlalla,3566,17,12,1,0
+3857294,124495,Almoez Ali Zainalabiddin Abdulla,3566,9,27,2,0
+3857294,124496,Saad Abdullah Al Sheeb,3566,0,0,0,0
+3857294,124500,Assim Omer Al Haj Madibo,3566,22,12,0,0
+3857294,124503,Bassam Hisham Al Rawi,3566,0,0,0,0
+3857294,124504,Tarek Salman Salman,3566,0,0,0,0
+3857294,124506,Pedro Miguel Correia,3566,21,19,0,0
+3857294,124510,Meshaal Aissa Barsham,3566,16,7,0,0
+3857294,124512,Mosaab Khoder Jibril,3566,0,0,0,0
+3857294,124514,Abdulaziz Hatem Mohammed Abdullah,3566,13,15,0,1
+3857294,124526,Salem Ali Al Hajri,3566,0,0,0,0
+3857294,124899,Ismaeel Mohammad Mohammad,3566,17,16,1,1
+3857294,124900,Homam Alamin Ahmed,3566,12,11,0,0
+3857294,124901,Mohammed Muntari,3566,0,0,0,0
+3857294,124909,Mohammed Waed Abdulwahhab Al Bayati,3566,0,0,0,0
+3857294,126962,Jassem Gaber Abdulsallam,3566,0,0,0,0
+3857294,130272,Yousef Hassan Mohamed Ali,3566,0,0,0,0
+3857294,146267,Khalid Muneer Mazeed,3566,0,0,0,0
+3857294,149463,Ali Assadalla Thaimn Qambar,3566,0,0,0,0
+3857294,150429,Mostafa Taerk Mashaal,3566,0,0,0,0
+3857294,157455,Naif Abdulraheem Al Hadhrami,3566,0,0,0,0
+3869254,3193,Bernardo Mota Veiga de Carvalho e Silva,780,33,27,0,0
+3869254,4272,João Mário Naval da Costa Eduardo,780,0,0,0,0
+3869254,5204,Bruno Miguel Borges Fernandes,780,26,23,0,0
+3869254,5205,Rui Pedro dos Santos Patrício,780,0,0,0,0
+3869254,5206,Rúben Santos Gato Alves Dias,780,25,18,0,0
+3869254,5207,Cristiano Ronaldo dos Santos Aveiro,780,0,0,0,0
+3869254,5209,Raphaël Adelino José Guerreiro,780,30,20,0,1
+3869254,5214,William Silva de Carvalho,780,36,31,0,0
+3869254,5218,André Miguel Valente Silva,780,0,0,0,0
+3869254,7005,João Pedro Cavaco Cancelo,780,0,0,0,0
+3869254,9927,Rúben Diogo Da Silva Neves,780,0,0,0,0
+3869254,10868,Ricardo Jorge Luz Horta,780,0,0,0,0
+3869254,11184,Otávio Edmilson da Silva Monteiro,780,21,22,2,1
+3869254,12041,João Félix Sequeira,780,25,29,3,0
+3869254,12169,João Maria Lobo Alves Palhinha Gonçalves,780,0,0,0,0
+3869254,16028,José Diogo Dalot Teixeira,780,21,16,1,0
+3869254,18360,Rafael Alexandre Conceição Leão,780,0,0,0,1
+3869254,18866,José Pedro Malheiro de Sá,780,0,0,0,0
+3869254,20016,Kléper Laveran Lima Ferreira,780,37,34,0,1
+3869254,32975,Diogo Meireles Costa,780,18,13,0,0
+3869254,34639,Vitor Machado Ferreira,780,0,0,0,0
+3869254,38803,Gonçalo Matias Ramos,780,9,30,1,5
+3869254,40874,Matheus Luiz Nunes,780,0,0,0,0
+3869254,143854,António João Pereira Albuquerque Tavares Silva,780,0,0,0,0
+3869254,3500,Granit Xhaka,773,32,29,0,0
+3869254,3533,Xherdan Shaqiri,773,15,23,2,1
+3869254,3913,Edimilson Fernandes,773,16,13,0,0
+3869254,5537,Fabian Lukas Schär,773,36,27,0,0
+3869254,5538,Denis Lemi Zakaria Lako Lado,773,0,0,0,0
+3869254,5543,Haris Seferović,773,0,0,0,0
+3869254,5544,Ricardo Iván Rodríguez Araya,773,36,28,0,0
+3869254,5545,Breel-Donald Embolo,773,9,13,0,0
+3869254,5549,Manuel Obafemi Akanji,773,24,19,1,1
+3869254,5550,Yann Sommer,773,20,15,0,0
+3869254,6983,Remo Freuler,773,18,17,0,1
+3869254,8561,Fabian Frei,773,0,0,0,0
+3869254,8814,Nico Elvedi,773,0,0,0,0
+3869254,12326,Renato Steffen,773,0,0,0,0
+3869254,16016,Michel Aebischer,773,0,0,0,0
+3869254,16022,Christian Fassnacht,773,0,0,0,0
+3869254,16026,Djibril Sow,773,14,12,0,0
+3869254,17974,Gregor Kobel,773,0,0,0,0
+3869254,29003,Jonas Omlin,773,0,0,0,0
+3869254,29006,Noah Okafor,773,0,0,0,0
+3869254,29012,Eray Ervin Cömert,773,0,0,0,0
+3869254,30401,Ruben Vargas,773,30,29,0,0
+3869254,41655,Ardon Jashari,773,0,0,0,0
+3869254,46313,Philipp Köhn,773,0,0,0,0
+3869254,50436,Fabian Rieder,773,0,0,0,0
+3869118,2941,Ismaïla Sarr,787,7,17,1,0
+3869118,3404,Youssouf Sabaly,787,17,9,0,0
+3869118,3675,Fodé Ballo Touré,787,0,0,0,0
+3869118,4506,Nampalys Mendy,787,23,19,0,0
+3869118,5675,Kalidou Koulibaly,787,26,20,1,0
+3869118,7379,Edouard Mendy,787,12,6,0,0
+3869118,8553,Abdou Diallo,787,23,18,0,0
+3869118,8870,Alfred Benjamin Gomis,787,0,0,0,0
+3869118,10603,Mamadou Loum N''Diaye,787,0,0,0,0
+3869118,13314,Famara Diedhiou,787,0,0,0,0
+3869118,15970,Pape Abou Cissé,787,0,0,0,0
+3869118,17456,Timothy Dieng,787,0,0,0,0
+3869118,20611,Boulaye Dia,787,5,11,1,1
+3869118,20758,Krépin Diatta,787,13,20,1,0
+3869118,21026,Pape Gueye,787,0,0,0,0
+3869118,31751,Pathé Ismaël Ciss,787,23,17,0,0
+3869118,32915,Ismail Jakobs,787,20,11,1,0
+3869118,34893,Moustapha Name,787,0,0,0,0
+3869118,39595,Formose Mendy,787,0,0,0,0
+3869118,50497,Nicolas Jackson,787,0,0,0,0
+3869118,50498,Pape Matar Sarr,787,0,0,0,0
+3869118,80484,Iliman Ndiaye,787,9,16,0,0
+3869118,88123,Cheikh Ahmadou Bamba Mbacke Dieng,787,0,0,0,0
+3869118,312414,Moussa N''Diaye,787,0,0,0,0
+3869118,3205,Kyle Walker,768,38,32,0,0
+3869118,3244,John Stones,768,54,51,0,0
+3869118,3308,Kieran Trippier,768,0,0,0,0
+3869118,3318,Marcus Rashford,768,0,0,0,0
+3869118,3336,Harry Maguire,768,48,42,0,0
+3869118,3382,Luke Shaw,768,35,28,0,0
+3869118,3468,Jordan Pickford,768,24,15,0,0
+3869118,3474,Nick Pope,768,0,0,0,0
+3869118,3532,Jordan Brian Henderson,768,21,22,0,1
+3869118,3616,Callum Wilson,768,0,0,0,0
+3869118,3664,Trent Alexander-Arnold,768,0,0,0,0
+3869118,3943,Declan Rice,768,24,18,0,0
+3869118,4354,Philip Foden,768,23,30,0,0
+3869118,4706,Kalvin Phillips,768,0,0,0,0
+3869118,7843,Mason Mount,768,0,0,0,0
+3869118,9638,Jack Grealish,768,0,0,0,0
+3869118,9905,James Maddison,768,0,0,0,0
+3869118,9928,Conor Coady,768,0,0,0,0
+3869118,10955,Harry Kane,768,15,29,1,2
+3869118,10956,Eric Dier,768,0,0,0,0
+3869118,22084,Bukayo Saka,768,22,23,0,1
+3869118,22783,Aaron Ramsdale,768,0,0,0,0
+3869118,29399,Conor Gallagher,768,0,0,0,0
+3869118,30714,Jude Bellingham,768,26,26,2,0
+3869684,3441,Nikola Vlašić,785,0,0,0,0
+3869684,3471,Dejan Lovren,785,0,0,0,0
+3869684,5456,Mateo Kovačić,785,50,48,2,0
+3869684,5460,Andrej Kramarić,785,9,14,0,1
+3869684,5463,Luka Modrić,785,43,38,1,1
+3869684,5468,Domagoj Vida,785,0,0,0,0
+3869684,5469,Marcelo Brozović,785,0,0,0,0
+3869684,5474,Ivan Perišić,785,33,28,1,0
+3869684,7693,Bruno Petković,785,0,0,0,0
+3869684,8654,Ante Budimir,785,0,0,0,0
+3869684,11127,Borna Barišić,785,0,0,0,0
+3869684,11603,Mario Pašalić,785,0,0,0,0
+3869684,12625,Borna Sosa,785,0,0,0,0
+3869684,16527,Mislav Oršić,785,15,20,0,1
+3869684,16531,Dominik Livaković,785,10,3,0,0
+3869684,22041,Marko Livaja,785,9,18,1,0
+3869684,28835,Ivica Ivušić,785,0,0,0,0
+3869684,28914,Lovro Majer,785,21,25,0,0
+3869684,29163,Josip Juranović,785,0,0,0,0
+3869684,29342,Ivo Grbić,785,0,0,0,0
+3869684,32602,Kristijan Jakić,785,0,0,0,0
+3869684,32689,Martin Erlić,785,0,0,0,0
+3869684,33018,Joško Gvardiol,785,47,43,0,1
+3869684,37148,Josip Šutalo,785,43,40,0,0
+3869684,39490,Luka Sučić,785,0,0,0,0
+3869684,49337,Josip Stanišić,785,26,17,0,0
+3869684,3625,Sofiane Boufal,788,13,25,1,0
+3869684,3634,Abdelhamid Sabiri,788,10,16,1,0
+3869684,5219,Romain Saïss,788,0,0,0,0
+3869684,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3869684,5234,Sofyan Amrabat,788,12,9,0,0
+3869684,5237,Hakim Ziyech,788,29,27,3,0
+3869684,5245,Achraf Hakimi Mouh,788,34,27,0,0
+3869684,6301,Youssef En-Nesyri,788,9,12,0,1
+3869684,6785,Yassine Bounou,788,22,12,0,0
+3869684,7459,Jawad El Yamiq,788,22,19,0,0
+3869684,12149,Nayef Aguerd,788,0,0,0,0
+3869684,21214,Ilias Chair,788,0,0,0,0
+3869684,21736,Zakaria Aboukhlal,788,0,0,0,0
+3869684,23774,Selim Amallah,788,0,0,0,0
+3869684,31295,Yahia Attiyat allah,788,22,21,0,0
+3869684,46258,Azzedine Ounahi,788,0,0,0,0
+3869684,59493,Abderrazak Hamdallah,788,0,0,0,0
+3869684,67700,Badr Banoun,788,0,0,0,0
+3869684,102668,Yahya Jabrane,788,0,0,0,0
+3869684,131037,Anass Zaroury,788,0,0,0,0
+3869684,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3869684,139016,Achraf Dari,788,22,19,0,1
+3869684,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3869684,156734,Bilal El Khannous,788,22,23,0,0
+3869684,296254,Walid Cheddira,788,0,0,0,0
+3869519,2995,Ángel Fabián Di María Hernández,779,0,0,0,0
+3869519,3090,Nicolás Hernán Otamendi,779,26,20,0,0
+3869519,5503,Lionel Andrés Messi Cuccittini,779,21,27,4,2
+3869519,5507,Nicolás Alejandro Tagliafico,779,12,10,0,0
+3869519,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3869519,6312,Franco Armani,779,0,0,0,0
+3869519,6377,Ángel Martín Correa,779,0,0,0,0
+3869519,6694,Gerónimo Rulli,779,0,0,0,0
+3869519,6909,Damián Emiliano Martínez,779,10,3,0,0
+3869519,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3869519,7797,Rodrigo Javier De Paul,779,29,31,0,0
+3869519,11456,Lautaro Javier Martínez,779,0,0,0,0
+3869519,16308,Leandro Daniel Paredes,779,27,19,0,1
+3869519,20572,Cristian Gabriel Romero,779,21,15,0,0
+3869519,21081,Juan Marcos Foyth,779,0,0,0,0
+3869519,26404,Guido Rodríguez,779,0,0,0,0
+3869519,27768,Lisandro Martínez,779,0,0,0,0
+3869519,27886,Alexis Mac Allister,779,14,23,1,1
+3869519,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3869519,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3869519,29201,Nahuel Molina Lucero,779,23,22,0,0
+3869519,29560,Julián Álvarez,779,10,19,0,2
+3869519,38718,Enzo Fernandez,779,27,28,2,1
+3869519,3441,Nikola Vlašić,785,0,0,0,0
+3869519,3471,Dejan Lovren,785,39,36,0,0
+3869519,5456,Mateo Kovačić,785,42,43,2,0
+3869519,5460,Andrej Kramarić,785,23,26,1,0
+3869519,5463,Luka Modrić,785,40,32,2,0
+3869519,5468,Domagoj Vida,785,0,0,0,0
+3869519,5469,Marcelo Brozović,785,46,44,1,0
+3869519,5474,Ivan Perišić,785,21,18,1,1
+3869519,7693,Bruno Petković,785,0,0,0,0
+3869519,8654,Ante Budimir,785,0,0,0,0
+3869519,11127,Borna Barišić,785,0,0,0,0
+3869519,11603,Mario Pašalić,785,12,15,1,0
+3869519,12625,Borna Sosa,785,34,34,1,0
+3869519,16527,Mislav Oršić,785,0,0,0,0
+3869519,16531,Dominik Livaković,785,18,12,0,0
+3869519,22041,Marko Livaja,785,0,0,0,0
+3869519,28835,Ivica Ivušić,785,0,0,0,0
+3869519,28914,Lovro Majer,785,0,0,0,1
+3869519,29163,Josip Juranović,785,33,27,0,0
+3869519,29342,Ivo Grbić,785,0,0,0,0
+3869519,32602,Kristijan Jakić,785,0,0,0,0
+3869519,32689,Martin Erlić,785,0,0,0,0
+3869519,33018,Joško Gvardiol,785,37,32,0,0
+3869519,37148,Josip Šutalo,785,0,0,0,0
+3869519,39490,Luka Sučić,785,0,0,0,0
+3869519,49337,Josip Stanišić,785,0,0,0,0
+3869354,2972,Marcus Thuram,771,0,0,0,0
+3869354,3009,Kylian Mbappé Lottin,771,16,22,3,0
+3869354,3026,Adrien Rabiot,771,25,23,0,1
+3869354,3099,Hugo Lloris,771,10,5,0,0
+3869354,3379,Alphonse Areola,771,0,0,0,0
+3869354,3543,Steve Mandanda,771,0,0,0,0
+3869354,3604,Olivier Giroud,771,4,9,0,3
+3869354,4445,Jules Koundé,771,27,20,0,0
+3869354,5476,Benjamin Pavard,771,0,0,0,0
+3869354,5477,Ousmane Dembélé,771,28,31,1,0
+3869354,5485,Raphaël Varane,771,27,23,0,0
+3869354,5487,Antoine Griezmann,771,28,27,2,0
+3869354,6704,Theo Bernard François Hernández,771,21,22,0,0
+3869354,7153,Jordan Veretout,771,0,0,0,0
+3869354,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3869354,7439,Axel Disasi,771,0,0,0,0
+3869354,8217,Kingsley Coman,771,0,0,0,0
+3869354,8519,Dayotchanculle Upamecano,771,30,24,0,0
+3869354,10481,Aurélien Djani Tchouaméni,771,25,24,0,1
+3869354,11135,Ibrahima Konaté,771,0,0,0,0
+3869354,11990,Youssouf Fofana,771,0,0,0,0
+3869354,17592,William Saliba,771,0,0,0,0
+3869354,22097,Randal Kolo Muani,771,0,0,0,0
+3869354,24778,Eduardo Camavinga,771,0,0,0,0
+3869354,3205,Kyle Walker,768,29,17,1,0
+3869354,3233,Raheem Sterling,768,0,0,0,0
+3869354,3244,John Stones,768,46,46,1,0
+3869354,3308,Kieran Trippier,768,0,0,0,0
+3869354,3318,Marcus Rashford,768,0,0,0,0
+3869354,3336,Harry Maguire,768,60,58,0,0
+3869354,3382,Luke Shaw,768,44,34,0,1
+3869354,3468,Jordan Pickford,768,9,3,0,0
+3869354,3474,Nick Pope,768,0,0,0,0
+3869354,3532,Jordan Brian Henderson,768,30,33,0,0
+3869354,3616,Callum Wilson,768,0,0,0,0
+3869354,3664,Trent Alexander-Arnold,768,0,0,0,0
+3869354,3943,Declan Rice,768,41,42,1,0
+3869354,4354,Philip Foden,768,16,22,1,0
+3869354,4706,Kalvin Phillips,768,0,0,0,0
+3869354,7843,Mason Mount,768,0,0,0,0
+3869354,9638,Jack Grealish,768,0,0,0,0
+3869354,9905,James Maddison,768,0,0,0,0
+3869354,9928,Conor Coady,768,0,0,0,0
+3869354,10955,Harry Kane,768,10,15,0,4
+3869354,10956,Eric Dier,768,0,0,0,0
+3869354,22084,Bukayo Saka,768,16,21,1,1
+3869354,22783,Aaron Ramsdale,768,0,0,0,0
+3869354,29399,Conor Gallagher,768,0,0,0,0
+3869354,30714,Jude Bellingham,768,29,26,1,1
+3869552,2972,Marcus Thuram,771,0,0,0,0
+3869552,3009,Kylian Mbappé Lottin,771,9,19,3,0
+3869552,3099,Hugo Lloris,771,14,5,0,0
+3869552,3379,Alphonse Areola,771,0,0,0,0
+3869552,3543,Steve Mandanda,771,0,0,0,0
+3869552,3604,Olivier Giroud,771,9,12,0,0
+3869552,4445,Jules Koundé,771,28,21,0,0
+3869552,5476,Benjamin Pavard,771,0,0,0,0
+3869552,5477,Ousmane Dembélé,771,13,12,2,0
+3869552,5485,Raphaël Varane,771,34,35,0,0
+3869552,5487,Antoine Griezmann,771,15,15,0,0
+3869552,6704,Theo Bernard François Hernández,771,17,10,0,1
+3869552,7153,Jordan Veretout,771,0,0,0,0
+3869552,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3869552,7439,Axel Disasi,771,0,0,0,0
+3869552,8217,Kingsley Coman,771,0,0,0,0
+3869552,8519,Dayotchanculle Upamecano,771,0,0,0,0
+3869552,10481,Aurélien Djani Tchouaméni,771,28,22,0,0
+3869552,11135,Ibrahima Konaté,771,27,24,0,0
+3869552,11990,Youssouf Fofana,771,18,14,0,0
+3869552,17592,William Saliba,771,0,0,0,0
+3869552,22097,Randal Kolo Muani,771,0,0,0,1
+3869552,24778,Eduardo Camavinga,771,0,0,0,0
+3869552,3625,Sofiane Boufal,788,12,19,0,0
+3869552,3634,Abdelhamid Sabiri,788,0,0,0,0
+3869552,5219,Romain Saïss,788,17,17,0,0
+3869552,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3869552,5234,Sofyan Amrabat,788,27,26,0,0
+3869552,5237,Hakim Ziyech,788,27,26,4,0
+3869552,5245,Achraf Hakimi Mouh,788,29,31,0,0
+3869552,6301,Youssef En-Nesyri,788,3,4,1,0
+3869552,6785,Yassine Bounou,788,19,12,0,0
+3869552,7459,Jawad El Yamiq,788,45,40,0,0
+3869552,12149,Nayef Aguerd,788,0,0,0,0
+3869552,15890,Noussair Mazraoui,788,22,20,1,0
+3869552,21214,Ilias Chair,788,0,0,0,0
+3869552,21736,Zakaria Aboukhlal,788,0,0,0,0
+3869552,23774,Selim Amallah,788,12,13,1,0
+3869552,31295,Yahia Attiyat allah,788,0,0,0,0
+3869552,46258,Azzedine Ounahi,788,38,35,2,1
+3869552,59493,Abderrazak Hamdallah,788,0,0,0,0
+3869552,67700,Badr Banoun,788,0,0,0,0
+3869552,102668,Yahya Jabrane,788,0,0,0,0
+3869552,131037,Anass Zaroury,788,0,0,0,0
+3869552,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3869552,139016,Achraf Dari,788,27,24,0,0
+3869552,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3869552,156734,Bilal El Khannous,788,0,0,0,0
+3869420,3063,Danilo Luiz da Silva,781,45,36,0,0
+3869420,3067,Ederson Santana de Moraes,781,0,0,0,0
+3869420,3247,Fábio Henrique Tavares,781,0,0,0,0
+3869420,3280,Richarlison de Andrade,781,5,16,1,0
+3869420,3295,Thiago Emiliano da Silva,781,47,37,0,0
+3869420,4320,Neymar da Silva Santos Junior,781,18,23,5,5
+3869420,4324,Daniel Alves da Silva,781,0,0,0,0
+3869420,4372,Marcos Aoás Corrêa,781,42,40,1,0
+3869420,5539,Carlos Henrique Casimiro,781,24,23,0,2
+3869420,5547,Alisson Ramsés Becker,781,13,7,0,0
+3869420,6945,Alex Sandro Lobo Silva,781,0,0,0,0
+3869420,9904,Frederico Rodrigues Santos,781,0,0,0,0
+3869420,10595,Raphael Dias Belloli,781,17,20,0,0
+3869420,11493,Gleison Bremer Silva Nascimento,781,0,0,0,0
+3869420,13620,Éder Gabriel Militão,781,41,34,0,0
+3869420,18395,Vinícius José Paixão de Oliveira Júnior,781,9,18,2,1
+3869420,22600,Lucas Tolentino Coelho de Lima,781,33,32,1,2
+3869420,25101,Weverton Pereira da Silva,781,0,0,0,0
+3869420,25104,Rodrygo Silva de Goes,781,0,0,0,1
+3869420,25142,Bruno Guimarães Rodriguez Moura,781,0,0,0,0
+3869420,25154,Éverton Augusto de Barros Ribeiro,781,0,0,0,0
+3869420,25305,Pedro Guilherme Abreu dos Santos,781,0,0,0,2
+3869420,25363,Antony Matheus dos Santos,781,0,0,0,1
+3869420,29976,Gabriel Teodoro Martinelli Silva,781,0,0,0,0
+3869420,3441,Nikola Vlašić,785,0,0,0,1
+3869420,3471,Dejan Lovren,785,33,30,0,0
+3869420,5456,Mateo Kovačić,785,31,29,1,0
+3869420,5460,Andrej Kramarić,785,14,20,1,0
+3869420,5463,Luka Modrić,785,38,37,0,1
+3869420,5468,Domagoj Vida,785,0,0,0,0
+3869420,5469,Marcelo Brozović,785,39,26,1,0
+3869420,5474,Ivan Perišić,785,9,18,0,0
+3869420,7693,Bruno Petković,785,0,0,0,1
+3869420,8654,Ante Budimir,785,0,0,0,0
+3869420,11127,Borna Barišić,785,0,0,0,0
+3869420,11603,Mario Pašalić,785,21,33,1,0
+3869420,12625,Borna Sosa,785,20,16,0,0
+3869420,16527,Mislav Oršić,785,0,0,0,1
+3869420,16531,Dominik Livaković,785,17,10,0,0
+3869420,22041,Marko Livaja,785,0,0,0,0
+3869420,28835,Ivica Ivušić,785,0,0,0,0
+3869420,28914,Lovro Majer,785,0,0,0,1
+3869420,29163,Josip Juranović,785,36,27,0,0
+3869420,29342,Ivo Grbić,785,0,0,0,0
+3869420,32602,Kristijan Jakić,785,0,0,0,0
+3869420,32689,Martin Erlić,785,0,0,0,0
+3869420,33018,Joško Gvardiol,785,25,21,1,0
+3869420,37148,Josip Šutalo,785,0,0,0,0
+3869420,39490,Luka Sučić,785,0,0,0,0
+3869420,49337,Josip Stanišić,785,0,0,0,0
+3869220,3477,Álvaro Borja Morata Martín,772,0,0,0,0
+3869220,3957,César Azpilicueta Tanco,772,0,0,0,0
+3869220,4127,David Raya Martin,772,0,0,0,0
+3869220,4353,Aymeric Laporte,772,71,69,0,0
+3869220,5199,Jorge Resurrección Merodio,772,0,0,0,0
+3869220,5203,Sergio Busquets i Burgos,772,25,20,0,1
+3869220,5211,Jordi Alba Ramos,772,52,43,2,0
+3869220,5719,Marco Asensio Willemsen,772,8,16,0,0
+3869220,5721,Daniel Carvajal Ramos,772,0,0,0,0
+3869220,6583,Carlos Soler Barragán,772,0,0,0,1
+3869220,6720,Pablo Sarabia García,772,0,0,0,0
+3869220,6748,Ferrán Torres García,772,16,21,3,0
+3869220,6765,Rodrigo Hernández Cascante,772,79,68,0,0
+3869220,6840,Marcos Llorente Moreno,772,32,26,0,0
+3869220,6892,Pau Francisco Torres,772,0,0,0,0
+3869220,9843,Robert Lynch Sanchez,772,0,0,0,0
+3869220,11748,Unai Simón Mendibil,772,11,4,0,0
+3869220,16532,Daniel Olmo Carvajal,772,20,23,1,1
+3869220,30486,Pedro González López,772,55,54,3,0
+3869220,30756,Anssumane Fati,772,0,0,0,0
+3869220,31953,Eric García Martret,772,0,0,0,0
+3869220,35641,Hugo Guillamón Sanmartín,772,0,0,0,0
+3869220,39161,Alejandro Balde Martínez,772,0,0,0,0
+3869220,50494,Yeremi Jesús Pino Santos,772,0,0,0,0
+3869220,68574,Nicholas Williams Arthuer,772,0,0,0,0
+3869220,133353,Pablo Martín Páez Gavira,772,19,27,0,0
+3869220,3625,Sofiane Boufal,788,13,16,7,0
+3869220,3634,Abdelhamid Sabiri,788,0,0,0,1
+3869220,5219,Romain Saïss,788,16,12,1,0
+3869220,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3869220,5234,Sofyan Amrabat,788,22,15,0,0
+3869220,5237,Hakim Ziyech,788,16,18,1,1
+3869220,5245,Achraf Hakimi Mouh,788,28,20,0,1
+3869220,6301,Youssef En-Nesyri,788,8,12,0,0
+3869220,6785,Yassine Bounou,788,22,13,0,0
+3869220,7459,Jawad El Yamiq,788,0,0,0,0
+3869220,12149,Nayef Aguerd,788,18,14,0,0
+3869220,15890,Noussair Mazraoui,788,19,13,0,1
+3869220,21214,Ilias Chair,788,0,0,0,0
+3869220,21736,Zakaria Aboukhlal,788,0,0,0,0
+3869220,23774,Selim Amallah,788,8,5,0,0
+3869220,31295,Yahia Attiyat allah,788,0,0,0,0
+3869220,46258,Azzedine Ounahi,788,20,18,0,0
+3869220,59493,Abderrazak Hamdallah,788,0,0,0,0
+3869220,67700,Badr Banoun,788,0,0,0,1
+3869220,102668,Yahya Jabrane,788,0,0,0,0
+3869220,131037,Anass Zaroury,788,0,0,0,0
+3869220,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3869220,139016,Achraf Dari,788,0,0,0,0
+3869220,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3869220,156734,Bilal El Khannous,788,0,0,0,0
+3869220,296254,Walid Cheddira,788,0,0,0,1
+3869219,3175,Eiji Kawashima,778,0,0,0,0
+3869219,3300,Maya Yoshida,778,18,14,0,1
+3869219,3530,Hiroki Sakai,778,0,0,0,0
+3869219,5690,Yuto Nagatomo,778,26,15,1,0
+3869219,5693,Gaku Shibasaki,778,0,0,0,0
+3869219,8361,Ritsu Doan,778,21,22,2,1
+3869219,8776,Takumi Minamino,778,0,0,0,1
+3869219,8949,Takuma Asano,778,0,0,0,1
+3869219,9411,Daichi Kamada,778,23,25,4,0
+3869219,23527,Junya Ito,778,21,19,0,0
+3869219,23721,Wataru Endo,778,29,26,0,1
+3869219,23730,Takehiro Tomiyasu,778,35,27,0,0
+3869219,25719,Shūichi Gonda,778,8,4,0,0
+3869219,29366,Daniel Schmidt,778,0,0,0,0
+3869219,30628,Daizen Maeda,778,5,13,0,1
+3869219,37122,Yuki Soma,778,0,0,0,0
+3869219,37208,Ao Tanaka,778,0,0,0,0
+3869219,37209,Miki Yamane,778,0,0,0,0
+3869219,37211,Kaoru Mitoma,778,0,0,0,2
+3869219,37215,Shogo Taniguchi,778,22,21,0,0
+3869219,37221,Hidemasa Morita,778,32,32,0,0
+3869219,38285,Ayase Ueda,778,0,0,0,0
+3869219,95272,Hiroki Ito,778,0,0,0,0
+3869219,100436,Shuto Machino,778,0,0,0,0
+3869219,3441,Nikola Vlašić,785,0,0,0,1
+3869219,3471,Dejan Lovren,785,46,40,0,0
+3869219,5456,Mateo Kovačić,785,32,33,1,0
+3869219,5460,Andrej Kramarić,785,15,17,0,0
+3869219,5463,Luka Modrić,785,43,43,1,1
+3869219,5468,Domagoj Vida,785,0,0,0,0
+3869219,5469,Marcelo Brozović,785,52,51,0,1
+3869219,5474,Ivan Perišić,785,18,19,0,2
+3869219,7693,Bruno Petković,785,11,17,0,0
+3869219,8654,Ante Budimir,785,0,0,0,0
+3869219,11127,Borna Barišić,785,31,21,0,0
+3869219,11603,Mario Pašalić,785,0,0,0,1
+3869219,16527,Mislav Oršić,785,0,0,0,0
+3869219,16531,Dominik Livaković,785,16,5,0,0
+3869219,22041,Marko Livaja,785,0,0,0,1
+3869219,28835,Ivica Ivušić,785,0,0,0,0
+3869219,28914,Lovro Majer,785,0,0,0,0
+3869219,29163,Josip Juranović,785,32,33,0,0
+3869219,29342,Ivo Grbić,785,0,0,0,0
+3869219,32602,Kristijan Jakić,785,0,0,0,0
+3869219,32689,Martin Erlić,785,0,0,0,0
+3869219,33018,Joško Gvardiol,785,44,35,0,0
+3869219,37148,Josip Šutalo,785,0,0,0,0
+3869219,39490,Luka Sučić,785,0,0,0,0
+3869253,3063,Danilo Luiz da Silva,781,49,45,0,0
+3869253,3067,Ederson Santana de Moraes,781,0,0,0,0
+3869253,3247,Fábio Henrique Tavares,781,0,0,0,0
+3869253,3280,Richarlison de Andrade,781,9,21,1,2
+3869253,3295,Thiago Emiliano da Silva,781,48,45,0,0
+3869253,4320,Neymar da Silva Santos Junior,781,32,34,3,1
+3869253,4324,Daniel Alves da Silva,781,0,0,0,0
+3869253,4372,Marcos Aoás Corrêa,781,40,35,0,0
+3869253,5539,Carlos Henrique Casimiro,781,42,32,0,0
+3869253,5547,Alisson Ramsés Becker,781,13,7,0,0
+3869253,9904,Frederico Rodrigues Santos,781,0,0,0,0
+3869253,10595,Raphael Dias Belloli,781,25,28,3,3
+3869253,11493,Gleison Bremer Silva Nascimento,781,0,0,0,1
+3869253,13620,Éder Gabriel Militão,781,38,30,0,0
+3869253,18395,Vinícius José Paixão de Oliveira Júnior,781,20,26,1,1
+3869253,22600,Lucas Tolentino Coelho de Lima,781,27,33,0,2
+3869253,25101,Weverton Pereira da Silva,781,0,0,0,0
+3869253,25104,Rodrygo Silva de Goes,781,0,0,0,0
+3869253,25142,Bruno Guimarães Rodriguez Moura,781,0,0,0,0
+3869253,25154,Éverton Augusto de Barros Ribeiro,781,0,0,0,0
+3869253,25305,Pedro Guilherme Abreu dos Santos,781,0,0,0,0
+3869253,25363,Antony Matheus dos Santos,781,0,0,0,0
+3869253,29976,Gabriel Teodoro Martinelli Silva,781,0,0,0,0
+3869253,3083,Heung-Min Son,791,20,26,2,1
+3869253,3135,Chang-Hoon Kwon,791,0,0,0,0
+3869253,5604,Young-Gwon Kim,791,29,22,0,0
+3869253,5618,Woo-Young Jung,791,36,30,0,0
+3869253,5619,Hyeon-Woo Jo,791,0,0,0,0
+3869253,5620,Hee-Chan Hwang,791,18,30,6,4
+3869253,5623,Jae-Sung Lee,791,28,27,0,0
+3869253,5986,Chul Hong,791,0,0,0,0
+3869253,22067,Woo-Yeong Jeong,791,0,0,0,0
+3869253,22740,Kang-In Lee,791,0,0,0,0
+3869253,23264,Seung-Ho Paik,791,0,0,0,1
+3869253,23763,In-Beom Hwang,791,33,34,1,0
+3869253,29966,Ui-Jo Hwang,791,0,0,0,0
+3869253,37641,Seung-Gyu Kim,791,10,2,0,0
+3869253,40538,Jin-Su Kim,791,26,19,0,0
+3869253,40542,Gue-Sung Cho,791,9,21,0,0
+3869253,40550,Bum-Keun Song,791,0,0,0,0
+3869253,40558,Jun-Ho Son,791,0,0,0,0
+3869253,40564,Kyung-Won Kwon,791,0,0,0,0
+3869253,40578,Tae-Hwan Kim,791,0,0,0,0
+3869253,40664,Min-Kyu Song,791,0,0,0,0
+3869253,40672,Moon-Hwan Kim,791,24,20,1,0
+3869253,41495,Jong-Gyu Yoon,791,0,0,0,0
+3869253,41711,Sang-Ho Na,791,0,0,0,0
+3869253,43565,Min Jae Kim,791,27,25,0,0
+3869253,99479,Yu-Min Cho,791,0,0,0,0
+3869152,2972,Marcus Thuram,771,0,0,0,0
+3869152,3009,Kylian Mbappé Lottin,771,22,38,4,3
+3869152,3026,Adrien Rabiot,771,34,31,0,0
+3869152,3099,Hugo Lloris,771,15,6,0,0
+3869152,3379,Alphonse Areola,771,0,0,0,0
+3869152,3543,Steve Mandanda,771,0,0,0,0
+3869152,3604,Olivier Giroud,771,6,9,0,1
+3869152,4445,Jules Koundé,771,34,24,1,1
+3869152,5476,Benjamin Pavard,771,0,0,0,0
+3869152,5477,Ousmane Dembélé,771,21,21,0,1
+3869152,5485,Raphaël Varane,771,22,20,0,0
+3869152,5487,Antoine Griezmann,771,23,17,0,1
+3869152,6704,Theo Bernard François Hernández,771,41,29,0,0
+3869152,7153,Jordan Veretout,771,0,0,0,0
+3869152,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3869152,7439,Axel Disasi,771,0,0,0,0
+3869152,8217,Kingsley Coman,771,0,0,0,0
+3869152,8519,Dayotchanculle Upamecano,771,35,32,0,0
+3869152,10481,Aurélien Djani Tchouaméni,771,48,46,1,1
+3869152,11135,Ibrahima Konaté,771,0,0,0,0
+3869152,11990,Youssouf Fofana,771,0,0,0,0
+3869152,17592,William Saliba,771,0,0,0,0
+3869152,22097,Randal Kolo Muani,771,0,0,0,0
+3869152,24778,Eduardo Camavinga,771,0,0,0,0
+3869152,3034,Kamil Glik,789,23,18,0,0
+3869152,3637,Grzegorz Krychowiak,789,28,25,1,0
+3869152,4626,Jan Bednarek,789,0,0,0,0
+3869152,4664,Sebastian Szymański,789,12,9,1,0
+3869152,4682,Robert Gumny,789,0,0,0,0
+3869152,4685,Artur Jędrzejczyk,789,0,0,0,0
+3869152,4734,Matty Cash,789,23,18,0,0
+3869152,5660,Piotr Zieliński,789,27,25,1,1
+3869152,5665,Arkadiusz Milik,789,0,0,0,0
+3869152,5667,Kamil Grosicki,789,0,0,0,0
+3869152,5668,Robert Lewandowski,789,14,22,0,1
+3869152,5669,Wojciech Szczęsny,789,19,10,0,0
+3869152,5673,Bartosz Bereszyński,789,25,20,4,0
+3869152,7979,Przemysław Frankowski,789,11,19,0,0
+3869152,8021,Szymon Żurkowski,789,0,0,0,0
+3869152,8704,Mateusz Wieteska,789,0,0,0,0
+3869152,8714,Damian Szymański,789,0,0,0,0
+3869152,8836,Karol Świderski,789,0,0,0,0
+3869152,11508,Łukasz Skorupski,789,0,0,0,0
+3869152,11737,Krystian Bielik,789,0,0,0,0
+3869152,12493,Krzysztof Piątek,789,0,0,0,0
+3869152,24413,Kamil Grabara,789,0,0,0,0
+3869152,28453,Michał Skóraś,789,0,0,0,0
+3869152,31955,Jakub Kamiński,789,12,14,2,0
+3869152,44166,Jakub Piotr Kiwior,789,43,40,0,0
+3869152,50502,Nicola Zalewski,789,0,0,0,0
+3869117,2988,Memphis Depay,941,15,22,2,3
+3869117,3264,Vincent Janssen,941,0,0,0,0
+3869117,3306,Nathan Aké,941,18,14,0,0
+3869117,3311,Daley Blind,941,19,14,1,1
+3869117,3669,Virgil van Dijk,941,29,20,0,0
+3869117,4318,Davy Klaassen,941,16,11,0,0
+3869117,6994,Marten de Roon,941,17,10,0,0
+3869117,7745,Steven Berghuis,941,0,0,0,0
+3869117,7787,Stefan de Vrij,941,0,0,0,0
+3869117,7829,Wout Weghorst,941,0,0,0,0
+3869117,7838,Remko Pasveer,941,0,0,0,0
+3869117,7891,Teun Koopmeiners,941,0,0,0,1
+3869117,8069,Matthijs de Ligt,941,0,0,0,0
+3869117,8118,Frenkie de Jong,941,16,12,0,0
+3869117,8124,Tyrell Malacia,941,0,0,0,0
+3869117,8125,Denzel Dumfries,941,21,21,1,1
+3869117,8259,Steven Bergwijn,941,0,0,0,0
+3869117,8326,Andries Noppert,941,18,11,0,0
+3869117,16185,Justin Bijlow,941,0,0,0,0
+3869117,20033,Luuk de Jong,941,0,0,0,0
+3869117,20750,Cody Mathès Gakpo,941,8,11,1,0
+3869117,21547,Noa Lang,941,0,0,0,0
+3869117,21809,Jurriën David Norman Timber,941,22,18,0,0
+3869117,21879,Kenneth Taylor,941,0,0,0,0
+3869117,32712,Jeremie Frimpong,941,0,0,0,0
+3869117,39167,Xavi Simons,941,0,0,0,0
+3869117,3377,Timothy Weah,1839,19,19,0,1
+3869117,3658,DeAndre Yedlin,1839,0,0,0,0
+3869117,4614,Antonee Robinson,1839,40,33,2,0
+3869117,6806,Shaquell Moore,1839,0,0,0,0
+3869117,8246,Christian Pulisic,1839,14,24,2,3
+3869117,8526,Weston McKennie,1839,25,26,0,0
+3869117,12352,Matthew Charles Turner,1839,13,9,0,0
+3869117,12524,Walker Zimmerman,1839,50,45,0,0
+3869117,12746,Sean Johnson,1839,0,0,0,0
+3869117,12751,Tyler Adams,1839,46,36,0,0
+3869117,12757,Aaron Long,1839,0,0,0,0
+3869117,13035,Kellyn Kai Perry-Acosta,1839,0,0,0,0
+3869117,13442,Cristian Roldán León,1839,0,0,0,0
+3869117,15971,Cameron Carter-Vickers,1839,0,0,0,0
+3869117,18242,Tim Ream,1839,58,47,0,1
+3869117,21201,Ethan Horvath,1839,0,0,0,0
+3869117,21881,Sergino Dest,1839,31,33,1,0
+3869117,22008,Haji Wright,1839,0,0,0,1
+3869117,22168,Joshua Sargent,1839,0,0,0,0
+3869117,22433,Jesus Ferreira,1839,20,24,0,0
+3869117,23789,Jordan Morris,1839,0,0,0,0
+3869117,24243,Brenden Aaronson,1839,0,0,0,0
+3869117,33274,Luca de la Torre,1839,0,0,0,0
+3869117,34339,Giovanni Reyna,1839,0,0,0,0
+3869117,36830,Joseph Scally,1839,0,0,0,0
+3869117,38792,Yunus Dimoara Musah,1839,24,24,0,0
+3857270,3193,Bernardo Mota Veiga de Carvalho e Silva,780,36,36,1,0
+3857270,4272,João Mário Naval da Costa Eduardo,780,0,0,0,0
+3857270,5204,Bruno Miguel Borges Fernandes,780,32,36,0,3
+3857270,5205,Rui Pedro dos Santos Patrício,780,0,0,0,0
+3857270,5206,Rúben Santos Gato Alves Dias,780,42,34,0,0
+3857270,5207,Cristiano Ronaldo dos Santos Aveiro,780,26,29,0,0
+3857270,5209,Raphaël Adelino José Guerreiro,780,7,4,0,0
+3857270,5214,William Silva de Carvalho,780,42,38,0,0
+3857270,5218,André Miguel Valente Silva,780,0,0,0,0
+3857270,7005,João Pedro Cavaco Cancelo,780,33,28,1,0
+3857270,9927,Rúben Diogo Da Silva Neves,780,38,34,0,0
+3857270,10868,Ricardo Jorge Luz Horta,780,0,0,0,0
+3857270,12041,João Félix Sequeira,780,23,31,0,0
+3857270,12169,João Maria Lobo Alves Palhinha Gonçalves,780,0,0,0,0
+3857270,16028,José Diogo Dalot Teixeira,780,0,0,0,0
+3857270,18360,Rafael Alexandre Conceição Leão,780,0,0,0,0
+3857270,18866,José Pedro Malheiro de Sá,780,0,0,0,0
+3857270,20016,Kléper Laveran Lima Ferreira,780,35,26,0,0
+3857270,32975,Diogo Meireles Costa,780,19,16,0,0
+3857270,34639,Vitor Machado Ferreira,780,0,0,0,0
+3857270,38803,Gonçalo Matias Ramos,780,0,0,0,0
+3857270,40874,Matheus Luiz Nunes,780,0,0,0,0
+3857270,41092,Nuno Mendes,780,34,28,2,0
+3857270,143854,António João Pereira Albuquerque Tavares Silva,780,0,0,0,0
+3857270,4319,Edinson Roberto Cavani Gómez,783,11,11,0,0
+3857270,5246,Luis Alberto Suárez Díaz,783,0,0,0,0
+3857270,5248,José Martín Cáceres Silva,783,0,0,0,0
+3857270,5249,Diego Roberto Godín Leal,783,17,9,0,0
+3857270,5255,Matías Vecino Falero,783,13,11,0,0
+3857270,5258,Giorgian Daniel De Arrascaeta Benedetti,783,0,0,0,1
+3857270,5259,José María Giménez de Vargas,783,15,9,1,0
+3857270,5260,Rodrigo Bentancur Colmán,783,19,13,2,1
+3857270,5264,Guillermo Varela Olivera,783,10,6,0,0
+3857270,5266,Lucas Torreira Di Pascua,783,0,0,0,0
+3857270,5267,Néstor Fernando Muslera Micol,783,0,0,0,0
+3857270,6297,Maximiliano Gómez González,783,0,0,0,0
+3857270,6300,Sebastián Coates Nión,783,15,7,0,0
+3857270,6773,Federico Santiago Valverde Dipetta,783,15,9,0,0
+3857270,7104,Mathías Olivera Miramontes,783,20,14,0,0
+3857270,26323,Carlos Sebastián Sosa Silva,783,0,0,0,0
+3857270,28729,Diego Nicolás De La Cruz Arcosa,783,0,0,0,0
+3857270,32478,Darwin Gabriel Núñez Ribeiro,783,12,12,0,1
+3857270,33099,José Luis Rodríguez Bebanz,783,0,0,0,0
+3857270,34476,Matías Nicolás Viña Susperreguy,783,0,0,0,0
+3857270,36288,Facundo Pellistri Rebollo,783,0,0,0,0
+3857270,36659,Manuel Ugarte Ribeiro,783,0,0,0,0
+3857270,36666,Agustín Canobbio Graviz,783,0,0,0,0
+3857270,36710,Sergio Rochet Álvarez,783,17,10,0,0
+3857270,44649,Facundo Daniel Torres Pérez,783,0,0,0,0
+3857263,3053,Leroy Sané,770,0,0,0,0
+3857263,3167,Antonio Rüdiger,770,22,22,0,1
+3857263,4440,Kevin Trapp,770,0,0,0,0
+3857263,5555,Julian Brandt,770,0,0,0,0
+3857263,5562,Thomas Müller,770,8,22,0,0
+3857263,5570,Manuel Neuer,770,22,18,0,0
+3857263,5579,Joshua Kimmich,770,20,14,0,1
+3857263,6322,Niklas Süle,770,25,18,0,0
+3857263,6324,Leon Goretzka,770,13,8,1,0
+3857263,8227,Mario Götze,770,0,0,0,0
+3857263,8400,Serge Gnabry,770,10,16,3,0
+3857263,8507,Lukas Klostermann,770,0,0,0,0
+3857263,8511,Thilo Kehrer,770,20,16,0,0
+3857263,8546,Niclas Füllkrug,770,0,0,0,1
+3857263,8804,Jonas Hofmann,770,0,0,0,0
+3857263,8808,Matthias Ginter,770,0,0,0,0
+3857263,8945,Christian Günter,770,0,0,0,0
+3857263,8966,Kai Havertz,770,0,0,0,0
+3857263,10287,İlkay Gündoğan,770,9,10,2,0
+3857263,12034,David Raum,770,22,16,1,0
+3857263,20055,Marc-André ter Stegen,770,0,0,0,0
+3857263,24118,Nico Schlotterbeck,770,0,0,0,0
+3857263,24916,Armel Bella-Kotchap,770,0,0,0,0
+3857263,35609,Karim-David Adeyemi,770,0,0,0,0
+3857263,38837,Youssoufa Moukoko,770,0,0,0,0
+3857263,39565,Jamal Musiala,770,10,16,4,1
+3857263,3477,Álvaro Borja Morata Martín,772,0,0,0,1
+3857263,3957,César Azpilicueta Tanco,772,0,0,0,0
+3857263,4127,David Raya Martin,772,0,0,0,0
+3857263,4353,Aymeric Laporte,772,66,57,0,0
+3857263,5199,Jorge Resurrección Merodio,772,0,0,0,0
+3857263,5203,Sergio Busquets i Burgos,772,25,17,1,0
+3857263,5211,Jordi Alba Ramos,772,52,45,0,0
+3857263,5719,Marco Asensio Willemsen,772,25,33,0,0
+3857263,5721,Daniel Carvajal Ramos,772,38,29,0,0
+3857263,6583,Carlos Soler Barragán,772,0,0,0,0
+3857263,6720,Pablo Sarabia García,772,0,0,0,0
+3857263,6748,Ferrán Torres García,772,15,25,3,0
+3857263,6765,Rodrigo Hernández Cascante,772,57,47,0,0
+3857263,6840,Marcos Llorente Moreno,772,0,0,0,0
+3857263,6892,Pau Francisco Torres,772,0,0,0,0
+3857263,9843,Robert Lynch Sanchez,772,0,0,0,0
+3857263,11748,Unai Simón Mendibil,772,27,23,0,0
+3857263,16532,Daniel Olmo Carvajal,772,25,33,3,1
+3857263,30486,Pedro González López,772,38,35,3,0
+3857263,30756,Anssumane Fati,772,0,0,0,0
+3857263,31953,Eric García Martret,772,0,0,0,0
+3857263,35641,Hugo Guillamón Sanmartín,772,0,0,0,0
+3857263,39161,Alejandro Balde Martínez,772,0,0,0,0
+3857263,50494,Yeremi Jesús Pino Santos,772,0,0,0,0
+3857263,68574,Nicholas Williams Arthuer,772,0,0,0,0
+3857263,133353,Pablo Martín Páez Gavira,772,10,12,1,0
+3857259,3141,André-Frank Zambo Anguissa,2722,15,14,0,0
+3857259,3499,Jean-Eric Maxim Choupo-Moting,2722,15,16,0,1
+3857259,3551,Karl Brillant Toko Ekambi,2722,9,19,0,1
+3857259,3639,Georges-Kévin Nkoudou Mbida,2722,0,0,0,1
+3857259,4935,Bryan Mbeumo,2722,14,22,2,0
+3857259,7426,Jean-Charles Castelletto,2722,11,8,0,1
+3857259,7472,Nicolas Alexis Julio N'Koulou Ndoubena,2722,16,14,0,0
+3857259,7551,Enzo Ebosse,2722,0,0,0,0
+3857259,8591,Samuel Yves Oum Gwet,2722,0,0,0,0
+3857259,10530,Jules Olivier Ntcham,2722,0,0,0,0
+3857259,11174,Vincent Paté Aboubakar,2722,0,0,0,2
+3857259,12623,Pierre Kunde Malong,2722,14,13,0,2
+3857259,13454,Nouhou Tolo,2722,20,13,1,0
+3857259,15326,Devis Rogers Epassy Mboka,2722,20,10,0,0
+3857259,16014,Jean Pierre Nsamé,2722,0,0,0,0
+3857259,16015,Nicolas Moumi Ngamaleu,2722,0,0,0,0
+3857259,16346,Ngoran Suiru Fai Collins,2722,31,21,0,0
+3857259,21456,Olivier Mbaissidara Mbaizo,2722,0,0,0,0
+3857259,28966,Gaël Ondoua,2722,0,0,0,0
+3857259,30016,Martin Hongla Yma II,2722,23,19,1,0
+3857259,33813,Jerome Ngom Mbekeli,2722,0,0,0,0
+3857259,44842,Simon Brady Ngapandouetnbu,2722,0,0,0,0
+3857259,46903,Christian Mougang Bassogog,2722,0,0,0,0
+3857259,74588,Christopher Wooh,2722,0,0,0,0
+3857259,349913,Souaibou Marou,2722,0,0,0,0
+3857259,3512,Marko Grujić,786,0,0,0,1
+3857259,3831,Dušan Tadić,786,26,32,0,0
+3857259,4269,Aleksandar Mitrović,786,10,27,1,2
+3857259,5589,Sergej Milinković-Savić,786,20,23,2,1
+3857259,5591,Filip Kostić,786,28,25,1,0
+3857259,5603,Nikola Milenković,786,23,17,0,0
+3857259,5833,Nemanja Radonjić,786,0,0,0,0
+3857259,6318,Andrija Živković,786,21,16,0,0
+3857259,6319,Luka Jović,786,0,0,0,0
+3857259,6321,Milos Veljkovic,786,20,16,0,0
+3857259,6687,Saša Lukić,786,35,31,0,0
+3857259,6698,Marko Dmitrović,786,0,0,0,0
+3857259,6901,Nemanja Maksimović,786,20,16,0,0
+3857259,7117,Filip Đuričić,786,0,0,0,0
+3857259,7145,Darko Lazović,786,0,0,0,0
+3857259,7993,Filip Mladenović,786,0,0,0,0
+3857259,10477,Stefan Mitrović,786,0,0,0,0
+3857259,15731,Predrag Rajković,786,0,0,0,0
+3857259,16489,Nemanja Gudelj,786,0,0,0,0
+3857259,18015,Dušan Vlahović,786,0,0,0,0
+3857259,18737,Srđan Babić,786,0,0,0,0
+3857259,20600,Vanja Milinković Savić,786,21,12,0,0
+3857259,24267,Uroš Račić,786,0,0,0,0
+3857259,27719,Strahinja Pavlović,786,24,22,1,1
+3857259,30179,Ivan Ilić,786,0,0,0,0
+3857259,43666,Strahinja Eraković,786,0,0,0,0
+3857295,3175,Eiji Kawashima,778,0,0,0,0
+3857295,3300,Maya Yoshida,778,50,47,0,0
+3857295,3530,Hiroki Sakai,778,0,0,0,0
+3857295,5690,Yuto Nagatomo,778,48,35,2,0
+3857295,5693,Gaku Shibasaki,778,0,0,0,0
+3857295,8361,Ritsu Doan,778,8,15,2,0
+3857295,8776,Takumi Minamino,778,0,0,0,0
+3857295,8949,Takuma Asano,778,0,0,0,1
+3857295,9411,Daichi Kamada,778,16,22,1,1
+3857295,23527,Junya Ito,778,0,0,0,0
+3857295,23721,Wataru Endo,778,30,24,1,0
+3857295,23730,Takehiro Tomiyasu,778,0,0,0,0
+3857295,25719,Shūichi Gonda,778,5,1,0,0
+3857295,29366,Daniel Schmidt,778,0,0,0,0
+3857295,29595,Ko Itakura,778,36,31,1,0
+3857295,30628,Daizen Maeda,778,0,0,0,0
+3857295,31090,Takefusa Kubo,778,0,0,0,0
+3857295,37122,Yuki Soma,778,9,16,2,0
+3857295,37208,Ao Tanaka,778,0,0,0,0
+3857295,37209,Miki Yamane,778,22,10,0,0
+3857295,37211,Kaoru Mitoma,778,0,0,0,0
+3857295,37215,Shogo Taniguchi,778,0,0,0,0
+3857295,37221,Hidemasa Morita,778,22,22,0,1
+3857295,38285,Ayase Ueda,778,11,22,0,0
+3857295,95272,Hiroki Ito,778,0,0,0,0
+3857295,100436,Shuto Machino,778,0,0,0,0
+3857295,5581,Joel Nathaniel Campbell Samuels,795,37,40,4,0
+3857295,5582,Celso Borges Mora,795,42,34,1,0
+3857295,5592,Bryan Ruiz González,795,0,0,0,0
+3857295,5595,Johan Alberto Venegas Ulloa,795,0,0,0,0
+3857295,5597,Keylor Navas Gamboa,795,23,13,0,0
+3857295,5598,Óscar Esau Duarte Gaitán,795,36,30,0,0
+3857295,5600,Francisco Javier Calvo Quesada,795,62,53,2,0
+3857295,5836,Bryan Oviedo,795,33,29,0,0
+3857295,5839,Yeltsin Ignacio Tejeda Valverde,795,37,38,0,0
+3857295,6328,Kendall Jamaal Waston Manley,795,34,31,0,0
+3857295,15477,Ronald Alberto Matarrita Ulate,795,0,0,0,0
+3857295,27163,Juan Pablo Vargas Campos,795,0,0,0,0
+3857295,97291,Patrick Gilmar Sequeira Mejías,795,0,0,0,0
+3857295,108340,Brandon Aguilera Zamora,795,0,0,0,0
+3857295,130185,Keysher Fuller Spence,795,15,15,0,1
+3857295,130194,Esteban Alvarado Brown,795,0,0,0,0
+3857295,132271,Carlos Manuel Martínez Castro,795,0,0,0,0
+3857295,132296,Anthony Daniel Contreras Enríquez,795,10,18,1,0
+3857295,132497,Gerson Torres Barrantes,795,16,22,2,0
+3857295,132728,Jewison Bennette,795,0,0,0,0
+3857295,132743,Douglas Andrey López Araya,795,0,0,0,0
+3857295,132756,Youstin Delfin Salas Gómez,795,0,0,0,0
+3857295,132772,Daniel Alonso Chacón Salas,795,0,0,0,0
+3857295,135271,Roan Roberto Wilson Gordon,795,0,0,0,0
+3857295,184468,Álvaro José Zamora Mata,795,0,0,0,0
+3857295,283799,Anthony William Hernández González,795,0,0,0,0
+3857283,2954,Youri Tielemans,782,0,0,0,0
+3857283,3077,Jan Vertonghen,782,62,59,0,0
+3857283,3089,Kevin De Bruyne,782,20,23,1,0
+3857283,3176,Thomas Meunier,782,36,31,1,1
+3857283,3289,Romelu Lukaku Menama,782,0,0,0,0
+3857283,3457,Michy Batshuayi Tunga,782,6,15,1,1
+3857283,3509,Thibaut Courtois,782,16,7,1,0
+3857283,3539,Simon Mignolet,782,0,0,0,0
+3857283,3621,Eden Hazard,782,22,27,3,1
+3857283,5630,Dries Mertens,782,0,0,0,1
+3857283,5632,Thorgan Hazard,782,31,21,1,0
+3857283,5633,Yannick Ferreira Carrasco,782,0,0,0,0
+3857283,5642,Axel Witsel,782,37,32,0,0
+3857283,6331,Leander Dendoncker,782,0,0,0,0
+3857283,6989,Timothy Castagne,782,41,31,1,0
+3857283,8240,Koen Casteels,782,0,0,0,0
+3857283,8854,Wout Faes,782,0,0,0,0
+3857283,16275,Ikoma Loïs Openda,782,0,0,0,0
+3857283,16281,Hans Vanaken,782,0,0,0,0
+3857283,16559,Leandro Trossard,782,0,0,0,0
+3857283,20005,Toby Alderweireld,782,60,61,0,0
+3857283,23650,Jeremy Doku,782,0,0,0,0
+3857283,32688,Charles De Ketelaere,782,0,0,0,0
+3857283,43913,Arthur Theate,782,0,0,0,0
+3857283,48347,Amadou Onana,782,30,32,0,0
+3857283,114832,Zeno Debast,782,0,0,0,0
+3857283,3625,Sofiane Boufal,788,10,15,2,0
+3857283,3634,Abdelhamid Sabiri,788,0,0,0,0
+3857283,5219,Romain Saïss,788,15,9,0,1
+3857283,5233,Munir Mohand Mohamedi,788,8,2,0,0
+3857283,5234,Sofyan Amrabat,788,16,14,0,0
+3857283,5237,Hakim Ziyech,788,15,20,5,1
+3857283,5245,Achraf Hakimi Mouh,788,27,23,1,0
+3857283,6301,Youssef En-Nesyri,788,3,10,1,0
+3857283,6785,Yassine Bounou,788,0,0,0,0
+3857283,7459,Jawad El Yamiq,788,0,0,0,0
+3857283,12149,Nayef Aguerd,788,21,19,0,0
+3857283,15890,Noussair Mazraoui,788,13,9,0,0
+3857283,21214,Ilias Chair,788,0,0,0,0
+3857283,21736,Zakaria Aboukhlal,788,0,0,0,1
+3857283,23774,Selim Amallah,788,12,13,0,0
+3857283,31295,Yahia Attiyat allah,788,0,0,0,0
+3857283,46258,Azzedine Ounahi,788,15,14,0,0
+3857283,59493,Abderrazak Hamdallah,788,0,0,0,1
+3857283,67700,Badr Banoun,788,0,0,0,0
+3857283,102668,Yahya Jabrane,788,0,0,0,0
+3857283,131037,Anass Zaroury,788,0,0,0,0
+3857283,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3857283,139016,Achraf Dari,788,0,0,0,0
+3857283,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3857283,156734,Bilal El Khannous,788,0,0,0,0
+3857283,296254,Walid Cheddira,788,0,0,0,0
+3857284,3053,Leroy Sané,770,0,0,0,0
+3857284,3167,Antonio Rüdiger,770,71,62,0,0
+3857284,4440,Kevin Trapp,770,0,0,0,0
+3857284,5555,Julian Brandt,770,0,0,0,0
+3857284,5562,Thomas Müller,770,31,32,0,0
+3857284,5570,Manuel Neuer,770,33,29,0,0
+3857284,5579,Joshua Kimmich,770,55,52,1,2
+3857284,6322,Niklas Süle,770,61,54,0,0
+3857284,6324,Leon Goretzka,770,0,0,0,0
+3857284,8227,Mario Götze,770,0,0,0,0
+3857284,8400,Serge Gnabry,770,34,34,0,3
+3857284,8507,Lukas Klostermann,770,0,0,0,0
+3857284,8511,Thilo Kehrer,770,0,0,0,0
+3857284,8546,Niclas Füllkrug,770,0,0,0,0
+3857284,8804,Jonas Hofmann,770,0,0,0,1
+3857284,8808,Matthias Ginter,770,0,0,0,0
+3857284,8945,Christian Günter,770,0,0,0,0
+3857284,8966,Kai Havertz,770,16,22,1,0
+3857284,10287,İlkay Gündoğan,770,52,51,1,3
+3857284,12034,David Raum,770,41,38,0,0
+3857284,20055,Marc-André ter Stegen,770,0,0,0,0
+3857284,24118,Nico Schlotterbeck,770,70,56,0,0
+3857284,24916,Armel Bella-Kotchap,770,0,0,0,0
+3857284,35609,Karim-David Adeyemi,770,0,0,0,0
+3857284,38837,Youssoufa Moukoko,770,0,0,0,0
+3857284,39565,Jamal Musiala,770,30,41,3,0
+3857284,3175,Eiji Kawashima,778,0,0,0,0
+3857284,3300,Maya Yoshida,778,15,12,1,0
+3857284,3530,Hiroki Sakai,778,12,9,2,0
+3857284,5690,Yuto Nagatomo,778,10,5,0,0
+3857284,5693,Gaku Shibasaki,778,0,0,0,0
+3857284,8361,Ritsu Doan,778,0,0,0,1
+3857284,8776,Takumi Minamino,778,0,0,0,1
+3857284,8949,Takuma Asano,778,0,0,0,1
+3857284,9411,Daichi Kamada,778,8,9,1,0
+3857284,23527,Junya Ito,778,9,10,0,1
+3857284,23721,Wataru Endo,778,12,5,0,0
+3857284,23730,Takehiro Tomiyasu,778,0,0,0,0
+3857284,25719,Shūichi Gonda,778,16,7,0,0
+3857284,29366,Daniel Schmidt,778,0,0,0,0
+3857284,29595,Ko Itakura,778,11,7,0,0
+3857284,30628,Daizen Maeda,778,5,7,0,0
+3857284,31090,Takefusa Kubo,778,4,5,0,0
+3857284,37122,Yuki Soma,778,0,0,0,0
+3857284,37208,Ao Tanaka,778,12,12,0,0
+3857284,37209,Miki Yamane,778,0,0,0,0
+3857284,37211,Kaoru Mitoma,778,0,0,0,0
+3857284,37215,Shogo Taniguchi,778,0,0,0,0
+3857284,37221,Hidemasa Morita,778,0,0,0,0
+3857284,38285,Ayase Ueda,778,0,0,0,0
+3857284,95272,Hiroki Ito,778,0,0,0,0
+3857284,100436,Shuto Machino,778,0,0,0,0
+3857282,3086,Ben Davies,907,22,13,1,1
+3857282,3488,Wayne Hennessey,907,20,12,0,0
+3857282,3517,Aaron Ramsey,907,15,22,1,0
+3857282,3839,Tom Lockyer,907,0,0,0,0
+3857282,3853,Kieffer Roberto Francisco Moore,907,0,0,0,0
+3857282,4584,Adam Davies,907,0,0,0,0
+3857282,4767,Chris Mepham,907,20,17,0,0
+3857282,4774,Connor Roberts,907,16,14,0,0
+3857282,4934,Ethan Ampadu,907,19,14,1,0
+3857282,6399,Gareth Frank Bale,907,13,21,0,1
+3857282,9540,Harry Wilson,907,13,13,0,0
+3857282,9914,Danny Ward,907,0,0,0,0
+3857282,10928,Chris Gunter,907,0,0,0,0
+3857282,10931,Joe Allen,907,0,0,0,0
+3857282,10932,Jonathan Williams,907,0,0,0,0
+3857282,11250,Joe Rodon,907,23,22,0,0
+3857282,11252,Daniel James,907,8,20,1,0
+3857282,12014,Mark Thomas Harris,907,0,0,0,0
+3857282,21446,Matthew Robert Smith,907,0,0,0,0
+3857282,22074,Joseff Morrell,907,0,0,0,0
+3857282,29377,Brennan Johnson,907,0,0,0,1
+3857282,33121,Benjamin Cabango,907,0,0,0,0
+3857282,33144,Dylan Levitt,907,0,0,0,0
+3857282,34794,Neco Williams,907,18,11,0,0
+3857282,50528,Sorba Thomas,907,0,0,0,0
+3857282,82257,Rubin Colwill,907,0,0,0,0
+3857282,3377,Timothy Weah,1839,20,27,0,1
+3857282,3658,DeAndre Yedlin,1839,0,0,0,0
+3857282,4614,Antonee Robinson,1839,32,23,0,0
+3857282,6806,Shaquell Moore,1839,0,0,0,0
+3857282,8246,Christian Pulisic,1839,25,30,1,0
+3857282,8526,Weston McKennie,1839,30,27,0,0
+3857282,12352,Matthew Charles Turner,1839,15,10,0,0
+3857282,12524,Walker Zimmerman,1839,61,55,0,0
+3857282,12746,Sean Johnson,1839,0,0,0,0
+3857282,12751,Tyler Adams,1839,40,35,0,0
+3857282,12757,Aaron Long,1839,0,0,0,0
+3857282,13035,Kellyn Kai Perry-Acosta,1839,0,0,0,0
+3857282,13442,Cristian Roldán León,1839,0,0,0,0
+3857282,15971,Cameron Carter-Vickers,1839,0,0,0,0
+3857282,18242,Tim Ream,1839,59,53,0,0
+3857282,21201,Ethan Horvath,1839,0,0,0,0
+3857282,21881,Sergino Dest,1839,51,50,0,0
+3857282,22008,Haji Wright,1839,0,0,0,0
+3857282,22168,Joshua Sargent,1839,8,15,0,0
+3857282,22433,Jesus Ferreira,1839,0,0,0,0
+3857282,23789,Jordan Morris,1839,0,0,0,0
+3857282,24243,Brenden Aaronson,1839,0,0,0,0
+3857282,33274,Luca de la Torre,1839,0,0,0,0
+3857282,34339,Giovanni Reyna,1839,0,0,0,0
+3857282,36830,Joseph Scally,1839,0,0,0,0
+3857282,38792,Yunus Dimoara Musah,1839,30,30,0,0
+3857286,12583,Carlos Armando Gruezo Arboleda,3565,0,0,0,0
+3857286,12803,Romario Andrés Ibarra Mina,3565,9,11,1,1
+3857286,15486,Diego José Palacios Espinoza,3565,0,0,0,0
+3857286,23830,Jhegson Sebastián Méndez Carabalí,3565,37,30,0,0
+3857286,24085,Pervis Josué Estupiñán Tenorio,3565,40,35,1,0
+3857286,25083,Xavier Ricardo Arreaga Bermello,3565,0,0,0,0
+3857286,25352,Robert Abel Arboleda Escobar,3565,0,0,0,0
+3857286,28511,Ángel Israel Mena Delgado,3565,0,0,0,0
+3857286,28559,Enner Remberto Valencia Lastra,3565,11,19,0,2
+3857286,30111,Felix Eduardo Torres Caicedo,3565,30,20,0,0
+3857286,31152,Gonzalo Jordy Plata Jiménez,3565,11,14,3,0
+3857286,32677,Alexander Domínguez Carabalí,3565,0,0,0,0
+3857286,34194,Eduar Ayrton Preciado García,3565,0,0,0,0
+3857286,34396,Michael Steveen Estrada Martínez,3565,10,15,0,0
+3857286,36148,José Adoni Cifuentes Charcopa,3565,0,0,0,0
+3857286,37522,Hernán Ismael Galíndez,3565,10,4,0,0
+3857286,37726,Moisés Isaac Caicedo Corozo,3565,27,21,0,0
+3857286,37737,Angelo Smit Preciado Quiñónez,3565,27,16,0,0
+3857286,37742,Wellington Moisés Ramírez Preciado,3565,0,0,0,0
+3857286,37945,Alan Steven Franco Palma,3565,0,0,0,0
+3857286,38004,Piero Martín Hincapié Reyna,3565,37,34,0,0
+3857286,40211,Jeremy Leonel Sarmiento Morante,3565,0,0,0,0
+3857286,41593,William Joel Pacho Tenorio,3565,0,0,0,0
+3857286,51969,Jackson Gabriel Porozo Vernaza,3565,0,0,0,0
+3857286,91090,Djorkaeff Neicer Reasco González,3565,0,0,0,0
+3857286,348757,Kevin José Rodríguez Cortez,3565,0,0,0,0
+3857286,40784,Akram Hassan Afif,3566,19,31,3,0
+3857286,124488,Hassan Khalid Al Heidos,3566,13,16,0,0
+3857286,124490,Ahmed Alaa Eldin Abdelmotaal,3566,0,0,0,0
+3857286,124492,Karim Boudiaf,3566,19,15,0,0
+3857286,124493,Boualem Khoukhi,3566,32,24,0,0
+3857286,124494,Abdelkarim Hassan Al Haj Fadlalla,3566,31,28,0,0
+3857286,124495,Almoez Ali Zainalabiddin Abdulla,3566,8,12,0,0
+3857286,124496,Saad Abdullah Al Sheeb,3566,6,3,0,0
+3857286,124500,Assim Omer Al Haj Madibo,3566,0,0,0,0
+3857286,124503,Bassam Hisham Al Rawi,3566,28,19,0,0
+3857286,124504,Tarek Salman Salman,3566,0,0,0,0
+3857286,124506,Pedro Miguel Correia,3566,16,17,3,0
+3857286,124510,Meshaal Aissa Barsham,3566,0,0,0,0
+3857286,124512,Mosaab Khoder Jibril,3566,0,0,0,0
+3857286,124514,Abdulaziz Hatem Mohammed Abdullah,3566,18,16,0,0
+3857286,124526,Salem Ali Al Hajri,3566,0,0,0,0
+3857286,124899,Ismaeel Mohammad Mohammad,3566,0,0,0,0
+3857286,124900,Homam Alamin Ahmed,3566,16,14,0,0
+3857286,124901,Mohammed Muntari,3566,0,0,0,0
+3857286,124909,Mohammed Waed Abdulwahhab Al Bayati,3566,0,0,0,0
+3857286,126962,Jassem Gaber Abdulsallam,3566,0,0,0,0
+3857286,130272,Yousef Hassan Mohamed Ali,3566,0,0,0,0
+3857286,146267,Khalid Muneer Mazeed,3566,0,0,0,0
+3857286,149463,Ali Assadalla Thaimn Qambar,3566,0,0,0,0
+3857286,150429,Mostafa Taerk Mashaal,3566,0,0,0,0
+3857286,157455,Naif Abdulraheem Al Hadhrami,3566,0,0,0,0
+3857301,2941,Ismaïla Sarr,787,10,20,5,0
+3857301,3404,Youssouf Sabaly,787,45,39,1,0
+3857301,3436,Idrissa Gana Gueye,787,35,33,0,0
+3857301,3675,Fodé Ballo Touré,787,0,0,0,0
+3857301,3684,Cheikhou Kouyaté,787,0,0,0,0
+3857301,4506,Nampalys Mendy,787,34,28,2,0
+3857301,5675,Kalidou Koulibaly,787,45,33,0,0
+3857301,7379,Edouard Mendy,787,15,9,0,0
+3857301,8553,Abdou Diallo,787,44,37,0,0
+3857301,8870,Alfred Benjamin Gomis,787,0,0,0,0
+3857301,10603,Mamadou Loum N''Diaye,787,0,0,0,0
+3857301,13314,Famara Diedhiou,787,3,22,0,1
+3857301,15970,Pape Abou Cissé,787,0,0,0,0
+3857301,17456,Timothy Dieng,787,0,0,0,0
+3857301,20611,Boulaye Dia,787,12,25,0,1
+3857301,20758,Krépin Diatta,787,20,24,3,1
+3857301,21026,Pape Gueye,787,0,0,0,0
+3857301,31751,Pathé Ismaël Ciss,787,0,0,0,0
+3857301,32915,Ismail Jakobs,787,47,34,0,0
+3857301,34893,Moustapha Name,787,0,0,0,0
+3857301,39595,Formose Mendy,787,0,0,0,0
+3857301,50497,Nicolas Jackson,787,0,0,0,0
+3857301,50498,Pape Matar Sarr,787,0,0,0,0
+3857301,80484,Iliman Ndiaye,787,0,0,0,0
+3857301,88123,Cheikh Ahmadou Bamba Mbacke Dieng,787,0,0,0,1
+3857301,312414,Moussa N''Diaye,787,0,0,0,0
+3857301,40784,Akram Hassan Afif,3566,17,27,2,0
+3857301,124488,Hassan Khalid Al Heidos,3566,13,12,0,0
+3857301,124490,Ahmed Alaa Eldin Abdelmotaal,3566,0,0,0,0
+3857301,124492,Karim Boudiaf,3566,20,22,0,0
+3857301,124493,Boualem Khoukhi,3566,27,21,1,0
+3857301,124494,Abdelkarim Hassan Al Haj Fadlalla,3566,20,22,0,0
+3857301,124495,Almoez Ali Zainalabiddin Abdulla,3566,8,18,0,1
+3857301,124496,Saad Abdullah Al Sheeb,3566,0,0,0,0
+3857301,124500,Assim Omer Al Haj Madibo,3566,18,13,0,0
+3857301,124504,Tarek Salman Salman,3566,0,0,0,0
+3857301,124506,Pedro Miguel Correia,3566,14,9,0,0
+3857301,124510,Meshaal Aissa Barsham,3566,23,12,0,0
+3857301,124512,Mosaab Khoder Jibril,3566,0,0,0,0
+3857301,124514,Abdulaziz Hatem Mohammed Abdullah,3566,0,0,0,0
+3857301,124526,Salem Ali Al Hajri,3566,0,0,0,0
+3857301,124899,Ismaeel Mohammad Mohammad,3566,17,16,0,1
+3857301,124900,Homam Alamin Ahmed,3566,15,11,0,0
+3857301,124901,Mohammed Muntari,3566,0,0,0,1
+3857301,124909,Mohammed Waed Abdulwahhab Al Bayati,3566,0,0,0,0
+3857301,126962,Jassem Gaber Abdulsallam,3566,0,0,0,0
+3857301,130272,Yousef Hassan Mohamed Ali,3566,0,0,0,0
+3857301,146267,Khalid Muneer Mazeed,3566,0,0,0,0
+3857301,149463,Ali Assadalla Thaimn Qambar,3566,0,0,0,0
+3857301,150429,Mostafa Taerk Mashaal,3566,0,0,0,0
+3857301,157455,Naif Abdulraheem Al Hadhrami,3566,0,0,0,0
+3857300,2995,Ángel Fabián Di María Hernández,779,17,27,1,1
+3857300,3090,Nicolás Hernán Otamendi,779,42,39,0,0
+3857300,5503,Lionel Andrés Messi Cuccittini,779,21,26,2,3
+3857300,5507,Nicolás Alejandro Tagliafico,779,21,18,1,1
+3857300,5743,Paulo Bruno Exequiel Dybala,779,0,0,0,0
+3857300,6312,Franco Armani,779,0,0,0,0
+3857300,6377,Ángel Martín Correa,779,0,0,0,0
+3857300,6694,Gerónimo Rulli,779,0,0,0,0
+3857300,6909,Damián Emiliano Martínez,779,12,6,0,0
+3857300,7006,Alejandro Darío Gómez,779,22,28,0,0
+3857300,7161,Germán Alejandro Pezzella,779,0,0,0,0
+3857300,7797,Rodrigo Javier De Paul,779,41,32,0,0
+3857300,11456,Lautaro Javier Martínez,779,5,12,0,0
+3857300,16308,Leandro Daniel Paredes,779,46,42,0,0
+3857300,19597,Marcos Javier Acuña,779,0,0,0,0
+3857300,20572,Cristian Gabriel Romero,779,44,40,1,0
+3857300,21081,Juan Marcos Foyth,779,0,0,0,0
+3857300,26404,Guido Rodríguez,779,0,0,0,0
+3857300,27768,Lisandro Martínez,779,0,0,0,0
+3857300,27886,Alexis Mac Allister,779,0,0,0,0
+3857300,28263,Gonzalo Ariel Montiel,779,0,0,0,0
+3857300,28268,Exequiel Alejandro Palacios,779,0,0,0,0
+3857300,28637,Thiago Ezequiel Almada,779,0,0,0,0
+3857300,29201,Nahuel Molina Lucero,779,34,26,0,0
+3857300,29560,Julián Álvarez,779,0,0,0,1
+3857300,38718,Enzo Fernandez,779,0,0,0,0
+3857300,5173,Abdullah Ibrahim Otayf,799,0,0,0,0
+3857300,5178,Salman Mohammed Al Faraj,799,15,15,2,0
+3857300,5183,Yasir Gharsan Al Shahrani,799,19,11,0,0
+3857300,5187,Salem Mohammed Al Dawsari,799,11,17,2,1
+3857300,5188,Hattan Babhir,799,0,0,0,0
+3857300,5191,Mohammed Al Burayk,799,0,0,0,0
+3857300,5713,Mohammed Kanoo,799,23,28,2,0
+3857300,5714,Mohammed Khalil Al Owais,799,12,5,0,0
+3857300,5715,Ali Albulayhi,799,8,7,0,0
+3857300,51094,Abdulelah Al Amri,799,0,0,0,0
+3857300,51096,Ali Al Hassan,799,0,0,0,0
+3857300,51099,Firas Tariq Nasser Al Albirakan,799,7,10,0,0
+3857300,51103,Abdullah Mohammed Madu,799,0,0,0,0
+3857300,51469,Saleh Khalid Al Shehri,799,12,18,2,1
+3857300,51470,Riyadh Sharahili,799,0,0,0,0
+3857300,51546,Hassan Mohammed Al-Tambakti,799,23,20,0,0
+3857300,51632,Sami Khalil Al Naji,799,0,0,0,0
+3857300,51663,Mohammed Al Rubaie Al Yami,799,0,0,0,0
+3857300,51705,Abdulrahman Al-Obood,799,0,0,0,0
+3857300,51710,Saud Abdullah Abdul Hamid,799,19,14,0,0
+3857300,54144,Nawaf Shaker Al Abid,799,1,1,0,0
+3857300,54149,Nawaf Alaqidi,799,0,0,0,0
+3857300,56755,Abdulelah Saad Hameed Al-Malki,799,26,20,0,0
+3857300,57620,Sultan Abdullah Salim Al Ghannam,799,0,0,0,0
+3857300,74623,Nasser Al Dawsari,799,0,0,0,0
+3857300,121539,Haitham Mohammed Asiri,799,0,0,0,0
+3857299,2989,Alexander Djiku,4885,0,0,0,0
+3857299,3347,André Ayew Pelé,4885,12,19,1,0
+3857299,3450,Jordan Ayew,4885,15,18,3,0
+3857299,3709,Daniel Amartey,4885,23,21,0,0
+3857299,6383,Thomas Teye Partey,4885,30,28,0,0
+3857299,6393,Iñaki Williams Arthuer,4885,6,15,0,0
+3857299,8108,Lawrence Ati-Zigi,4885,12,3,0,0
+3857299,9286,Antoine Semenyo,4885,0,0,0,0
+3857299,9859,Elisha Owusu,4885,0,0,0,0
+3857299,12259,Denis Odoi,4885,0,0,0,0
+3857299,12325,Abdul Rahman Baba,4885,0,0,0,0
+3857299,16555,Joseph Aidoo,4885,0,0,0,0
+3857299,17033,Mohammed Kudus,4885,15,15,1,2
+3857299,23615,Gideon Mensah,4885,20,14,0,0
+3857299,28616,Daniel-Kofi Kyereh,4885,0,0,0,0
+3857299,30519,Mohamed Salisu,4885,28,24,0,1
+3857299,31029,Salis Abdul Samed,4885,28,22,1,0
+3857299,33602,Tariq Lamptey,4885,12,10,1,0
+3857299,35658,Kamaldeen Sulemana,4885,0,0,0,0
+3857299,43891,Kamal Sowah,4885,0,0,0,0
+3857299,44225,Osman Bukari,4885,0,0,0,0
+3857299,45047,Alidu Seidu,4885,0,0,0,0
+3857299,52091,Abdul Manaf Nurudeen,4885,0,0,0,0
+3857299,136305,Daniel Afriyie Barnieh,4885,0,0,0,0
+3857299,136306,Abdul Fatawu Issahaku,4885,0,0,0,0
+3857299,147563,Ibrahim Danlad,4885,0,0,0,0
+3857299,3083,Heung-Min Son,791,22,22,2,0
+3857299,3135,Chang-Hoon Kwon,791,16,19,0,0
+3857299,5604,Young-Gwon Kim,791,32,25,0,0
+3857299,5618,Woo-Young Jung,791,39,36,0,0
+3857299,5619,Hyeon-Woo Jo,791,0,0,0,0
+3857299,5620,Hee-Chan Hwang,791,0,0,0,0
+3857299,5623,Jae-Sung Lee,791,0,0,0,0
+3857299,5986,Chul Hong,791,0,0,0,0
+3857299,22067,Woo-Yeong Jeong,791,16,17,1,0
+3857299,22740,Kang-In Lee,791,0,0,0,1
+3857299,23264,Seung-Ho Paik,791,0,0,0,0
+3857299,23763,In-Beom Hwang,791,48,43,0,0
+3857299,29966,Ui-Jo Hwang,791,0,0,0,0
+3857299,37641,Seung-Gyu Kim,791,12,8,0,0
+3857299,40538,Jin-Su Kim,791,28,25,1,0
+3857299,40542,Gue-Sung Cho,791,10,17,0,4
+3857299,40550,Bum-Keun Song,791,0,0,0,0
+3857299,40558,Jun-Ho Son,791,0,0,0,0
+3857299,40564,Kyung-Won Kwon,791,0,0,0,0
+3857299,40578,Tae-Hwan Kim,791,0,0,0,0
+3857299,40664,Min-Kyu Song,791,0,0,0,0
+3857299,40672,Moon-Hwan Kim,791,36,30,0,0
+3857299,41495,Jong-Gyu Yoon,791,0,0,0,0
+3857299,41711,Sang-Ho Na,791,0,0,0,1
+3857299,43565,Min Jae Kim,791,40,33,0,0
+3857299,99479,Yu-Min Cho,791,0,0,0,0
+3857298,2989,Alexander Djiku,4885,14,9,1,0
+3857298,3347,André Ayew Pelé,4885,10,22,0,1
+3857298,3450,Jordan Ayew,4885,0,0,0,0
+3857298,3709,Daniel Amartey,4885,26,22,0,0
+3857298,6383,Thomas Teye Partey,4885,17,18,0,0
+3857298,6393,Iñaki Williams Arthuer,4885,10,23,0,0
+3857298,8108,Lawrence Ati-Zigi,4885,20,6,0,0
+3857298,9286,Antoine Semenyo,4885,0,0,0,0
+3857298,9859,Elisha Owusu,4885,0,0,0,0
+3857298,12259,Denis Odoi,4885,0,0,0,0
+3857298,12325,Abdul Rahman Baba,4885,14,13,0,0
+3857298,16555,Joseph Aidoo,4885,0,0,0,0
+3857298,17033,Mohammed Kudus,4885,17,22,5,1
+3857298,23615,Gideon Mensah,4885,0,0,0,0
+3857298,28616,Daniel-Kofi Kyereh,4885,0,0,0,0
+3857298,30519,Mohamed Salisu,4885,16,12,0,0
+3857298,31029,Salis Abdul Samed,4885,20,18,0,0
+3857298,33602,Tariq Lamptey,4885,0,0,0,0
+3857298,35658,Kamaldeen Sulemana,4885,0,0,0,0
+3857298,43891,Kamal Sowah,4885,0,0,0,0
+3857298,44225,Osman Bukari,4885,0,0,0,1
+3857298,45047,Alidu Seidu,4885,19,17,1,0
+3857298,52091,Abdul Manaf Nurudeen,4885,0,0,0,0
+3857298,136305,Daniel Afriyie Barnieh,4885,0,0,0,0
+3857298,136306,Abdul Fatawu Issahaku,4885,0,0,0,0
+3857298,147563,Ibrahim Danlad,4885,0,0,0,0
+3857298,3193,Bernardo Mota Veiga de Carvalho e Silva,780,54,52,0,0
+3857298,4272,João Mário Naval da Costa Eduardo,780,0,0,0,0
+3857298,5204,Bruno Miguel Borges Fernandes,780,32,33,0,0
+3857298,5205,Rui Pedro dos Santos Patrício,780,0,0,0,0
+3857298,5206,Rúben Santos Gato Alves Dias,780,47,42,0,0
+3857298,5207,Cristiano Ronaldo dos Santos Aveiro,780,11,21,0,2
+3857298,5209,Raphaël Adelino José Guerreiro,780,44,42,0,0
+3857298,5214,William Silva de Carvalho,780,0,0,0,0
+3857298,5218,André Miguel Valente Silva,780,0,0,0,0
+3857298,7005,João Pedro Cavaco Cancelo,780,48,45,0,0
+3857298,9927,Rúben Diogo Da Silva Neves,780,47,40,0,0
+3857298,10868,Ricardo Jorge Luz Horta,780,0,0,0,0
+3857298,11184,Otávio Edmilson da Silva Monteiro,780,37,34,0,1
+3857298,12041,João Félix Sequeira,780,21,28,2,1
+3857298,12169,João Maria Lobo Alves Palhinha Gonçalves,780,0,0,0,0
+3857298,13621,Danilo Luís Hélio Pereira,780,55,47,0,0
+3857298,16028,José Diogo Dalot Teixeira,780,0,0,0,0
+3857298,18360,Rafael Alexandre Conceição Leão,780,0,0,0,1
+3857298,18866,José Pedro Malheiro de Sá,780,0,0,0,0
+3857298,20016,Kléper Laveran Lima Ferreira,780,0,0,0,0
+3857298,32975,Diogo Meireles Costa,780,13,7,0,0
+3857298,34639,Vitor Machado Ferreira,780,0,0,0,0
+3857298,38803,Gonçalo Matias Ramos,780,0,0,0,0
+3857298,40874,Matheus Luiz Nunes,780,0,0,0,0
+3857298,143854,António João Pereira Albuquerque Tavares Silva,780,0,0,0,0
+3857297,3034,Kamil Glik,789,21,18,0,0
+3857297,3637,Grzegorz Krychowiak,789,15,11,0,0
+3857297,4626,Jan Bednarek,789,0,0,0,0
+3857297,4664,Sebastian Szymański,789,0,0,0,0
+3857297,4682,Robert Gumny,789,0,0,0,0
+3857297,4685,Artur Jędrzejczyk,789,0,0,0,0
+3857297,4734,Matty Cash,789,25,20,0,0
+3857297,5660,Piotr Zieliński,789,18,18,1,1
+3857297,5665,Arkadiusz Milik,789,14,19,0,0
+3857297,5667,Kamil Grosicki,789,0,0,0,0
+3857297,5668,Robert Lewandowski,789,10,18,2,2
+3857297,5669,Wojciech Szczęsny,789,18,9,0,0
+3857297,5673,Bartosz Bereszyński,789,20,12,0,0
+3857297,7979,Przemysław Frankowski,789,15,15,0,0
+3857297,8021,Szymon Żurkowski,789,0,0,0,0
+3857297,8704,Mateusz Wieteska,789,0,0,0,0
+3857297,8714,Damian Szymański,789,0,0,0,0
+3857297,8836,Karol Świderski,789,0,0,0,0
+3857297,11508,Łukasz Skorupski,789,0,0,0,0
+3857297,11737,Krystian Bielik,789,15,15,0,0
+3857297,12493,Krzysztof Piątek,789,0,0,0,0
+3857297,24413,Kamil Grabara,789,0,0,0,0
+3857297,28453,Michał Skóraś,789,0,0,0,0
+3857297,31955,Jakub Kamiński,789,0,0,0,0
+3857297,44166,Jakub Piotr Kiwior,789,23,22,0,0
+3857297,50502,Nicola Zalewski,789,0,0,0,0
+3857297,5173,Abdullah Ibrahim Otayf,799,0,0,0,0
+3857297,5187,Salem Mohammed Al Dawsari,799,29,34,2,3
+3857297,5188,Hattan Babhir,799,0,0,0,0
+3857297,5191,Mohammed Al Burayk,799,31,25,1,1
+3857297,5713,Mohammed Kanoo,799,40,36,1,1
+3857297,5714,Mohammed Khalil Al Owais,799,16,7,0,0
+3857297,5715,Ali Albulayhi,799,31,28,0,0
+3857297,51094,Abdulelah Al Amri,799,26,18,0,0
+3857297,51096,Ali Al Hassan,799,0,0,0,0
+3857297,51099,Firas Tariq Nasser Al Albirakan,799,17,23,1,0
+3857297,51103,Abdullah Mohammed Madu,799,0,0,0,0
+3857297,51469,Saleh Khalid Al Shehri,799,7,18,0,0
+3857297,51546,Hassan Mohammed Al-Tambakti,799,0,0,0,0
+3857297,51632,Sami Khalil Al Naji,799,21,23,0,0
+3857297,51663,Mohammed Al Rubaie Al Yami,799,0,0,0,0
+3857297,51705,Abdulrahman Al-Obood,799,0,0,0,0
+3857297,51710,Saud Abdullah Abdul Hamid,799,35,30,1,0
+3857297,54144,Nawaf Shaker Al Abid,799,0,0,0,0
+3857297,54149,Nawaf Alaqidi,799,0,0,0,0
+3857297,56755,Abdulelah Saad Hameed Al-Malki,799,26,22,0,0
+3857297,57620,Sultan Abdullah Salim Al Ghannam,799,0,0,0,0
+3857297,74623,Nasser Al Dawsari,799,0,0,0,0
+3857297,121539,Haitham Mohammed Asiri,799,0,0,0,0
+3857296,2954,Youri Tielemans,782,0,0,0,0
+3857296,3077,Jan Vertonghen,782,50,43,0,0
+3857296,3089,Kevin De Bruyne,782,18,19,1,1
+3857296,3176,Thomas Meunier,782,37,29,1,0
+3857296,3289,Romelu Lukaku Menama,782,0,0,0,2
+3857296,3457,Michy Batshuayi Tunga,782,0,0,0,0
+3857296,3509,Thibaut Courtois,782,18,12,0,0
+3857296,3539,Simon Mignolet,782,0,0,0,0
+3857296,3621,Eden Hazard,782,0,0,0,0
+3857296,5630,Dries Mertens,782,18,22,0,0
+3857296,5632,Thorgan Hazard,782,0,0,0,0
+3857296,5633,Yannick Ferreira Carrasco,782,24,30,1,0
+3857296,5642,Axel Witsel,782,21,22,0,0
+3857296,6331,Leander Dendoncker,782,30,29,1,0
+3857296,6989,Timothy Castagne,782,52,40,0,0
+3857296,8240,Koen Casteels,782,0,0,0,0
+3857296,8854,Wout Faes,782,0,0,0,0
+3857296,16275,Ikoma Loïs Openda,782,0,0,0,0
+3857296,16281,Hans Vanaken,782,0,0,0,0
+3857296,16559,Leandro Trossard,782,24,34,1,0
+3857296,20005,Toby Alderweireld,782,52,47,0,0
+3857296,23650,Jeremy Doku,782,0,0,0,0
+3857296,32688,Charles De Ketelaere,782,0,0,0,0
+3857296,43913,Arthur Theate,782,0,0,0,0
+3857296,114832,Zeno Debast,782,0,0,0,0
+3857296,3441,Nikola Vlašić,785,0,0,0,0
+3857296,3471,Dejan Lovren,785,31,30,0,0
+3857296,5456,Mateo Kovačić,785,28,27,0,1
+3857296,5460,Andrej Kramarić,785,23,31,0,0
+3857296,5463,Luka Modrić,785,28,27,1,2
+3857296,5468,Domagoj Vida,785,0,0,0,0
+3857296,5469,Marcelo Brozović,785,48,40,0,1
+3857296,5474,Ivan Perišić,785,16,24,6,0
+3857296,7693,Bruno Petković,785,0,0,0,0
+3857296,8654,Ante Budimir,785,0,0,0,0
+3857296,11127,Borna Barišić,785,0,0,0,0
+3857296,11603,Mario Pašalić,785,0,0,0,0
+3857296,12625,Borna Sosa,785,41,36,1,0
+3857296,16527,Mislav Oršić,785,0,0,0,0
+3857296,16531,Dominik Livaković,785,18,12,0,0
+3857296,22041,Marko Livaja,785,8,23,0,0
+3857296,28835,Ivica Ivušić,785,0,0,0,0
+3857296,28914,Lovro Majer,785,0,0,0,0
+3857296,29163,Josip Juranović,785,36,29,0,0
+3857296,29342,Ivo Grbić,785,0,0,0,0
+3857296,32602,Kristijan Jakić,785,0,0,0,0
+3857296,32689,Martin Erlić,785,0,0,0,0
+3857296,33018,Joško Gvardiol,785,29,22,0,0
+3857296,37148,Josip Šutalo,785,0,0,0,0
+3857296,39490,Luka Sučić,785,0,0,0,0
+3857296,49337,Josip Stanišić,785,0,0,0,0
+3857293,2989,Alexander Djiku,4885,0,0,0,0
+3857293,3347,André Ayew Pelé,4885,8,16,1,1
+3857293,3450,Jordan Ayew,4885,9,18,1,1
+3857293,3709,Daniel Amartey,4885,22,13,0,0
+3857293,6383,Thomas Teye Partey,4885,33,28,1,0
+3857293,6393,Iñaki Williams Arthuer,4885,8,15,1,0
+3857293,8108,Lawrence Ati-Zigi,4885,12,5,0,0
+3857293,9286,Antoine Semenyo,4885,0,0,0,0
+3857293,9859,Elisha Owusu,4885,0,0,0,0
+3857293,12259,Denis Odoi,4885,0,0,0,0
+3857293,12325,Abdul Rahman Baba,4885,23,15,2,0
+3857293,16555,Joseph Aidoo,4885,0,0,0,0
+3857293,17033,Mohammed Kudus,4885,13,21,3,1
+3857293,23615,Gideon Mensah,4885,0,0,0,0
+3857293,28616,Daniel-Kofi Kyereh,4885,0,0,0,0
+3857293,30519,Mohamed Salisu,4885,25,17,0,0
+3857293,31029,Salis Abdul Samed,4885,26,27,0,0
+3857293,33602,Tariq Lamptey,4885,0,0,0,0
+3857293,35658,Kamaldeen Sulemana,4885,0,0,0,1
+3857293,43891,Kamal Sowah,4885,0,0,0,0
+3857293,44225,Osman Bukari,4885,0,0,0,0
+3857293,45047,Alidu Seidu,4885,21,15,3,0
+3857293,52091,Abdul Manaf Nurudeen,4885,0,0,0,0
+3857293,136305,Daniel Afriyie Barnieh,4885,0,0,0,0
+3857293,136306,Abdul Fatawu Issahaku,4885,0,0,0,0
+3857293,147563,Ibrahim Danlad,4885,0,0,0,0
+3857293,4319,Edinson Roberto Cavani Gómez,783,0,0,0,0
+3857293,5246,Luis Alberto Suárez Díaz,783,16,26,2,1
+3857293,5248,José Martín Cáceres Silva,783,0,0,0,0
+3857293,5249,Diego Roberto Godín Leal,783,0,0,0,0
+3857293,5255,Matías Vecino Falero,783,18,13,0,0
+3857293,5258,Giorgian Daniel De Arrascaeta Benedetti,783,15,21,0,2
+3857293,5259,José María Giménez de Vargas,783,22,16,0,0
+3857293,5260,Rodrigo Bentancur Colmán,783,19,12,1,0
+3857293,5264,Guillermo Varela Olivera,783,36,30,1,0
+3857293,5266,Lucas Torreira Di Pascua,783,0,0,0,0
+3857293,5267,Néstor Fernando Muslera Micol,783,0,0,0,0
+3857293,6297,Maximiliano Gómez González,783,0,0,0,1
+3857293,6300,Sebastián Coates Nión,783,26,23,0,0
+3857293,6773,Federico Santiago Valverde Dipetta,783,49,44,0,1
+3857293,7104,Mathías Olivera Miramontes,783,29,17,1,0
+3857293,26323,Carlos Sebastián Sosa Silva,783,0,0,0,0
+3857293,28729,Diego Nicolás De La Cruz Arcosa,783,0,0,0,1
+3857293,32478,Darwin Gabriel Núñez Ribeiro,783,11,31,2,0
+3857293,33099,José Luis Rodríguez Bebanz,783,0,0,0,0
+3857293,34476,Matías Nicolás Viña Susperreguy,783,0,0,0,0
+3857293,36288,Facundo Pellistri Rebollo,783,12,22,1,0
+3857293,36659,Manuel Ugarte Ribeiro,783,0,0,0,0
+3857293,36666,Agustín Canobbio Graviz,783,0,0,0,0
+3857293,36710,Sergio Rochet Álvarez,783,9,3,0,0
+3857293,44649,Facundo Daniel Torres Pérez,783,0,0,0,0
+3857292,3053,Leroy Sané,770,21,23,1,0
+3857292,3167,Antonio Rüdiger,770,49,41,0,0
+3857292,4440,Kevin Trapp,770,0,0,0,0
+3857292,5555,Julian Brandt,770,0,0,0,0
+3857292,5562,Thomas Müller,770,13,27,0,0
+3857292,5570,Manuel Neuer,770,15,9,0,0
+3857292,5579,Joshua Kimmich,770,58,53,0,1
+3857292,6322,Niklas Süle,770,69,65,0,0
+3857292,6324,Leon Goretzka,770,24,27,0,1
+3857292,8227,Mario Götze,770,0,0,0,1
+3857292,8400,Serge Gnabry,770,24,29,0,1
+3857292,8507,Lukas Klostermann,770,0,0,0,0
+3857292,8511,Thilo Kehrer,770,0,0,0,0
+3857292,8546,Niclas Füllkrug,770,0,0,0,2
+3857292,8804,Jonas Hofmann,770,0,0,0,0
+3857292,8808,Matthias Ginter,770,0,0,0,0
+3857292,8945,Christian Günter,770,0,0,0,0
+3857292,8966,Kai Havertz,770,0,0,0,3
+3857292,10287,İlkay Gündoğan,770,72,67,0,0
+3857292,12034,David Raum,770,48,31,0,0
+3857292,20055,Marc-André ter Stegen,770,0,0,0,0
+3857292,24118,Nico Schlotterbeck,770,0,0,0,0
+3857292,24916,Armel Bella-Kotchap,770,0,0,0,0
+3857292,35609,Karim-David Adeyemi,770,0,0,0,0
+3857292,38837,Youssoufa Moukoko,770,0,0,0,0
+3857292,39565,Jamal Musiala,770,27,34,3,2
+3857292,5581,Joel Nathaniel Campbell Samuels,795,24,30,4,0
+3857292,5582,Celso Borges Mora,795,17,13,0,0
+3857292,5592,Bryan Ruiz González,795,0,0,0,0
+3857292,5595,Johan Alberto Venegas Ulloa,795,11,18,1,0
+3857292,5597,Keylor Navas Gamboa,795,20,7,0,0
+3857292,5598,Óscar Esau Duarte Gaitán,795,13,10,0,0
+3857292,5836,Bryan Oviedo,795,19,15,0,0
+3857292,5839,Yeltsin Ignacio Tejeda Valverde,795,17,18,0,2
+3857292,6328,Kendall Jamaal Waston Manley,795,13,9,0,1
+3857292,15477,Ronald Alberto Matarrita Ulate,795,0,0,0,0
+3857292,27163,Juan Pablo Vargas Campos,795,12,7,0,1
+3857292,97291,Patrick Gilmar Sequeira Mejías,795,0,0,0,0
+3857292,108340,Brandon Aguilera Zamora,795,19,20,2,0
+3857292,130185,Keysher Fuller Spence,795,12,10,1,1
+3857292,130194,Esteban Alvarado Brown,795,0,0,0,0
+3857292,132271,Carlos Manuel Martínez Castro,795,0,0,0,0
+3857292,132296,Anthony Daniel Contreras Enríquez,795,0,0,0,0
+3857292,132497,Gerson Torres Barrantes,795,0,0,0,0
+3857292,132728,Jewison Bennette,795,0,0,0,0
+3857292,132743,Douglas Andrey López Araya,795,0,0,0,0
+3857292,132756,Youstin Delfin Salas Gómez,795,0,0,0,0
+3857292,132772,Daniel Alonso Chacón Salas,795,0,0,0,0
+3857292,135271,Roan Roberto Wilson Gordon,795,0,0,0,0
+3857292,184468,Álvaro José Zamora Mata,795,0,0,0,0
+3857292,283799,Anthony William Hernández González,795,0,0,0,0
+3857291,3477,Álvaro Borja Morata Martín,772,0,0,0,1
+3857291,3957,César Azpilicueta Tanco,772,49,51,0,0
+3857291,4127,David Raya Martin,772,0,0,0,0
+3857291,4353,Aymeric Laporte,772,91,83,0,0
+3857291,5199,Jorge Resurrección Merodio,772,0,0,0,0
+3857291,5203,Sergio Busquets i Burgos,772,80,69,0,0
+3857291,5211,Jordi Alba Ramos,772,89,78,1,0
+3857291,5719,Marco Asensio Willemsen,772,31,37,2,1
+3857291,5721,Daniel Carvajal Ramos,772,0,0,0,0
+3857291,6583,Carlos Soler Barragán,772,0,0,0,1
+3857291,6720,Pablo Sarabia García,772,0,0,0,0
+3857291,6748,Ferrán Torres García,772,19,27,0,2
+3857291,6765,Rodrigo Hernández Cascante,772,88,77,0,0
+3857291,6840,Marcos Llorente Moreno,772,0,0,0,0
+3857291,6892,Pau Francisco Torres,772,0,0,0,0
+3857291,9843,Robert Lynch Sanchez,772,0,0,0,0
+3857291,11748,Unai Simón Mendibil,772,14,12,0,0
+3857291,16532,Daniel Olmo Carvajal,772,34,43,1,2
+3857291,30486,Pedro González López,772,70,70,0,0
+3857291,30756,Anssumane Fati,772,0,0,0,0
+3857291,31953,Eric García Martret,772,0,0,0,0
+3857291,35641,Hugo Guillamón Sanmartín,772,0,0,0,0
+3857291,39161,Alejandro Balde Martínez,772,0,0,0,0
+3857291,50494,Yeremi Jesús Pino Santos,772,0,0,0,0
+3857291,68574,Nicholas Williams Arthuer,772,0,0,0,0
+3857291,133353,Pablo Martín Páez Gavira,772,32,36,1,1
+3857291,5581,Joel Nathaniel Campbell Samuels,795,10,12,0,0
+3857291,5582,Celso Borges Mora,795,13,8,0,0
+3857291,5592,Bryan Ruiz González,795,0,0,0,0
+3857291,5595,Johan Alberto Venegas Ulloa,795,0,0,0,0
+3857291,5597,Keylor Navas Gamboa,795,10,4,0,0
+3857291,5598,Óscar Esau Duarte Gaitán,795,11,9,0,0
+3857291,5600,Francisco Javier Calvo Quesada,795,9,4,0,0
+3857291,5836,Bryan Oviedo,795,12,8,0,0
+3857291,5839,Yeltsin Ignacio Tejeda Valverde,795,12,6,0,0
+3857291,6328,Kendall Jamaal Waston Manley,795,0,0,0,0
+3857291,15477,Ronald Alberto Matarrita Ulate,795,0,0,0,0
+3857291,27163,Juan Pablo Vargas Campos,795,0,0,0,0
+3857291,97291,Patrick Gilmar Sequeira Mejías,795,0,0,0,0
+3857291,108340,Brandon Aguilera Zamora,795,0,0,0,0
+3857291,130185,Keysher Fuller Spence,795,9,7,0,0
+3857291,130194,Esteban Alvarado Brown,795,0,0,0,0
+3857291,132271,Carlos Manuel Martínez Castro,795,14,6,0,0
+3857291,132296,Anthony Daniel Contreras Enríquez,795,7,7,0,0
+3857291,132497,Gerson Torres Barrantes,795,0,0,0,0
+3857291,132728,Jewison Bennette,795,5,7,2,0
+3857291,132743,Douglas Andrey López Araya,795,0,0,0,0
+3857291,132756,Youstin Delfin Salas Gómez,795,0,0,0,0
+3857291,132772,Daniel Alonso Chacón Salas,795,0,0,0,0
+3857291,135271,Roan Roberto Wilson Gordon,795,0,0,0,0
+3857291,184468,Álvaro José Zamora Mata,795,0,0,0,0
+3857291,283799,Anthony William Hernández González,795,0,0,0,0
+3857290,3141,André-Frank Zambo Anguissa,2722,38,34,0,1
+3857290,3499,Jean-Eric Maxim Choupo-Moting,2722,12,12,0,1
+3857290,3551,Karl Brillant Toko Ekambi,2722,24,20,0,0
+3857290,3639,Georges-Kévin Nkoudou Mbida,2722,0,0,0,0
+3857290,4935,Bryan Mbeumo,2722,22,22,3,1
+3857290,7426,Jean-Charles Castelletto,2722,25,22,1,0
+3857290,7472,Nicolas Alexis Julio N'Koulou Ndoubena,2722,25,19,0,1
+3857290,7551,Enzo Ebosse,2722,0,0,0,0
+3857290,8064,André Onana,2722,29,19,0,0
+3857290,8591,Samuel Yves Oum Gwet,2722,31,22,0,0
+3857290,10530,Jules Olivier Ntcham,2722,0,0,0,0
+3857290,11174,Vincent Paté Aboubakar,2722,0,0,0,0
+3857290,12623,Pierre Kunde Malong,2722,0,0,0,0
+3857290,13454,Nouhou Tolo,2722,21,15,0,0
+3857290,15326,Devis Rogers Epassy Mboka,2722,0,0,0,0
+3857290,16014,Jean Pierre Nsamé,2722,0,0,0,0
+3857290,16015,Nicolas Moumi Ngamaleu,2722,0,0,0,0
+3857290,16346,Ngoran Suiru Fai Collins,2722,32,26,0,0
+3857290,21456,Olivier Mbaissidara Mbaizo,2722,0,0,0,0
+3857290,28966,Gaël Ondoua,2722,0,0,0,0
+3857290,30016,Martin Hongla Yma II,2722,27,28,1,1
+3857290,33813,Jerome Ngom Mbekeli,2722,0,0,0,0
+3857290,44842,Simon Brady Ngapandouetnbu,2722,0,0,0,0
+3857290,46903,Christian Mougang Bassogog,2722,0,0,0,0
+3857290,74588,Christopher Wooh,2722,0,0,0,0
+3857290,349913,Souaibou Marou,2722,0,0,0,0
+3857290,3500,Granit Xhaka,773,23,24,0,1
+3857290,3533,Xherdan Shaqiri,773,26,32,0,0
+3857290,3913,Edimilson Fernandes,773,0,0,0,0
+3857290,5537,Fabian Lukas Schär,773,0,0,0,0
+3857290,5538,Denis Lemi Zakaria Lako Lado,773,0,0,0,0
+3857290,5543,Haris Seferović,773,0,0,0,0
+3857290,5544,Ricardo Iván Rodríguez Araya,773,38,30,0,0
+3857290,5545,Breel-Donald Embolo,773,13,23,1,1
+3857290,5549,Manuel Obafemi Akanji,773,35,31,0,0
+3857290,5550,Yann Sommer,773,13,6,0,0
+3857290,6983,Remo Freuler,773,40,36,0,0
+3857290,7796,Silvan Widmer,773,24,22,0,0
+3857290,8561,Fabian Frei,773,0,0,0,0
+3857290,8814,Nico Elvedi,773,42,32,0,0
+3857290,16016,Michel Aebischer,773,0,0,0,0
+3857290,16022,Christian Fassnacht,773,0,0,0,0
+3857290,16026,Djibril Sow,773,23,31,0,0
+3857290,17974,Gregor Kobel,773,0,0,0,0
+3857290,29003,Jonas Omlin,773,0,0,0,0
+3857290,29006,Noah Okafor,773,0,0,0,0
+3857290,29012,Eray Ervin Cömert,773,0,0,0,0
+3857290,30401,Ruben Vargas,773,26,26,0,1
+3857290,41655,Ardon Jashari,773,0,0,0,0
+3857290,46313,Philipp Köhn,773,0,0,0,0
+3857290,50436,Fabian Rieder,773,0,0,0,0
+3857285,2941,Ismaïla Sarr,787,10,22,1,0
+3857285,3404,Youssouf Sabaly,787,27,22,0,1
+3857285,3436,Idrissa Gana Gueye,787,33,27,0,1
+3857285,3675,Fodé Ballo Touré,787,0,0,0,0
+3857285,3684,Cheikhou Kouyaté,787,15,13,0,0
+3857285,4506,Nampalys Mendy,787,22,17,0,0
+3857285,5675,Kalidou Koulibaly,787,24,16,0,0
+3857285,7379,Edouard Mendy,787,16,10,0,0
+3857285,8553,Abdou Diallo,787,23,19,0,0
+3857285,8870,Alfred Benjamin Gomis,787,0,0,0,0
+3857285,10603,Mamadou Loum N''Diaye,787,0,0,0,0
+3857285,13314,Famara Diedhiou,787,0,0,0,0
+3857285,15970,Pape Abou Cissé,787,13,13,0,0
+3857285,17456,Timothy Dieng,787,0,0,0,0
+3857285,20611,Boulaye Dia,787,7,17,0,1
+3857285,20758,Krépin Diatta,787,31,33,1,0
+3857285,21026,Pape Gueye,787,0,0,0,1
+3857285,31751,Pathé Ismaël Ciss,787,0,0,0,0
+3857285,32915,Ismail Jakobs,787,0,0,0,0
+3857285,34893,Moustapha Name,787,0,0,0,0
+3857285,39595,Formose Mendy,787,0,0,0,0
+3857285,50497,Nicolas Jackson,787,0,0,0,0
+3857285,50498,Pape Matar Sarr,787,0,0,0,0
+3857285,80484,Iliman Ndiaye,787,0,0,0,0
+3857285,88123,Cheikh Ahmadou Bamba Mbacke Dieng,787,0,0,0,0
+3857285,312414,Moussa N''Diaye,787,0,0,0,0
+3857285,2988,Memphis Depay,941,0,0,0,1
+3857285,3264,Vincent Janssen,941,11,17,1,0
+3857285,3306,Nathan Aké,941,34,33,0,0
+3857285,3311,Daley Blind,941,31,26,0,0
+3857285,3669,Virgil van Dijk,941,29,27,0,0
+3857285,4318,Davy Klaassen,941,0,0,0,1
+3857285,6994,Marten de Roon,941,0,0,0,0
+3857285,7745,Steven Berghuis,941,30,24,2,0
+3857285,7787,Stefan de Vrij,941,0,0,0,0
+3857285,7829,Wout Weghorst,941,0,0,0,0
+3857285,7838,Remko Pasveer,941,0,0,0,0
+3857285,7891,Teun Koopmeiners,941,0,0,0,0
+3857285,8069,Matthijs de Ligt,941,19,15,0,0
+3857285,8118,Frenkie de Jong,941,39,34,4,0
+3857285,8124,Tyrell Malacia,941,0,0,0,0
+3857285,8125,Denzel Dumfries,941,19,17,1,0
+3857285,8259,Steven Bergwijn,941,14,21,0,0
+3857285,8326,Andries Noppert,941,12,5,0,0
+3857285,16185,Justin Bijlow,941,0,0,0,0
+3857285,20033,Luuk de Jong,941,0,0,0,0
+3857285,20750,Cody Mathès Gakpo,941,16,11,0,1
+3857285,21547,Noa Lang,941,0,0,0,0
+3857285,21809,Jurriën David Norman Timber,941,0,0,0,0
+3857285,21879,Kenneth Taylor,941,0,0,0,0
+3857285,32712,Jeremie Frimpong,941,0,0,0,0
+3857285,39167,Xavi Simons,941,0,0,0,0
+3857281,3441,Nikola Vlašić,785,0,0,0,0
+3857281,3471,Dejan Lovren,785,36,32,0,0
+3857281,5456,Mateo Kovačić,785,30,26,0,0
+3857281,5460,Andrej Kramarić,785,23,29,1,3
+3857281,5463,Luka Modrić,785,33,33,1,0
+3857281,5469,Marcelo Brozović,785,41,39,2,1
+3857281,5474,Ivan Perišić,785,25,28,4,1
+3857281,7693,Bruno Petković,785,0,0,0,0
+3857281,8654,Ante Budimir,785,0,0,0,0
+3857281,11127,Borna Barišić,785,0,0,0,0
+3857281,11603,Mario Pašalić,785,0,0,0,0
+3857281,12625,Borna Sosa,785,34,26,0,0
+3857281,16527,Mislav Oršić,785,0,0,0,1
+3857281,16531,Dominik Livaković,785,6,5,0,0
+3857281,22041,Marko Livaja,785,9,25,0,3
+3857281,28835,Ivica Ivušić,785,0,0,0,0
+3857281,28914,Lovro Majer,785,0,0,0,1
+3857281,29163,Josip Juranović,785,30,19,0,0
+3857281,29342,Ivo Grbić,785,0,0,0,0
+3857281,32602,Kristijan Jakić,785,0,0,0,0
+3857281,32689,Martin Erlić,785,0,0,0,0
+3857281,33018,Joško Gvardiol,785,38,32,0,0
+3857281,37148,Josip Šutalo,785,0,0,0,0
+3857281,39490,Luka Sučić,785,0,0,0,0
+3857281,49337,Josip Stanišić,785,0,0,0,0
+3857281,4106,Ike Ugbo,1833,0,0,0,0
+3857281,9036,David Wotherspoon,1833,0,0,0,0
+3857281,9922,David Junior Hoilett,1833,0,0,0,0
+3857281,11187,Stephen Antunes Eustáquio,1833,27,25,0,0
+3857281,11846,Steven de Sousa Vitoria,1833,21,17,0,0
+3857281,12365,Alphonso Davies,1833,24,25,4,1
+3857281,12770,Jonathan Osorio,1833,0,0,0,0
+3857281,12779,Samuel Piette,1833,0,0,0,0
+3857281,13885,Liam Fraser,1833,0,0,0,0
+3857281,15958,Milan Borjan,1833,15,5,0,0
+3857281,16120,Richie Laryea,1833,17,17,2,0
+3857281,16252,Mark Anthony Kaye,1833,0,0,0,0
+3857281,16459,Cyle Larin,1833,9,19,1,0
+3857281,23363,Liam Millar,1833,0,0,0,0
+3857281,23640,Jonathan David,1833,18,20,0,1
+3857281,23760,Derek Cornelius,1833,0,0,0,0
+3857281,23828,Kamal Miller,1833,32,30,0,0
+3857281,24024,Tajon Buchanan,1833,15,19,5,0
+3857281,26348,Lucas Daniel Cavallini,1833,0,0,0,0
+3857281,29758,Sam Adekugbe,1833,0,0,0,0
+3857281,31684,Atiba Hutchinson,1833,36,37,1,0
+3857281,35707,Joel Waterman,1833,0,0,0,0
+3857281,36794,Dayne St Clair,1833,0,0,0,0
+3857281,44703,Alistair Johnston,1833,33,25,0,0
+3857281,49259,James Pantemis,1833,0,0,0,0
+3857281,133229,Ismael Koné,1833,0,0,0,0
+3857280,3067,Ederson Santana de Moraes,781,13,6,0,0
+3857280,3202,Gabriel Fernando de Jesus,781,10,20,0,1
+3857280,3247,Fábio Henrique Tavares,781,31,23,0,0
+3857280,3280,Richarlison de Andrade,781,0,0,0,0
+3857280,3295,Thiago Emiliano da Silva,781,0,0,0,0
+3857280,4324,Daniel Alves da Silva,781,43,36,0,0
+3857280,4372,Marcos Aoás Corrêa,781,0,0,0,0
+3857280,5539,Carlos Henrique Casimiro,781,0,0,0,0
+3857280,5547,Alisson Ramsés Becker,781,0,0,0,0
+3857280,9904,Frederico Rodrigues Santos,781,31,35,1,0
+3857280,10595,Raphael Dias Belloli,781,0,0,0,0
+3857280,11183,Alex Nicolao Telles,781,32,25,0,0
+3857280,11493,Gleison Bremer Silva Nascimento,781,44,37,0,0
+3857280,13620,Éder Gabriel Militão,781,50,43,0,1
+3857280,18395,Vinícius José Paixão de Oliveira Júnior,781,0,0,0,0
+3857280,22600,Lucas Tolentino Coelho de Lima,781,0,0,0,0
+3857280,25101,Weverton Pereira da Silva,781,0,0,0,0
+3857280,25104,Rodrygo Silva de Goes,781,29,39,1,0
+3857280,25142,Bruno Guimarães Rodriguez Moura,781,0,0,0,1
+3857280,25154,Éverton Augusto de Barros Ribeiro,781,0,0,0,0
+3857280,25305,Pedro Guilherme Abreu dos Santos,781,0,0,0,0
+3857280,25363,Antony Matheus dos Santos,781,33,39,2,2
+3857280,29976,Gabriel Teodoro Martinelli Silva,781,15,21,3,3
+3857280,3141,André-Frank Zambo Anguissa,2722,23,23,1,0
+3857280,3499,Jean-Eric Maxim Choupo-Moting,2722,9,20,1,0
+3857280,3551,Karl Brillant Toko Ekambi,2722,0,0,0,0
+3857280,3639,Georges-Kévin Nkoudou Mbida,2722,0,0,0,0
+3857280,4935,Bryan Mbeumo,2722,9,13,0,1
+3857280,7551,Enzo Ebosse,2722,21,17,0,0
+3857280,8591,Samuel Yves Oum Gwet,2722,0,0,0,0
+3857280,10530,Jules Olivier Ntcham,2722,0,0,0,1
+3857280,11174,Vincent Paté Aboubakar,2722,8,15,1,1
+3857280,12623,Pierre Kunde Malong,2722,13,12,0,0
+3857280,13454,Nouhou Tolo,2722,12,7,0,0
+3857280,15326,Devis Rogers Epassy Mboka,2722,18,5,0,0
+3857280,16014,Jean Pierre Nsamé,2722,0,0,0,0
+3857280,16015,Nicolas Moumi Ngamaleu,2722,12,18,2,0
+3857280,16346,Ngoran Suiru Fai Collins,2722,15,7,0,0
+3857280,21456,Olivier Mbaissidara Mbaizo,2722,0,0,0,0
+3857280,28966,Gaël Ondoua,2722,0,0,0,0
+3857280,33813,Jerome Ngom Mbekeli,2722,0,0,0,0
+3857280,44842,Simon Brady Ngapandouetnbu,2722,0,0,0,0
+3857280,46903,Christian Mougang Bassogog,2722,0,0,0,0
+3857280,74588,Christopher Wooh,2722,18,15,0,0
+3857280,349913,Souaibou Marou,2722,0,0,0,0
+3857279,2972,Marcus Thuram,771,0,0,0,0
+3857279,3009,Kylian Mbappé Lottin,771,35,41,4,1
+3857279,3026,Adrien Rabiot,771,29,27,1,1
+3857279,3099,Hugo Lloris,771,12,4,0,0
+3857279,3379,Alphonse Areola,771,0,0,0,0
+3857279,3543,Steve Mandanda,771,0,0,0,0
+3857279,3604,Olivier Giroud,771,5,10,0,2
+3857279,4445,Jules Koundé,771,0,0,0,0
+3857279,5476,Benjamin Pavard,771,48,35,0,0
+3857279,5477,Ousmane Dembélé,771,19,21,3,0
+3857279,5484,Lucas Hernández Pi,771,10,6,0,0
+3857279,5485,Raphaël Varane,771,0,0,0,0
+3857279,5487,Antoine Griezmann,771,38,37,0,0
+3857279,6704,Theo Bernard François Hernández,771,30,25,1,1
+3857279,7153,Jordan Veretout,771,0,0,0,0
+3857279,7345,Mattéo Guendouzi Olié,771,0,0,0,0
+3857279,7439,Axel Disasi,771,0,0,0,0
+3857279,8217,Kingsley Coman,771,0,0,0,0
+3857279,8519,Dayotchanculle Upamecano,771,57,48,0,0
+3857279,10481,Aurélien Djani Tchouaméni,771,53,48,0,0
+3857279,11135,Ibrahima Konaté,771,45,44,0,1
+3857279,11990,Youssouf Fofana,771,0,0,0,0
+3857279,17592,William Saliba,771,0,0,0,0
+3857279,22097,Randal Kolo Muani,771,0,0,0,0
+3857279,24778,Eduardo Camavinga,771,0,0,0,0
+3857279,3240,Mathew Ryan,792,20,12,0,0
+3857279,3281,Aaron Mooy,792,37,33,1,0
+3857279,5479,Aziz Eraltay Behich,792,36,27,0,0
+3857279,5481,Mathew Leckie,792,11,16,2,0
+3857279,5490,Jackson Irvine,792,14,18,0,0
+3857279,8346,Craig Goodwin,792,18,19,0,1
+3857279,8859,Ajdin Hrustic,792,0,0,0,0
+3857279,9430,Jason Cummings,792,0,0,0,0
+3857279,9980,Jamie MacLaren,792,0,0,0,0
+3857279,15957,Miloš Degenek,792,0,0,0,0
+3857279,16549,Danny Vuković,792,0,0,0,0
+3857279,22293,Harry Souttar,792,32,26,0,0
+3857279,22371,Bailey Wright,792,0,0,0,0
+3857279,24475,Awer Mabil,792,0,0,0,0
+3857279,28370,Fran Karačić,792,0,0,0,0
+3857279,33446,Thomas Deng,792,0,0,0,0
+3857279,33465,Joel King,792,0,0,0,0
+3857279,33477,Riley McGree,792,16,19,0,0
+3857279,33488,Keanu Baccus,792,0,0,0,0
+3857279,33492,Mitchell Thomas Duke,792,7,9,0,0
+3857279,33495,Kye Rowles,792,41,38,0,0
+3857279,33502,Cameron Peter Devlin,792,0,0,0,0
+3857279,33564,Andrew Redmayne,792,0,0,0,0
+3857279,33572,Nathaniel Atkinson,792,22,11,0,0
+3857279,36158,Marco Tilio,792,0,0,0,0
+3857279,227697,Garang Kuol,792,0,0,0,0
+3857278,3377,Timothy Weah,1839,28,32,0,1
+3857278,3658,DeAndre Yedlin,1839,0,0,0,0
+3857278,4614,Antonee Robinson,1839,33,34,3,0
+3857278,6806,Shaquell Moore,1839,0,0,0,0
+3857278,8246,Christian Pulisic,1839,16,22,2,2
+3857278,8526,Weston McKennie,1839,28,31,1,0
+3857278,12352,Matthew Charles Turner,1839,13,5,0,0
+3857278,12524,Walker Zimmerman,1839,0,0,0,0
+3857278,12746,Sean Johnson,1839,0,0,0,0
+3857278,12751,Tyler Adams,1839,46,35,1,0
+3857278,12757,Aaron Long,1839,0,0,0,0
+3857278,13035,Kellyn Kai Perry-Acosta,1839,0,0,0,0
+3857278,13442,Cristian Roldán León,1839,0,0,0,0
+3857278,15971,Cameron Carter-Vickers,1839,37,29,0,0
+3857278,18242,Tim Ream,1839,32,27,0,0
+3857278,21201,Ethan Horvath,1839,0,0,0,0
+3857278,21881,Sergino Dest,1839,37,37,2,0
+3857278,22008,Haji Wright,1839,0,0,0,1
+3857278,22168,Joshua Sargent,1839,12,17,1,1
+3857278,22433,Jesus Ferreira,1839,0,0,0,0
+3857278,23789,Jordan Morris,1839,0,0,0,0
+3857278,24243,Brenden Aaronson,1839,0,0,0,0
+3857278,33274,Luca de la Torre,1839,0,0,0,0
+3857278,34339,Giovanni Reyna,1839,0,0,0,0
+3857278,36830,Joseph Scally,1839,0,0,0,0
+3857278,38792,Yunus Dimoara Musah,1839,39,36,4,0
+3857278,5220,Morteza Pouraliganji,797,30,21,0,0
+3857278,5222,Roozbeh Cheshmi,797,0,0,0,0
+3857278,5224,Sardar Azmoun,797,13,18,0,0
+3857278,5226,Mehdi Taremi,797,25,30,0,1
+3857278,5227,Alireza Safar Beiranvand,797,13,7,0,0
+3857278,5228,Seyed Majid Hosseini,797,20,17,0,0
+3857278,5230,Ehsan Hajsafi,797,19,19,0,0
+3857278,5231,Karim Ansarifard,797,0,0,0,0
+3857278,5235,Ramin Rezaeian,797,27,19,1,0
+3857278,5240,Saman Ghoddos,797,0,0,0,0
+3857278,5241,Vahid Amiri,797,0,0,0,0
+3857278,5720,Milad Mohammadi,797,15,13,1,0
+3857278,5722,Saeid Ezatolahi Afagh,797,20,14,0,0
+3857278,11224,Amir Abedzadeh,797,0,0,0,0
+3857278,23538,Sadegh Moharrami,797,0,0,0,0
+3857278,23874,Ali Gholizadeh,797,19,14,2,0
+3857278,124161,Mehdi Torabi,797,0,0,0,0
+3857278,124167,Ahmad Nourollahi,797,11,9,2,0
+3857278,124175,Mohammad Hossein Kanani Zadegan,797,0,0,0,0
+3857278,124177,Shoja Khalilzadeh,797,0,0,0,0
+3857278,124183,Payam Niazmand,797,0,0,0,0
+3857278,125818,Ali Karimi,797,4,6,0,0
+3857278,125823,Seyed Hossein Hosseini,797,0,0,0,0
+3857278,326758,Abolfazl Jalali,797,0,0,0,0
+3857277,3441,Nikola Vlašić,785,10,19,0,1
+3857277,3471,Dejan Lovren,785,43,38,0,0
+3857277,5456,Mateo Kovačić,785,34,28,0,0
+3857277,5460,Andrej Kramarić,785,8,16,2,0
+3857277,5463,Luka Modrić,785,50,44,1,0
+3857277,5468,Domagoj Vida,785,0,0,0,0
+3857277,5469,Marcelo Brozović,785,43,38,1,0
+3857277,5474,Ivan Perišić,785,22,23,0,0
+3857277,7693,Bruno Petković,785,0,0,0,0
+3857277,8654,Ante Budimir,785,0,0,0,0
+3857277,11127,Borna Barišić,785,0,0,0,0
+3857277,11603,Mario Pašalić,785,0,0,0,0
+3857277,12625,Borna Sosa,785,27,23,1,0
+3857277,16527,Mislav Oršić,785,0,0,0,0
+3857277,16531,Dominik Livaković,785,11,4,0,0
+3857277,22041,Marko Livaja,785,0,0,0,0
+3857277,28835,Ivica Ivušić,785,0,0,0,0
+3857277,28914,Lovro Majer,785,0,0,0,0
+3857277,29163,Josip Juranović,785,27,22,2,0
+3857277,29342,Ivo Grbić,785,0,0,0,0
+3857277,32602,Kristijan Jakić,785,0,0,0,0
+3857277,32689,Martin Erlić,785,0,0,0,0
+3857277,33018,Joško Gvardiol,785,57,51,0,0
+3857277,37148,Josip Šutalo,785,0,0,0,0
+3857277,39490,Luka Sučić,785,0,0,0,0
+3857277,49337,Josip Stanišić,785,0,0,0,0
+3857277,3625,Sofiane Boufal,788,13,19,1,0
+3857277,3634,Abdelhamid Sabiri,788,0,0,0,0
+3857277,5219,Romain Saïss,788,34,28,0,0
+3857277,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3857277,5234,Sofyan Amrabat,788,28,19,0,0
+3857277,5237,Hakim Ziyech,788,22,30,2,0
+3857277,5245,Achraf Hakimi Mouh,788,32,30,3,1
+3857277,6301,Youssef En-Nesyri,788,12,15,0,0
+3857277,6785,Yassine Bounou,788,12,4,0,0
+3857277,7459,Jawad El Yamiq,788,0,0,0,0
+3857277,12149,Nayef Aguerd,788,29,24,0,0
+3857277,15890,Noussair Mazraoui,788,19,13,0,1
+3857277,21214,Ilias Chair,788,0,0,0,0
+3857277,21736,Zakaria Aboukhlal,788,0,0,0,0
+3857277,23774,Selim Amallah,788,7,11,1,0
+3857277,31295,Yahia Attiyat allah,788,0,0,0,0
+3857277,46258,Azzedine Ounahi,788,24,30,0,0
+3857277,59493,Abderrazak Hamdallah,788,0,0,0,0
+3857277,67700,Badr Banoun,788,0,0,0,0
+3857277,102668,Yahya Jabrane,788,0,0,0,0
+3857277,131037,Anass Zaroury,788,0,0,0,0
+3857277,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3857277,139016,Achraf Dari,788,0,0,0,0
+3857277,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3857277,156734,Bilal El Khannous,788,0,0,0,0
+3857277,296254,Walid Cheddira,788,0,0,0,0
+3857276,3625,Sofiane Boufal,788,13,19,1,0
+3857276,3634,Abdelhamid Sabiri,788,16,17,0,0
+3857276,5219,Romain Saïss,788,24,15,0,0
+3857276,5233,Munir Mohand Mohamedi,788,0,0,0,0
+3857276,5234,Sofyan Amrabat,788,28,26,0,0
+3857276,5237,Hakim Ziyech,788,26,25,1,1
+3857276,5245,Achraf Hakimi Mouh,788,40,29,0,0
+3857276,6301,Youssef En-Nesyri,788,10,16,1,1
+3857276,6785,Yassine Bounou,788,16,14,0,0
+3857276,7459,Jawad El Yamiq,788,0,0,0,0
+3857276,12149,Nayef Aguerd,788,27,25,0,0
+3857276,15890,Noussair Mazraoui,788,17,12,0,0
+3857276,21214,Ilias Chair,788,0,0,0,0
+3857276,21736,Zakaria Aboukhlal,788,0,0,0,0
+3857276,23774,Selim Amallah,788,0,0,0,0
+3857276,31295,Yahia Attiyat allah,788,0,0,0,0
+3857276,46258,Azzedine Ounahi,788,19,18,1,0
+3857276,59493,Abderrazak Hamdallah,788,0,0,0,0
+3857276,67700,Badr Banoun,788,0,0,0,0
+3857276,102668,Yahya Jabrane,788,0,0,0,0
+3857276,131037,Anass Zaroury,788,0,0,0,0
+3857276,139011,Ahmed Reda Tagnaouti,788,0,0,0,0
+3857276,139016,Achraf Dari,788,0,0,0,0
+3857276,149714,Abdessamad Ezzalzouli,788,0,0,0,0
+3857276,156734,Bilal El Khannous,788,0,0,0,0
+3857276,296254,Walid Cheddira,788,0,0,0,0
+3857276,4106,Ike Ugbo,1833,0,0,0,0
+3857276,9036,David Wotherspoon,1833,0,0,0,0
+3857276,9922,David Junior Hoilett,1833,14,15,4,0
+3857276,11187,Stephen Antunes Eustáquio,1833,0,0,0,0
+3857276,11846,Steven de Sousa Vitoria,1833,44,37,0,0
+3857276,12365,Alphonso Davies,1833,14,16,2,0
+3857276,12770,Jonathan Osorio,1833,16,18,0,0
+3857276,12779,Samuel Piette,1833,0,0,0,0
+3857276,13885,Liam Fraser,1833,0,0,0,0
+3857276,15958,Milan Borjan,1833,10,6,0,0
+3857276,16120,Richie Laryea,1833,0,0,0,0
+3857276,16252,Mark Anthony Kaye,1833,40,40,0,0
+3857276,16459,Cyle Larin,1833,9,14,2,0
+3857276,23363,Liam Millar,1833,0,0,0,0
+3857276,23640,Jonathan David,1833,0,0,0,0
+3857276,23760,Derek Cornelius,1833,0,0,0,0
+3857276,23828,Kamal Miller,1833,40,34,0,0
+3857276,24024,Tajon Buchanan,1833,5,13,3,0
+3857276,26348,Lucas Daniel Cavallini,1833,0,0,0,0
+3857276,29758,Sam Adekugbe,1833,21,21,1,0
+3857276,31684,Atiba Hutchinson,1833,0,0,0,0
+3857276,35707,Joel Waterman,1833,0,0,0,0
+3857276,36794,Dayne St Clair,1833,0,0,0,0
+3857276,44703,Alistair Johnston,1833,34,22,0,0
+3857276,49259,James Pantemis,1833,0,0,0,0
+3857276,133229,Ismael Koné,1833,0,0,0,0
+3857275,2972,Marcus Thuram,771,0,0,0,0
+3857275,3009,Kylian Mbappé Lottin,771,0,0,0,2
+3857275,3026,Adrien Rabiot,771,0,0,0,0
+3857275,3099,Hugo Lloris,771,0,0,0,0
+3857275,3379,Alphonse Areola,771,0,0,0,0
+3857275,3543,Steve Mandanda,771,19,5,0,0
+3857275,3604,Olivier Giroud,771,0,0,0,0
+3857275,4445,Jules Koundé,771,0,0,0,0
+3857275,5476,Benjamin Pavard,771,0,0,0,0
+3857275,5477,Ousmane Dembélé,771,0,0,0,1
+3857275,5485,Raphaël Varane,771,39,34,0,0
+3857275,5487,Antoine Griezmann,771,0,0,0,0
+3857275,6704,Theo Bernard François Hernández,771,0,0,0,0
+3857275,7153,Jordan Veretout,771,26,25,0,0
+3857275,7345,Mattéo Guendouzi Olié,771,12,12,1,0
+3857275,7439,Axel Disasi,771,32,25,1,0
+3857275,8217,Kingsley Coman,771,16,23,1,0
+3857275,8519,Dayotchanculle Upamecano,771,0,0,0,0
+3857275,10481,Aurélien Djani Tchouaméni,771,38,35,0,0
+3857275,11135,Ibrahima Konaté,771,27,24,0,0
+3857275,11990,Youssouf Fofana,771,21,20,1,0
+3857275,17592,William Saliba,771,0,0,0,0
+3857275,22097,Randal Kolo Muani,771,5,10,1,0
+3857275,24778,Eduardo Camavinga,771,37,31,1,0
+3857275,3196,Wahbi Khazri,777,8,14,1,2
+3857275,3557,Naïm Sliti,777,0,0,0,0
+3857275,3767,Ellyes Joris Skhiri,777,23,17,0,0
+3857275,5647,Ali Maâloul,777,40,23,0,0
+3857275,5650,Ferjani Sassi,777,0,0,0,0
+3857275,5651,Yassine Meriah,777,24,18,0,0
+3857275,5653,Mouez Hassen,777,0,0,0,0
+3857275,5655,Dylan Daniel Mahmoud Bronn,777,0,0,0,0
+3857275,6342,Aymen Mathlouthi,777,0,0,0,0
+3857275,6347,Ghilane Chalali,777,0,0,0,0
+3857275,9236,Mohamed Dräger,777,0,0,0,0
+3857275,16352,Issam Jebali,777,0,0,0,0
+3857275,23910,Youssef Msakni,777,0,0,0,0
+3857275,25582,Nader Ghandri,777,21,19,0,0
+3857275,30681,Ali Abdi,777,0,0,0,0
+3857275,32450,Montassar Omar Talbi,777,19,13,0,0
+3857275,35592,Anis Ben Slimane,777,20,29,0,1
+3857275,44955,Aïssa Bilal Laïdouni,777,21,21,1,0
+3857275,50988,Hannibal Mejbri,777,0,0,0,0
+3857275,68749,Seifeddine Jaziri,777,0,0,0,0
+3857275,102816,Mohamed Ali Ben Romdhane,777,12,14,1,0
+3857275,105943,Aymen Dahmen,777,6,5,0,0
+3857275,105944,Wajdi Kechrida,777,27,19,0,0
+3857275,128793,Taha Yassine Khenissi,777,0,0,0,0
+3857275,136296,Bechir Ben Said,777,0,0,0,0
+3857275,163049,Bilel Ifa,777,0,0,0,0
+3857274,2988,Memphis Depay,941,0,0,0,0
+3857274,3264,Vincent Janssen,941,0,0,0,0
+3857274,3306,Nathan Aké,941,39,36,0,0
+3857274,3311,Daley Blind,941,34,28,0,0
+3857274,3669,Virgil van Dijk,941,24,19,0,0
+3857274,4318,Davy Klaassen,941,15,14,0,0
+3857274,6994,Marten de Roon,941,0,0,0,0
+3857274,7745,Steven Berghuis,941,0,0,0,0
+3857274,7787,Stefan de Vrij,941,0,0,0,0
+3857274,7829,Wout Weghorst,941,0,0,0,0
+3857274,7838,Remko Pasveer,941,0,0,0,0
+3857274,7891,Teun Koopmeiners,941,22,22,1,0
+3857274,8069,Matthijs de Ligt,941,0,0,0,0
+3857274,8118,Frenkie de Jong,941,33,28,0,0
+3857274,8124,Tyrell Malacia,941,0,0,0,0
+3857274,8125,Denzel Dumfries,941,22,19,0,0
+3857274,8259,Steven Bergwijn,941,16,29,1,0
+3857274,8326,Andries Noppert,941,21,15,0,0
+3857274,16185,Justin Bijlow,941,0,0,0,0
+3857274,20033,Luuk de Jong,941,0,0,0,0
+3857274,20750,Cody Mathès Gakpo,941,13,23,1,1
+3857274,21547,Noa Lang,941,0,0,0,0
+3857274,21809,Jurriën David Norman Timber,941,29,22,1,0
+3857274,21879,Kenneth Taylor,941,0,0,0,0
+3857274,32712,Jeremie Frimpong,941,0,0,0,0
+3857274,39167,Xavi Simons,941,0,0,0,0
+3857274,12583,Carlos Armando Gruezo Arboleda,3565,0,0,0,0
+3857274,12803,Romario Andrés Ibarra Mina,3565,0,0,0,0
+3857274,15486,Diego José Palacios Espinoza,3565,0,0,0,0
+3857274,23830,Jhegson Sebastián Méndez Carabalí,3565,41,33,1,0
+3857274,24085,Pervis Josué Estupiñán Tenorio,3565,39,30,2,1
+3857274,25083,Xavier Ricardo Arreaga Bermello,3565,0,0,0,0
+3857274,25352,Robert Abel Arboleda Escobar,3565,0,0,0,0
+3857274,28511,Ángel Israel Mena Delgado,3565,0,0,0,0
+3857274,28559,Enner Remberto Valencia Lastra,3565,17,32,3,2
+3857274,30111,Felix Eduardo Torres Caicedo,3565,43,35,0,0
+3857274,31152,Gonzalo Jordy Plata Jiménez,3565,23,32,3,0
+3857274,32677,Alexander Domínguez Carabalí,3565,0,0,0,0
+3857274,34194,Eduar Ayrton Preciado García,3565,0,0,0,0
+3857274,34396,Michael Steveen Estrada Martínez,3565,11,24,0,0
+3857274,36148,José Adoni Cifuentes Charcopa,3565,0,0,0,0
+3857274,37522,Hernán Ismael Galíndez,3565,9,5,0,0
+3857274,37726,Moisés Isaac Caicedo Corozo,3565,29,31,1,0
+3857274,37737,Angelo Smit Preciado Quiñónez,3565,12,12,0,1
+3857274,37742,Wellington Moisés Ramírez Preciado,3565,0,0,0,0
+3857274,37945,Alan Steven Franco Palma,3565,0,0,0,0
+3857274,38004,Piero Martín Hincapié Reyna,3565,27,16,0,0
+3857274,40211,Jeremy Leonel Sarmiento Morante,3565,0,0,0,0
+3857274,41593,William Joel Pacho Tenorio,3565,0,0,0,0
+3857274,51969,Jackson Gabriel Porozo Vernaza,3565,24,24,0,0
+3857274,91090,Djorkaeff Neicer Reasco González,3565,0,0,0,0
+3857274,348757,Kevin José Rodríguez Cortez,3565,0,0,0,0
+3857273,3086,Ben Davies,907,41,33,0,1
+3857273,3488,Wayne Hennessey,907,19,7,0,0
+3857273,3517,Aaron Ramsey,907,28,32,1,0
+3857273,3839,Tom Lockyer,907,0,0,0,0
+3857273,3853,Kieffer Roberto Francisco Moore,907,13,30,0,1
+3857273,4584,Adam Davies,907,0,0,0,0
+3857273,4767,Chris Mepham,907,37,27,0,0
+3857273,4774,Connor Roberts,907,34,32,0,0
+3857273,4934,Ethan Ampadu,907,46,41,2,0
+3857273,6399,Gareth Frank Bale,907,12,21,0,1
+3857273,9540,Harry Wilson,907,24,25,0,0
+3857273,9914,Danny Ward,907,0,0,0,0
+3857273,10928,Chris Gunter,907,0,0,0,0
+3857273,10931,Joe Allen,907,0,0,0,0
+3857273,10932,Jonathan Williams,907,0,0,0,0
+3857273,11250,Joe Rodon,907,34,25,0,0
+3857273,11252,Daniel James,907,0,0,0,0
+3857273,12014,Mark Thomas Harris,907,0,0,0,0
+3857273,21446,Matthew Robert Smith,907,0,0,0,0
+3857273,22074,Joseff Morrell,907,0,0,0,0
+3857273,29377,Brennan Johnson,907,0,0,0,0
+3857273,33121,Benjamin Cabango,907,0,0,0,0
+3857273,33144,Dylan Levitt,907,0,0,0,0
+3857273,34794,Neco Williams,907,23,24,6,0
+3857273,50528,Sorba Thomas,907,0,0,0,0
+3857273,82257,Rubin Colwill,907,0,0,0,0
+3857273,5220,Morteza Pouraliganji,797,15,7,0,0
+3857273,5222,Roozbeh Cheshmi,797,0,0,0,1
+3857273,5224,Sardar Azmoun,797,10,12,0,2
+3857273,5226,Mehdi Taremi,797,8,13,0,0
+3857273,5227,Alireza Safar Beiranvand,797,0,0,0,0
+3857273,5228,Seyed Majid Hosseini,797,17,8,0,0
+3857273,5230,Ehsan Hajsafi,797,18,8,0,0
+3857273,5231,Karim Ansarifard,797,0,0,0,0
+3857273,5235,Ramin Rezaeian,797,22,17,1,1
+3857273,5239,Alireza Jahanbakhsh,797,0,0,0,0
+3857273,5240,Saman Ghoddos,797,0,0,0,0
+3857273,5241,Vahid Amiri,797,0,0,0,0
+3857273,5720,Milad Mohammadi,797,21,9,0,0
+3857273,5722,Saeid Ezatolahi Afagh,797,13,6,0,1
+3857273,11224,Amir Abedzadeh,797,0,0,0,0
+3857273,23538,Sadegh Moharrami,797,0,0,0,0
+3857273,23874,Ali Gholizadeh,797,19,18,2,0
+3857273,124161,Mehdi Torabi,797,0,0,0,0
+3857273,124167,Ahmad Nourollahi,797,14,9,1,1
+3857273,124175,Mohammad Hossein Kanani Zadegan,797,0,0,0,0
+3857273,124177,Shoja Khalilzadeh,797,0,0,0,0
+3857273,124183,Payam Niazmand,797,0,0,0,0
+3857273,125818,Ali Karimi,797,0,0,0,0
+3857273,125823,Seyed Hossein Hosseini,797,16,7,0,0
+3857273,326758,Abolfazl Jalali,797,0,0,0,0
+3857272,3205,Kyle Walker,768,0,0,0,0
+3857272,3233,Raheem Sterling,768,15,25,0,0
+3857272,3244,John Stones,768,50,50,0,0
+3857272,3308,Kieran Trippier,768,48,32,1,0
+3857272,3318,Marcus Rashford,768,0,0,0,1
+3857272,3336,Harry Maguire,768,44,38,2,1
+3857272,3382,Luke Shaw,768,43,34,1,0
+3857272,3468,Jordan Pickford,768,16,9,0,0
+3857272,3474,Nick Pope,768,0,0,0,0
+3857272,3532,Jordan Brian Henderson,768,0,0,0,0
+3857272,3616,Callum Wilson,768,0,0,0,0
+3857272,3664,Trent Alexander-Arnold,768,0,0,0,0
+3857272,3943,Declan Rice,768,38,34,0,0
+3857272,4354,Philip Foden,768,0,0,0,0
+3857272,4706,Kalvin Phillips,768,0,0,0,0
+3857272,7843,Mason Mount,768,16,21,0,1
+3857272,9638,Jack Grealish,768,0,0,0,0
+3857272,9905,James Maddison,768,0,0,0,0
+3857272,9928,Conor Coady,768,0,0,0,0
+3857272,10955,Harry Kane,768,11,19,0,0
+3857272,10956,Eric Dier,768,0,0,0,0
+3857272,22084,Bukayo Saka,768,17,18,1,0
+3857272,22783,Aaron Ramsdale,768,0,0,0,0
+3857272,22809,Ben White,768,0,0,0,0
+3857272,29399,Conor Gallagher,768,0,0,0,0
+3857272,30714,Jude Bellingham,768,26,30,0,0
+3857272,3377,Timothy Weah,1839,15,19,1,0
+3857272,3658,DeAndre Yedlin,1839,0,0,0,0
+3857272,4614,Antonee Robinson,1839,16,16,0,0
+3857272,6806,Shaquell Moore,1839,0,0,0,0
+3857272,8246,Christian Pulisic,1839,14,17,0,0
+3857272,8526,Weston McKennie,1839,24,24,0,0
+3857272,12352,Matthew Charles Turner,1839,16,9,0,0
+3857272,12524,Walker Zimmerman,1839,27,20,0,0
+3857272,12746,Sean Johnson,1839,0,0,0,0
+3857272,12751,Tyler Adams,1839,12,10,0,0
+3857272,12757,Aaron Long,1839,0,0,0,0
+3857272,13035,Kellyn Kai Perry-Acosta,1839,0,0,0,0
+3857272,13442,Cristian Roldán León,1839,0,0,0,0
+3857272,15971,Cameron Carter-Vickers,1839,0,0,0,0
+3857272,18242,Tim Ream,1839,24,20,0,0
+3857272,21201,Ethan Horvath,1839,0,0,0,0
+3857272,21881,Sergino Dest,1839,24,19,0,0
+3857272,22008,Haji Wright,1839,7,16,0,0
+3857272,22168,Joshua Sargent,1839,0,0,0,0
+3857272,22433,Jesus Ferreira,1839,0,0,0,0
+3857272,23789,Jordan Morris,1839,0,0,0,0
+3857272,24243,Brenden Aaronson,1839,0,0,0,0
+3857272,33274,Luca de la Torre,1839,0,0,0,0
+3857272,34339,Giovanni Reyna,1839,0,0,0,0
+3857272,36830,Joseph Scally,1839,0,0,0,0
+3857272,38792,Yunus Dimoara Musah,1839,17,17,0,1
+3857271,3205,Kyle Walker,768,0,0,0,0
+3857271,3233,Raheem Sterling,768,23,31,1,1
+3857271,3244,John Stones,768,72,69,0,0
+3857271,3308,Kieran Trippier,768,62,49,0,0
+3857271,3318,Marcus Rashford,768,0,0,0,1
+3857271,3336,Harry Maguire,768,55,45,0,0
+3857271,3382,Luke Shaw,768,56,49,0,0
+3857271,3468,Jordan Pickford,768,13,12,0,0
+3857271,3474,Nick Pope,768,0,0,0,0
+3857271,3532,Jordan Brian Henderson,768,0,0,0,0
+3857271,3616,Callum Wilson,768,0,0,0,0
+3857271,3664,Trent Alexander-Arnold,768,0,0,0,0
+3857271,3943,Declan Rice,768,55,45,0,0
+3857271,4354,Philip Foden,768,0,0,0,0
+3857271,4706,Kalvin Phillips,768,0,0,0,0
+3857271,7843,Mason Mount,768,26,32,1,0
+3857271,9638,Jack Grealish,768,0,0,0,1
+3857271,9905,James Maddison,768,0,0,0,0
+3857271,9928,Conor Coady,768,0,0,0,0
+3857271,10955,Harry Kane,768,10,17,0,0
+3857271,10956,Eric Dier,768,0,0,0,0
+3857271,22084,Bukayo Saka,768,17,26,2,3
+3857271,22783,Aaron Ramsdale,768,0,0,0,0
+3857271,22809,Ben White,768,0,0,0,0
+3857271,29399,Conor Gallagher,768,0,0,0,0
+3857271,30714,Jude Bellingham,768,42,36,1,1
+3857271,5220,Morteza Pouraliganji,797,14,9,0,0
+3857271,5222,Roozbeh Cheshmi,797,9,4,0,0
+3857271,5224,Sardar Azmoun,797,0,0,0,0
+3857271,5226,Mehdi Taremi,797,8,17,2,2
+3857271,5227,Alireza Safar Beiranvand,797,3,1,0,0
+3857271,5228,Seyed Majid Hosseini,797,7,5,0,0
+3857271,5230,Ehsan Hajsafi,797,8,11,0,0
+3857271,5231,Karim Ansarifard,797,0,0,0,0
+3857271,5235,Ramin Rezaeian,797,0,0,0,0
+3857271,5239,Alireza Jahanbakhsh,797,8,15,1,0
+3857271,5240,Saman Ghoddos,797,0,0,0,0
+3857271,5241,Vahid Amiri,797,0,0,0,0
+3857271,5720,Milad Mohammadi,797,10,7,2,0
+3857271,5722,Saeid Ezatolahi Afagh,797,0,0,0,0
+3857271,11224,Amir Abedzadeh,797,0,0,0,0
+3857271,23538,Sadegh Moharrami,797,11,6,0,0
+3857271,23874,Ali Gholizadeh,797,0,0,0,0
+3857271,124161,Mehdi Torabi,797,0,0,0,0
+3857271,124167,Ahmad Nourollahi,797,8,5,0,0
+3857271,124175,Mohammad Hossein Kanani Zadegan,797,0,0,0,0
+3857271,124177,Shoja Khalilzadeh,797,0,0,0,0
+3857271,124183,Payam Niazmand,797,0,0,0,0
+3857271,125818,Ali Karimi,797,5,4,0,0
+3857271,125823,Seyed Hossein Hosseini,797,7,1,0,0
+3857271,326758,Abolfazl Jalali,797,0,0,0,0
+3857268,2954,Youri Tielemans,782,19,21,1,0
+3857268,3077,Jan Vertonghen,782,50,43,0,0
+3857268,3089,Kevin De Bruyne,782,12,12,1,1
+3857268,3176,Thomas Meunier,782,0,0,0,0
+3857268,3289,Romelu Lukaku Menama,782,0,0,0,0
+3857268,3457,Michy Batshuayi Tunga,782,6,24,0,2
+3857268,3509,Thibaut Courtois,782,23,13,0,0
+3857268,3539,Simon Mignolet,782,0,0,0,0
+3857268,3621,Eden Hazard,782,19,23,2,0
+3857268,5630,Dries Mertens,782,0,0,0,0
+3857268,5632,Thorgan Hazard,782,0,0,0,0
+3857268,5633,Yannick Ferreira Carrasco,782,14,12,0,0
+3857268,5642,Axel Witsel,782,22,15,0,0
+3857268,6331,Leander Dendoncker,782,43,36,0,0
+3857268,6989,Timothy Castagne,782,23,23,0,0
+3857268,8240,Koen Casteels,782,0,0,0,0
+3857268,8854,Wout Faes,782,0,0,0,0
+3857268,16275,Ikoma Loïs Openda,782,0,0,0,0
+3857268,16281,Hans Vanaken,782,0,0,0,0
+3857268,16559,Leandro Trossard,782,0,0,0,0
+3857268,20005,Toby Alderweireld,782,55,49,0,0
+3857268,23650,Jeremy Doku,782,0,0,0,0
+3857268,32688,Charles De Ketelaere,782,0,0,0,0
+3857268,43913,Arthur Theate,782,0,0,0,0
+3857268,48347,Amadou Onana,782,0,0,0,0
+3857268,114832,Zeno Debast,782,0,0,0,0
+3857268,4106,Ike Ugbo,1833,0,0,0,0
+3857268,9036,David Wotherspoon,1833,0,0,0,0
+3857268,9922,David Junior Hoilett,1833,9,13,1,0
+3857268,11187,Stephen Antunes Eustáquio,1833,35,36,1,0
+3857268,11846,Steven de Sousa Vitoria,1833,23,19,0,0
+3857268,12365,Alphonso Davies,1833,22,13,3,1
+3857268,12770,Jonathan Osorio,1833,0,0,0,0
+3857268,12779,Samuel Piette,1833,0,0,0,0
+3857268,13885,Liam Fraser,1833,0,0,0,0
+3857268,15958,Milan Borjan,1833,20,12,0,0
+3857268,16120,Richie Laryea,1833,12,18,2,0
+3857268,16252,Mark Anthony Kaye,1833,0,0,0,0
+3857268,16459,Cyle Larin,1833,0,0,0,1
+3857268,23363,Liam Millar,1833,0,0,0,0
+3857268,23640,Jonathan David,1833,16,23,0,0
+3857268,23760,Derek Cornelius,1833,0,0,0,0
+3857268,23828,Kamal Miller,1833,19,17,0,0
+3857268,24024,Tajon Buchanan,1833,10,24,4,0
+3857268,26348,Lucas Daniel Cavallini,1833,0,0,0,0
+3857268,29758,Sam Adekugbe,1833,0,0,0,0
+3857268,31684,Atiba Hutchinson,1833,26,20,0,0
+3857268,35707,Joel Waterman,1833,0,0,0,0
+3857268,36794,Dayne St Clair,1833,0,0,0,0
+3857268,44703,Alistair Johnston,1833,37,22,0,1
+3857268,49259,James Pantemis,1833,0,0,0,0
+3857268,133229,Ismael Koné,1833,0,0,0,0
+3857265,3034,Kamil Glik,789,18,19,0,0
+3857265,3637,Grzegorz Krychowiak,789,15,10,0,0
+3857265,4626,Jan Bednarek,789,0,0,0,0
+3857265,4664,Sebastian Szymański,789,19,21,1,0
+3857265,4682,Robert Gumny,789,0,0,0,0
+3857265,4685,Artur Jędrzejczyk,789,0,0,0,0
+3857265,4734,Matty Cash,789,19,14,1,0
+3857265,5660,Piotr Zieliński,789,14,16,0,0
+3857265,5665,Arkadiusz Milik,789,0,0,0,0
+3857265,5667,Kamil Grosicki,789,0,0,0,0
+3857265,5668,Robert Lewandowski,789,11,35,0,1
+3857265,5669,Wojciech Szczęsny,789,19,5,0,0
+3857265,5673,Bartosz Bereszyński,789,24,10,0,0
+3857265,7979,Przemysław Frankowski,789,0,0,0,0
+3857265,8021,Szymon Żurkowski,789,0,0,0,0
+3857265,8704,Mateusz Wieteska,789,0,0,0,0
+3857265,8714,Damian Szymański,789,0,0,0,0
+3857265,8836,Karol Świderski,789,0,0,0,0
+3857265,11508,Łukasz Skorupski,789,0,0,0,0
+3857265,11737,Krystian Bielik,789,0,0,0,0
+3857265,12493,Krzysztof Piątek,789,0,0,0,0
+3857265,24413,Kamil Grabara,789,0,0,0,0
+3857265,28453,Michał Skóraś,789,0,0,0,0
+3857265,31955,Jakub Kamiński,789,6,16,0,1
+3857265,44166,Jakub Piotr Kiwior,789,29,22,0,0
+3857265,50502,Nicola Zalewski,789,13,15,0,0
+3857265,5563,José Andrés Guardado Hernández,794,0,0,0,0
+3857265,5567,Edson Omar Álvarez Velázquez,794,37,27,0,0
+3857265,5568,Raúl Alonso Jiménez Rodríguez,794,0,0,0,0
+3857265,5571,Hirving Rodrigo Lozano Bahena,794,19,25,0,1
+3857265,5573,Héctor Alfredo Moreno Herrera,794,50,43,0,0
+3857265,5575,Héctor Miguel Herrera López,794,23,20,0,0
+3857265,5576,Jesús Daniel Gallardo Vasconcelos,794,26,17,0,0
+3857265,5577,Francisco Guillermo Ochoa Magaña,794,14,8,0,0
+3857265,11388,Néstor Alejandro Araújo Razo,794,0,0,0,0
+3857265,15452,Carlos Uriel Antuna Romero,794,0,0,0,1
+3857265,15872,Érick Gabriel Gutiérrez Galaviz,794,0,0,0,0
+3857265,26280,Orbelín Pineda Alvarado,794,0,0,0,0
+3857265,26297,Carlos Alberto Rodríguez Gómez,794,0,0,0,0
+3857265,26301,Ernesto Alexis Vega Rojas,794,22,22,1,0
+3857265,26318,Rogelio Gabriel Funes Mori,794,0,0,0,0
+3857265,26336,Johan Felipe Vásquez Ibarra,794,0,0,0,0
+3857265,26368,César Jasib Montes Castro,794,39,35,0,0
+3857265,26375,Roberto Carlos Alvarado Hernández,794,0,0,0,0
+3857265,26386,Luis Francisco Romo Barrón,794,0,0,0,0
+3857265,26389,Alfredo Talavera Díaz,794,0,0,0,0
+3857265,26400,Henry Josué Martín Mex,794,10,18,0,1
+3857265,26406,Jorge Eduardo Sánchez Ramos,794,20,16,2,1
+3857265,27896,Gerardo Daniel Arteaga Zamora,794,0,0,0,0
+3857265,28522,Rodolfo Cota Robles,794,0,0,0,0
+3857265,28825,Luis Gerardo Chávez Magallón,794,32,34,1,0
+3857265,30500,Kevin Nahin Álvarez Campos,794,0,0,0,0
+3857262,3083,Heung-Min Son,791,10,18,1,2
+3857262,3135,Chang-Hoon Kwon,791,0,0,0,0
+3857262,5604,Young-Gwon Kim,791,26,20,0,1
+3857262,5618,Woo-Young Jung,791,40,40,0,0
+3857262,5619,Hyeon-Woo Jo,791,0,0,0,0
+3857262,5620,Hee-Chan Hwang,791,0,0,0,1
+3857262,5623,Jae-Sung Lee,791,11,11,2,0
+3857262,5986,Chul Hong,791,0,0,0,0
+3857262,22067,Woo-Yeong Jeong,791,0,0,0,0
+3857262,22740,Kang-In Lee,791,23,21,0,0
+3857262,23264,Seung-Ho Paik,791,0,0,0,0
+3857262,23763,In-Beom Hwang,791,27,23,0,1
+3857262,29966,Ui-Jo Hwang,791,0,0,0,0
+3857262,37641,Seung-Gyu Kim,791,23,12,0,0
+3857262,40538,Jin-Su Kim,791,18,17,0,0
+3857262,40542,Gue-Sung Cho,791,13,19,1,1
+3857262,40550,Bum-Keun Song,791,0,0,0,0
+3857262,40558,Jun-Ho Son,791,0,0,0,0
+3857262,40564,Kyung-Won Kwon,791,18,17,0,0
+3857262,40578,Tae-Hwan Kim,791,0,0,0,0
+3857262,40664,Min-Kyu Song,791,0,0,0,0
+3857262,40672,Moon-Hwan Kim,791,23,20,1,0
+3857262,41495,Jong-Gyu Yoon,791,0,0,0,0
+3857262,41711,Sang-Ho Na,791,0,0,0,0
+3857262,43565,Min Jae Kim,791,0,0,0,0
+3857262,99479,Yu-Min Cho,791,0,0,0,0
+3857262,3193,Bernardo Mota Veiga de Carvalho e Silva,780,0,0,0,0
+3857262,4272,João Mário Naval da Costa Eduardo,780,15,19,1,0
+3857262,5204,Bruno Miguel Borges Fernandes,780,0,0,0,0
+3857262,5205,Rui Pedro dos Santos Patrício,780,0,0,0,0
+3857262,5206,Rúben Santos Gato Alves Dias,780,0,0,0,0
+3857262,5207,Cristiano Ronaldo dos Santos Aveiro,780,13,18,1,0
+3857262,5209,Raphaël Adelino José Guerreiro,780,0,0,0,0
+3857262,5214,William Silva de Carvalho,780,0,0,0,0
+3857262,5218,André Miguel Valente Silva,780,0,0,0,0
+3857262,7005,João Pedro Cavaco Cancelo,780,38,28,2,1
+3857262,9927,Rúben Diogo Da Silva Neves,780,38,36,0,0
+3857262,10868,Ricardo Jorge Luz Horta,780,8,9,0,2
+3857262,12041,João Félix Sequeira,780,0,0,0,0
+3857262,12169,João Maria Lobo Alves Palhinha Gonçalves,780,0,0,0,0
+3857262,16028,José Diogo Dalot Teixeira,780,34,32,2,1
+3857262,18360,Rafael Alexandre Conceição Leão,780,0,0,0,0
+3857262,18866,José Pedro Malheiro de Sá,780,0,0,0,0
+3857262,20016,Kléper Laveran Lima Ferreira,780,40,33,0,0
+3857262,32975,Diogo Meireles Costa,780,19,11,0,0
+3857262,34639,Vitor Machado Ferreira,780,35,39,1,2
+3857262,38803,Gonçalo Matias Ramos,780,0,0,0,0
+3857262,40874,Matheus Luiz Nunes,780,15,18,1,0
+3857262,143854,António João Pereira Albuquerque Tavares Silva,780,37,36,0,0
+3857261,3086,Ben Davies,907,23,15,0,0
+3857261,3517,Aaron Ramsey,907,11,18,0,0
+3857261,3839,Tom Lockyer,907,0,0,0,0
+3857261,3853,Kieffer Roberto Francisco Moore,907,6,22,0,1
+3857261,4584,Adam Davies,907,0,0,0,0
+3857261,4767,Chris Mepham,907,17,8,0,0
+3857261,4774,Connor Roberts,907,6,6,0,0
+3857261,4934,Ethan Ampadu,907,15,12,0,0
+3857261,6399,Gareth Frank Bale,907,5,8,1,0
+3857261,9540,Harry Wilson,907,0,0,0,0
+3857261,9914,Danny Ward,907,15,5,0,0
+3857261,10928,Chris Gunter,907,0,0,0,0
+3857261,10931,Joe Allen,907,15,11,0,0
+3857261,10932,Jonathan Williams,907,0,0,0,0
+3857261,11250,Joe Rodon,907,14,9,0,0
+3857261,11252,Daniel James,907,6,10,0,0
+3857261,12014,Mark Thomas Harris,907,0,0,0,0
+3857261,21446,Matthew Robert Smith,907,0,0,0,0
+3857261,22074,Joseff Morrell,907,0,0,0,0
+3857261,29377,Brennan Johnson,907,0,0,0,0
+3857261,33121,Benjamin Cabango,907,0,0,0,0
+3857261,33144,Dylan Levitt,907,0,0,0,0
+3857261,34794,Neco Williams,907,6,5,0,0
+3857261,50528,Sorba Thomas,907,0,0,0,0
+3857261,82257,Rubin Colwill,907,0,0,0,0
+3857261,3205,Kyle Walker,768,50,39,0,0
+3857261,3233,Raheem Sterling,768,0,0,0,0
+3857261,3244,John Stones,768,56,46,0,1
+3857261,3308,Kieran Trippier,768,0,0,0,0
+3857261,3318,Marcus Rashford,768,25,32,3,4
+3857261,3336,Harry Maguire,768,50,50,0,0
+3857261,3382,Luke Shaw,768,51,42,0,0
+3857261,3468,Jordan Pickford,768,14,12,0,0
+3857261,3474,Nick Pope,768,0,0,0,0
+3857261,3532,Jordan Brian Henderson,768,42,38,1,0
+3857261,3616,Callum Wilson,768,0,0,0,0
+3857261,3664,Trent Alexander-Arnold,768,0,0,0,0
+3857261,3943,Declan Rice,768,42,34,0,0
+3857261,4354,Philip Foden,768,26,29,2,1
+3857261,4706,Kalvin Phillips,768,0,0,0,0
+3857261,7843,Mason Mount,768,0,0,0,0
+3857261,9638,Jack Grealish,768,0,0,0,0
+3857261,9905,James Maddison,768,0,0,0,0
+3857261,9928,Conor Coady,768,0,0,0,0
+3857261,10955,Harry Kane,768,8,20,1,0
+3857261,10956,Eric Dier,768,0,0,0,0
+3857261,22084,Bukayo Saka,768,0,0,0,0
+3857261,22783,Aaron Ramsdale,768,0,0,0,0
+3857261,29399,Conor Gallagher,768,0,0,0,0
+3857261,30714,Jude Bellingham,768,26,34,3,1
+3857255,3175,Eiji Kawashima,778,0,0,0,0
+3857255,3300,Maya Yoshida,778,12,6,0,0
+3857255,3530,Hiroki Sakai,778,0,0,0,0
+3857255,5690,Yuto Nagatomo,778,12,12,1,0
+3857255,5693,Gaku Shibasaki,778,0,0,0,0
+3857255,8361,Ritsu Doan,778,0,0,0,1
+3857255,8776,Takumi Minamino,778,0,0,0,0
+3857255,8949,Takuma Asano,778,0,0,0,0
+3857255,9411,Daichi Kamada,778,8,19,0,0
+3857255,23527,Junya Ito,778,13,10,1,0
+3857255,23721,Wataru Endo,778,0,0,0,0
+3857255,23730,Takehiro Tomiyasu,778,0,0,0,0
+3857255,25719,Shūichi Gonda,778,10,5,0,0
+3857255,29366,Daniel Schmidt,778,0,0,0,0
+3857255,29595,Ko Itakura,778,10,9,1,1
+3857255,30628,Daizen Maeda,778,7,6,0,0
+3857255,31090,Takefusa Kubo,778,9,11,0,0
+3857255,37122,Yuki Soma,778,0,0,0,0
+3857255,37208,Ao Tanaka,778,14,15,0,1
+3857255,37209,Miki Yamane,778,0,0,0,0
+3857255,37211,Kaoru Mitoma,778,0,0,0,0
+3857255,37215,Shogo Taniguchi,778,16,12,0,0
+3857255,37221,Hidemasa Morita,778,19,16,0,0
+3857255,38285,Ayase Ueda,778,0,0,0,0
+3857255,95272,Hiroki Ito,778,0,0,0,0
+3857255,100436,Shuto Machino,778,0,0,0,0
+3857255,3477,Álvaro Borja Morata Martín,772,13,26,0,3
+3857255,3957,César Azpilicueta Tanco,772,73,65,1,0
+3857255,4127,David Raya Martin,772,0,0,0,0
+3857255,4353,Aymeric Laporte,772,0,0,0,0
+3857255,5199,Jorge Resurrección Merodio,772,0,0,0,0
+3857255,5203,Sergio Busquets i Burgos,772,52,49,0,0
+3857255,5211,Jordi Alba Ramos,772,0,0,0,0
+3857255,5719,Marco Asensio Willemsen,772,0,0,0,1
+3857255,5721,Daniel Carvajal Ramos,772,0,0,0,0
+3857255,6583,Carlos Soler Barragán,772,0,0,0,0
+3857255,6720,Pablo Sarabia García,772,0,0,0,0
+3857255,6748,Ferrán Torres García,772,0,0,0,0
+3857255,6765,Rodrigo Hernández Cascante,772,116,111,0,0
+3857255,6840,Marcos Llorente Moreno,772,0,0,0,0
+3857255,6892,Pau Francisco Torres,772,119,115,0,0
+3857255,9843,Robert Lynch Sanchez,772,0,0,0,0
+3857255,11748,Unai Simón Mendibil,772,21,18,0,0
+3857255,16532,Daniel Olmo Carvajal,772,23,29,2,1
+3857255,30486,Pedro González López,772,47,51,1,0
+3857255,30756,Anssumane Fati,772,0,0,0,0
+3857255,31953,Eric García Martret,772,0,0,0,0
+3857255,35641,Hugo Guillamón Sanmartín,772,0,0,0,0
+3857255,39161,Alejandro Balde Martínez,772,51,43,0,0
+3857255,50494,Yeremi Jesús Pino Santos,772,0,0,0,0
+3857255,68574,Nicholas Williams Arthuer,772,25,29,3,0
+3857255,133353,Pablo Martín Páez Gavira,772,38,42,2,0
+3857254,3043,Christian Dannemann Eriksen,776,40,37,3,1
+3857254,3570,Pierre-Emile Højbjerg,776,38,35,0,1
+3857254,3815,Kasper Schmeichel,776,12,5,0,0
+3857254,3959,Andreas Christensen,776,42,36,0,0
+3857254,4447,Martin Braithwaite Christensen,776,0,0,0,0
+3857254,5524,Jens Stryger Larsen,776,0,0,0,0
+3857254,5527,Thomas Delaney,776,31,30,0,0
+3857254,5534,Simon Thorup Kjær,776,35,28,0,0
+3857254,5536,Yussuf Yurary Poulsen,776,0,0,0,0
+3857254,5732,Andreas Evald Cornelius,776,0,0,0,2
+3857254,6302,Kasper Dolberg,776,9,14,0,0
+3857254,6797,Daniel Wass,776,0,0,0,0
+3857254,7097,Christian Nørgaard,776,0,0,0,0
+3857254,8247,Joachim Andersen,776,31,26,0,1
+3857254,12420,Frederik Rønnow,776,0,0,0,0
+3857254,16190,Rasmus Nissen Kristensen,776,36,25,0,0
+3857254,16294,Robert Skov,776,0,0,0,0
+3857254,16554,Joakim Mæhle,776,25,17,1,0
+3857254,17042,Andreas Skov Olsen,776,18,22,0,0
+3857254,17043,Victor Nelsson,776,0,0,0,0
+3857254,18722,Mathias Jensen,776,0,0,0,0
+3857254,21261,Jonas Older Wind,776,0,0,0,0
+3857254,24443,Mikkel Damsgaard,776,2,2,0,0
+3857254,24547,Alexander Hartmann Bah,776,0,0,0,0
+3857254,27038,Oliver Christensen,776,0,0,0,0
+3857254,27569,Jesper Lindstrøm,776,0,0,0,0
+3857254,3196,Wahbi Khazri,777,0,0,0,0
+3857254,3557,Naïm Sliti,777,0,0,0,0
+3857254,3767,Ellyes Joris Skhiri,777,19,13,0,0
+3857254,5647,Ali Maâloul,777,0,0,0,0
+3857254,5650,Ferjani Sassi,777,0,0,0,0
+3857254,5651,Yassine Meriah,777,24,21,0,0
+3857254,5653,Mouez Hassen,777,0,0,0,0
+3857254,5655,Dylan Daniel Mahmoud Bronn,777,21,16,1,0
+3857254,6342,Aymen Mathlouthi,777,0,0,0,0
+3857254,6347,Ghilane Chalali,777,0,0,0,0
+3857254,9236,Mohamed Dräger,777,18,15,2,0
+3857254,16352,Issam Jebali,777,10,34,1,1
+3857254,23910,Youssef Msakni,777,13,19,1,0
+3857254,25582,Nader Ghandri,777,0,0,0,0
+3857254,30681,Ali Abdi,777,20,12,0,0
+3857254,32450,Montassar Omar Talbi,777,22,14,0,0
+3857254,35592,Anis Ben Slimane,777,16,18,0,0
+3857254,44955,Aïssa Bilal Laïdouni,777,24,20,2,0
+3857254,50988,Hannibal Mejbri,777,0,0,0,0
+3857254,68749,Seifeddine Jaziri,777,0,0,0,0
+3857254,102816,Mohamed Ali Ben Romdhane,777,0,0,0,0
+3857254,105943,Aymen Dahmen,777,19,10,0,0
+3857254,105944,Wajdi Kechrida,777,0,0,0,0
+3857254,128793,Taha Yassine Khenissi,777,0,0,0,0
+3857254,136296,Bechir Ben Said,777,0,0,0,0
+3857254,163049,Bilel Ifa,777,0,0,0,0
