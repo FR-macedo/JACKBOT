@@ -2,6 +2,7 @@ import pandas as pd
 import os
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+import joblib
 from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.preprocessing import LabelEncoder
 
@@ -69,6 +70,17 @@ def train_and_evaluate_player_sog_model():
     feature_importances = pd.Series(model.feature_importances_, index=features).sort_values(ascending=False)
     print("\n--- Feature Importances ---")
     print(feature_importances)
+
+    # Save the trained model and encoders
+    model_output_dir = os.path.join(BASE_DIR, 'models')
+    os.makedirs(model_output_dir, exist_ok=True)
+    
+    joblib.dump(model, os.path.join(model_output_dir, 'player_sog_model.joblib'))
+    joblib.dump(le_player, os.path.join(model_output_dir, 'le_player.joblib'))
+    joblib.dump(le_team, os.path.join(model_output_dir, 'le_team.joblib'))
+    joblib.dump(features, os.path.join(model_output_dir, 'model_features.joblib'))
+    
+    print(f"\nModel and encoders saved to {model_output_dir}")
 
     return model, mae, r2, feature_importances
 
