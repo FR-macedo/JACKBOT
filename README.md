@@ -116,4 +116,4 @@ Os scripts de visualização geram os seguintes arquivos no diretório `charts/`
 
 ## Licença
 
-Este projeto não possui uma licença definida. Por favor, adicione um arquivo de licença se pretende compartilhá-lo publicamente.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
