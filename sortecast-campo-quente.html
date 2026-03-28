@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SorteCast · Esportes da Sorte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+/* ══════════════════════════════════════════════════
+   SORTECAST · CAMPO QUENTE
+   Conceito: Capa da Placar × Terminal Bloomberg
+   Tipografia: Anton (placar) + IBM Plex (dados)
+   Paleta: #0A0A0A · #E8FF00 · #FF4D1C · #F0F0F0
+   Layout: CSS Grid responsivo · 4 breakpoints
+   Autoral: diagonal cuts · grain · scoreboard nums
+══════════════════════════════════════════════════ */
+
+:root {
+  --y: #E8FF00;       /* amarelo placar */
+  --y2: #C8DF00;
+  --ydim: rgba(232,255,0,.08);
+  --ybdr: rgba(232,255,0,.2);
+  --ybdr2: rgba(232,255,0,.5);
+  --coral: #FF4D1C;   /* acento coral brasileiro */
+  --coral2: #FF6B3D;
+  --cdim: rgba(255,77,28,.1);
+  --cbdr: rgba(255,77,28,.3);
+  --cyan: #00FFD1;
+  --cydim: rgba(0,255,209,.08);
+  --ink: #0A0A0A;     /* preto profundo */
+  --ink2: #111111;
+  --ink3: #181818;
+  --panel: #141414;
+  --panel2: #1C1C1C;
+  --panel3: #222222;
+  --wire: rgba(232,255,0,.1);
+  --wire2: rgba(232,255,0,.25);
+  --txt: #F0F0F0;
+  --txt2: #A0A0A0;
+  --txt3: #606060;
+  --txt4: #333333;
+  --r: 4px;   /* sharp corners — brutalist */
+}
+
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { height:100%; font-size:16px; }
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background: var(--ink);
+  color: var(--txt);
+  min-height: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* GRAIN TEXTURE */
+body::after {
+  content: '';
+  position: fixed; inset: 0; z-index: 1000; pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: .6;
+}
+
+/* DIAGONAL ACCENT LINE */
+body::before {
+  content: '';
+  position: fixed;
+  top: -100px; left: -100px;
+  width: 3px; height: 200vh;
+  background: linear-gradient(180deg, transparent, var(--y), transparent);
+  transform: rotate(15deg);
+  transform-origin: top left;
+  opacity: .06;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ══ HEADER ══ */
+.hdr {
+  position: relative; z-index: 50;
+  display: flex; align-items: stretch;
+  height: 54px; flex-shrink: 0;
+  background: var(--ink2);
+  border-bottom: 1px solid var(--wire);
+}
+
+.hdr-logo {
+  display: flex; align-items: center; gap: 12px;
+  padding: 0 20px;
+  border-right: 1px solid var(--wire);
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.logo-mark {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px; letter-spacing: 1px;
+  color: var(--y);
+  line-height: 1;
+  text-shadow: 0 0 20px rgba(232,255,0,.4);
+}
+
+.logo-sup {
+  display: flex; flex-direction: column;
+}
+.logo-by {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 600;
+  letter-spacing: 3px; color: var(--txt3);
+  text-transform: uppercase;
+}
+.logo-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700;
+  color: var(--coral);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: var(--cdim);
+  padding: 1px 5px;
+  border: 1px solid var(--cbdr);
+  border-radius: 2px;
+  margin-top: 2px;
+  width: fit-content;
+}
+
+/* LIVE TICKER inline in header */
+.hdr-ticker {
+  flex: 1; overflow: hidden;
+  display: flex; align-items: center;
+  border-right: 1px solid var(--wire);
+}
+.ticker-scroll {
+  display: flex; white-space: nowrap;
+  animation: tickScroll 40s linear infinite;
+}
+.ti {
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 20px; height: 54px;
+  border-right: 1px solid var(--wire);
+  cursor: pointer; transition: background .15s;
+  flex-shrink: 0;
+}
+.ti:hover { background: var(--ydim); }
+.ti-live {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 7px; font-weight: 700;
+  letter-spacing: 2px; color: var(--coral);
+  text-transform: uppercase;
+  animation: blink 1.4s infinite;
+}
+.ti-match {
+  font-family: 'Anton', sans-serif;
+  font-size: 13px; letter-spacing: .5px;
+  color: var(--txt);
+}
+.ti-score {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 13px;
+  color: var(--y);
+  background: var(--ydim);
+  padding: 2px 8px; border-radius: 2px;
+}
+.ti-odd {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 600;
+  color: var(--txt3);
+}
+
+.hdr-controls {
+  display: flex; align-items: center; gap: 8px;
+  padding: 0 16px; flex-shrink: 0;
+}
+
+/* MODE TABS */
+.mode-tabs {
+  display: flex; gap: 2px;
+  background: var(--ink3);
+  border: 1px solid var(--wire);
+  border-radius: var(--r);
+  padding: 3px;
+}
+.mtab {
+  padding: 5px 14px; border-radius: 2px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 700;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  cursor: pointer; transition: all .2s;
+  color: var(--txt3); border: none;
+  background: transparent;
+  display: flex; align-items: center; gap: 5px;
+}
+.mtab.on { background: var(--y); color: var(--ink); }
+.mtab-dot {
+  width: 5px; height: 5px; border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+.mtab.on .mtab-dot { background: var(--coral); }
+.mtab:not(.on) .mtab-dot { background: var(--coral); opacity: .5; }
+
+.hdr-pill {
+  display: flex; align-items: center; gap: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 600; letter-spacing: 1px;
+  border-radius: 2px; padding: 5px 11px;
+}
+.pill-motor { background: var(--ydim); border: 1px solid var(--ybdr); color: var(--y); }
+.pill-lvl { background: var(--ink3); border: 1px solid var(--wire); color: var(--txt2); }
+.pill-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--y); animation: pulse 2s infinite; }
+
+/* HAMBURGER */
+.hamburger {
+  display: none; flex-direction: column; gap: 5px;
+  cursor: pointer; padding: 8px;
+}
+.hamburger span {
+  width: 20px; height: 2px; background: var(--txt2);
+  transition: all .2s; border-radius: 1px;
+}
+
+/* ══ MAIN GRID ══ */
+.layout {
+  flex: 1; overflow: hidden;
+  display: grid;
+  grid-template-columns: 220px 1fr 300px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "sidebar chat stream";
+  position: relative; z-index: 5;
+}
+
+/* ══ SIDEBAR ══ */
+.sidebar {
+  grid-area: sidebar;
+  background: var(--panel);
+  border-right: 1px solid var(--wire);
+  display: flex; flex-direction: column;
+  overflow: hidden;
+  transition: transform .3s ease;
+}
+
+.sb-scroll {
+  flex: 1; overflow-y: auto;
+  padding: 16px 14px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--wire) transparent;
+}
+.sb-scroll::-webkit-scrollbar { width: 3px; }
+.sb-scroll::-webkit-scrollbar-thumb { background: var(--panel3); }
+
+/* Section label */
+.slbl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700;
+  letter-spacing: 4px; color: var(--txt4);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: flex; align-items: center; gap: 7px;
+}
+.slbl::after {
+  content: ''; flex: 1; height: 1px;
+  background: var(--wire);
+}
+
+/* LIVE MATCH BLOCK */
+.live-block {
+  background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-left: 3px solid var(--coral);
+  border-radius: var(--r);
+  padding: 12px; margin-bottom: 14px;
+  cursor: pointer; transition: all .2s;
+  position: relative; overflow: hidden;
+}
+.live-block::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--coral), var(--y));
+  opacity: .5;
+}
+.live-block:hover { border-color: var(--ybdr); border-left-color: var(--y); }
+.lb-badge {
+  display: flex; align-items: center; gap: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 2px;
+  color: var(--coral); text-transform: uppercase; margin-bottom: 9px;
+}
+.lb-blip { width: 6px; height: 6px; border-radius: 50%; background: var(--coral); animation: pulse 1s infinite; }
+.lb-score-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 7px;
+}
+.lb-team-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 14px; letter-spacing: .5px; color: var(--txt);
+}
+.lb-score {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 24px; color: var(--y);
+  text-shadow: 0 0 15px rgba(232,255,0,.3);
+}
+.lb-score.losing { color: var(--txt3); text-shadow: none; }
+.lb-vs { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--txt4); }
+.lb-bar {
+  height: 3px; background: var(--panel3);
+  border-radius: 1px; overflow: hidden; display: flex; margin-bottom: 8px;
+}
+.lb-bs { height: 100%; }
+.lb-eco {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 600;
+  display: flex; justify-content: space-between;
+}
+
+/* JACKBOT BLOCK */
+.jb-block {
+  background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-left: 3px solid var(--y);
+  border-radius: var(--r);
+  padding: 12px; margin-bottom: 14px;
+  cursor: pointer; transition: all .2s;
+}
+.jb-block:hover { border-color: var(--ybdr2); }
+.jb-title-row {
+  display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px;
+}
+.jb-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 16px; letter-spacing: 2px; color: var(--y);
+}
+.jb-pill {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 1px;
+  background: var(--ydim); color: var(--y);
+  border: 1px solid var(--ybdr); border-radius: 2px;
+  padding: 2px 7px; text-transform: uppercase;
+}
+.jb-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; }
+.jbm {
+  background: var(--ink3); border-radius: 2px;
+  padding: 7px 8px; text-align: center;
+}
+.jbm-v {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 18px; color: var(--y);
+  display: block; letter-spacing: 1px;
+}
+.jbm-l {
+  font-size: 8px; color: var(--txt3);
+  text-transform: uppercase; letter-spacing: 1px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* PROFILE */
+.profile-block {
+  background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-radius: var(--r); padding: 12px; margin-bottom: 14px;
+}
+.pb-row { display: flex; align-items: center; gap: 9px; margin-bottom: 9px; }
+.pb-ava {
+  width: 34px; height: 34px;
+  background: var(--panel3);
+  border: 1px solid var(--y);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 16px; flex-shrink: 0;
+  /* diagonal cut corner */
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+}
+.pb-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 14px; letter-spacing: .5px;
+}
+.pb-lvl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; color: var(--txt3); margin-top: 1px;
+}
+.xp-row {
+  display: flex; justify-content: space-between;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; color: var(--txt3); margin-bottom: 4px;
+}
+.xp-track { height: 3px; background: var(--panel3); overflow: hidden; }
+.xp-fill {
+  height: 100%; width: 35%;
+  background: linear-gradient(90deg, var(--y), var(--coral));
+  transition: width .8s ease;
+}
+.stats-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4px; margin-top: 9px; }
+.st {
+  background: var(--ink3); border-radius: 2px;
+  padding: 7px 4px; text-align: center;
+}
+.st-v {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 15px; color: var(--y); display: block;
+}
+.st-l {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; color: var(--txt4);
+  text-transform: uppercase; letter-spacing: .5px;
+}
+
+/* QUICK ACTIONS */
+.qa {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 11px; border-radius: var(--r);
+  border: 1px solid var(--wire); background: transparent;
+  cursor: pointer; color: var(--txt2);
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px; font-weight: 400;
+  transition: all .15s; text-align: left; width: 100%; margin-bottom: 4px;
+}
+.qa:hover {
+  background: var(--ydim);
+  border-color: var(--ybdr);
+  color: var(--y);
+  transform: translateX(3px);
+}
+.qa-ic { font-size: 13px; width: 16px; text-align: center; }
+.qa-tag {
+  margin-left: auto;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 1px;
+  padding: 1px 5px; border-radius: 2px; text-transform: uppercase;
+}
+.qa-tag.live { background: var(--cdim); color: var(--coral); border: 1px solid var(--cbdr); }
+.qa-tag.ai { background: var(--ydim); color: var(--y); border: 1px solid var(--ybdr); }
+.qa-tag.copa { background: rgba(0,255,209,.06); color: var(--cyan); border: 1px solid rgba(0,255,209,.2); }
+
+/* BANCA */
+.banca-block {
+  background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-radius: var(--r); padding: 12px; margin-bottom: 14px;
+}
+.bc-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 3px;
+  color: var(--txt4); text-transform: uppercase; margin-bottom: 3px;
+}
+.bc-value {
+  font-family: 'Anton', sans-serif;
+  font-size: 28px; letter-spacing: 1px;
+  color: var(--y); text-shadow: 0 0 20px rgba(232,255,0,.3);
+}
+.bc-delta { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--y); margin-top: 1px; }
+.bc-rule {
+  margin-top: 9px; background: var(--cdim);
+  border: 1px solid var(--cbdr); border-radius: 2px;
+  padding: 8px 10px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; color: var(--coral2); line-height: 1.55;
+}
+.bc-rule strong {
+  display: block; font-size: 9px; letter-spacing: 1px;
+  text-transform: uppercase; margin-bottom: 2px; color: var(--coral);
+}
+
+/* GUARDIAN */
+.guardian {
+  margin-top: 8px; background: rgba(255,77,28,.06);
+  border: 1px solid rgba(255,77,28,.25);
+  border-radius: var(--r); padding: 9px; display: none;
+}
+.guardian.on { display: block; }
+.grd-hd {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 9px; letter-spacing: 2px;
+  color: var(--coral); text-transform: uppercase; margin-bottom: 4px;
+}
+.grd-txt { font-size: 11px; color: #FF9977; line-height: 1.5; }
+.grd-cta {
+  margin-top: 7px; display: inline-flex; align-items: center; gap: 4px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; color: var(--coral); letter-spacing: 1px;
+  text-transform: uppercase;
+  background: rgba(255,77,28,.12); border: 1px solid rgba(255,77,28,.3);
+  border-radius: 2px; padding: 4px 11px; cursor: pointer; transition: background .2s;
+}
+.grd-cta:hover { background: rgba(255,77,28,.22); }
+
+/* ══ CHAT ══ */
+.chat {
+  grid-area: chat;
+  display: flex; flex-direction: column; overflow: hidden;
+  background: var(--ink);
+}
+
+.chat-top {
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 18px; height: 52px; flex-shrink: 0;
+  background: var(--ink2);
+  border-bottom: 1px solid var(--wire);
+}
+
+.ai-mark {
+  width: 30px; height: 30px; flex-shrink: 0;
+  background: var(--y);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px;
+  clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 7px, 100% 100%, 7px 100%, 0 calc(100% - 7px));
+}
+.ai-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 14px; letter-spacing: 1px; color: var(--txt);
+}
+.ai-status {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; color: var(--y); display: flex; align-items: center; gap: 4px;
+}
+.status-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--y); animation: pulse 2s infinite; }
+.motor-badge {
+  margin-left: auto; display: flex; align-items: center; gap: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 600; letter-spacing: 1px;
+  color: var(--y); text-transform: uppercase;
+  background: var(--ydim); border: 1px solid var(--ybdr);
+  border-radius: 2px; padding: 4px 10px;
+}
+.mbdot { width: 5px; height: 5px; border-radius: 50%; background: var(--y); animation: pulse 1.4s infinite; }
+
+/* MSGS */
+.msgs {
+  flex: 1; overflow-y: auto;
+  padding: 18px; display: flex; flex-direction: column; gap: 14px;
+  scroll-behavior: smooth;
+}
+.msgs::-webkit-scrollbar { width: 3px; }
+.msgs::-webkit-scrollbar-thumb { background: var(--panel3); }
+
+.msg { display: flex; gap: 9px; animation: fadeUp .3s ease; max-width: 100%; }
+.msg.u { flex-direction: row-reverse; }
+
+.mav {
+  width: 28px; height: 28px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; margin-top: 2px;
+  clip-path: polygon(0 0, calc(100% - 6px) 0, 100% 6px, 100% 100%, 6px 100%, 0 calc(100% - 6px));
+}
+.msg.ai .mav { background: var(--y); }
+.msg.u .mav { background: var(--panel3); border: 1px solid var(--wire); }
+
+.mbody { max-width: 76%; display: flex; flex-direction: column; gap: 3px; }
+.msg.u .mbody { align-items: flex-end; }
+
+.bbl {
+  padding: 12px 15px;
+  font-size: 13.5px; line-height: 1.65;
+}
+.msg.ai .bbl {
+  background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-left: 3px solid var(--y);
+  border-radius: var(--r);
+  color: var(--txt);
+}
+.msg.u .bbl {
+  background: var(--y);
+  border-radius: var(--r);
+  color: var(--ink);
+  font-weight: 600;
+  border: none;
+}
+.mts {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; color: var(--txt4); padding: 0 3px;
+}
+
+/* ONBOARDING */
+.ob {
+  background: var(--panel3);
+  border: 1px solid var(--wire);
+  border-radius: var(--r); padding: 15px; margin-top: 10px;
+}
+.ob-q {
+  font-family: 'Anton', sans-serif;
+  font-size: 15px; letter-spacing: .5px; margin-bottom: 12px;
+}
+.ob-opts { display: flex; flex-direction: column; gap: 6px; }
+.ob-opt {
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 13px; border-radius: var(--r);
+  border: 1px solid var(--wire); background: var(--panel2);
+  cursor: pointer; transition: all .15s;
+}
+.ob-opt:hover {
+  border-color: var(--ybdr2);
+  background: var(--ydim);
+  transform: translateX(3px);
+}
+.ob-ico {
+  width: 32px; height: 32px; background: var(--ink3);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 17px; flex-shrink: 0;
+  clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 7px, 100% 100%, 7px 100%, 0 calc(100% - 7px));
+}
+.ob-txt strong { display: block; font-size: 13px; font-weight: 600; color: var(--txt); margin-bottom: 1px; }
+.ob-txt span { font-size: 11px; color: var(--txt3); }
+
+/* INSIGHT BOX */
+.insight-box {
+  background: var(--ydim);
+  border: 1px solid var(--ybdr);
+  border-left: 3px solid var(--y);
+  border-radius: var(--r);
+  padding: 11px 13px; margin-top: 9px;
+}
+.ib-head {
+  display: flex; align-items: center; gap: 7px; margin-bottom: 6px;
+}
+.ib-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 9px; letter-spacing: 2px;
+  color: var(--y); text-transform: uppercase;
+}
+.ib-ms {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; color: var(--txt3); margin-left: auto;
+}
+.ib-text { font-size: 13px; color: var(--txt); line-height: 1.6; }
+
+/* COLORED BOXES */
+.ins {
+  border-radius: var(--r); padding: 9px 12px;
+  margin-bottom: 6px; font-size: 12px; line-height: 1.55;
+}
+.ins:last-child { margin-bottom: 0; }
+.ins.y { background: var(--ydim); border: 1px solid var(--ybdr); color: #D0E000; border-left: 3px solid var(--y); }
+.ins.c { background: var(--cdim); border: 1px solid var(--cbdr); color: var(--coral2); border-left: 3px solid var(--coral); }
+.ins.cy { background: var(--cydim); border: 1px solid rgba(0,255,209,.2); color: var(--cyan); border-left: 3px solid var(--cyan); }
+.ins-tag {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 8px; letter-spacing: 2.5px;
+  text-transform: uppercase; display: block; margin-bottom: 3px; opacity: .7;
+}
+
+/* TYPING */
+.typing {
+  display: flex; align-items: center; gap: 5px;
+  padding: 11px 14px;
+  background: var(--panel2);
+  border: 1px solid var(--wire); border-left: 3px solid var(--y);
+  border-radius: var(--r); width: fit-content;
+}
+.typing span {
+  width: 6px; height: 6px; background: var(--y);
+  animation: typeDot 1.2s infinite; opacity: .3;
+}
+.typing span:nth-child(2) { animation-delay: .2s; }
+.typing span:nth-child(3) { animation-delay: .4s; }
+
+/* INPUT */
+.inp {
+  padding: 14px 18px; flex-shrink: 0;
+  background: var(--ink2); border-top: 1px solid var(--wire);
+}
+.chips {
+  display: flex; gap: 6px; margin-bottom: 10px;
+  overflow-x: auto; padding-bottom: 2px; scrollbar-width: none;
+}
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex-shrink: 0;
+  background: var(--panel2); border: 1px solid var(--wire);
+  border-radius: 2px; padding: 5px 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 600; letter-spacing: .5px;
+  color: var(--txt3); cursor: pointer; transition: all .15s; white-space: nowrap;
+}
+.chip:hover { background: var(--ydim); border-color: var(--ybdr); color: var(--y); }
+.inp-row { display: flex; gap: 8px; align-items: flex-end; }
+.ibox {
+  flex: 1; background: var(--panel2);
+  border: 1px solid var(--wire);
+  border-radius: var(--r); padding: 11px 15px;
+  color: var(--txt); font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 14px; resize: none; outline: none;
+  transition: border-color .2s; max-height: 88px; min-height: 44px; line-height: 1.5;
+}
+.ibox::placeholder { color: var(--txt4); }
+.ibox:focus { border-color: var(--ybdr2); }
+.sbtn {
+  width: 44px; height: 44px; flex-shrink: 0;
+  background: var(--y); border: none; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 17px; transition: all .2s;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  color: var(--ink);
+}
+.sbtn:hover { background: var(--coral); transform: scale(1.05); }
+.sbtn:active { transform: scale(.96); }
+.sbtn:disabled { opacity: .4; transform: none; background: var(--panel3); }
+
+/* ══ STREAM PANEL ══ */
+.stream-panel {
+  grid-area: stream;
+  background: var(--panel);
+  border-left: 1px solid var(--wire);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+
+.sp-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 12px; height: 36px; flex-shrink: 0;
+  background: var(--panel2); border-bottom: 1px solid var(--wire);
+}
+.sp-left { display: flex; align-items: center; gap: 7px; }
+.sp-live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--coral); animation: pulse 1s infinite; }
+.sp-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 9px; letter-spacing: 2px;
+  color: var(--txt3); text-transform: uppercase;
+}
+.sp-tabs { display: flex; gap: 3px; }
+.sp-tab {
+  padding: 3px 8px; border-radius: 2px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 1px;
+  cursor: pointer; transition: all .15s; color: var(--txt4);
+  border: 1px solid transparent; text-transform: uppercase;
+}
+.sp-tab.on { background: var(--ydim); color: var(--y); border-color: var(--ybdr); }
+
+/* STREAM EMBED */
+.stream-embed {
+  height: 170px; flex-shrink: 0;
+  background: var(--ink3); border-bottom: 1px solid var(--wire);
+  position: relative; overflow: hidden;
+}
+.stream-mock {
+  width: 100%; height: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  position: relative; overflow: hidden;
+}
+.stream-mock::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(135deg, #0A0A0A 0%, #111 50%, #0A0A0A 100%);
+}
+/* Diagonal scan lines */
+.stream-mock::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent, transparent 2px,
+    rgba(232,255,0,.015) 2px, rgba(232,255,0,.015) 4px
+  );
+}
+.sm-top {
+  position: relative; z-index: 1;
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+}
+.sm-teams-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 3px;
+  color: var(--txt3); text-transform: uppercase;
+}
+.sm-score-big {
+  font-family: 'Anton', sans-serif;
+  font-size: 52px; letter-spacing: 4px;
+  color: var(--y); line-height: 1;
+  text-shadow: 0 0 30px rgba(232,255,0,.5), 0 0 60px rgba(232,255,0,.2);
+}
+.sm-round-badge {
+  position: absolute; top: 10px; right: 12px; z-index: 1;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+  color: var(--coral); text-transform: uppercase;
+  background: var(--cdim); border: 1px solid var(--cbdr); border-radius: 2px;
+  padding: 3px 8px;
+}
+.sm-eco-row {
+  position: absolute; bottom: 0; left: 0; right: 0; z-index: 1;
+  display: flex; justify-content: space-between;
+  padding: 7px 12px;
+  background: linear-gradient(transparent, rgba(0,0,0,.8));
+  font-family: 'IBM Plex Mono', monospace; font-size: 10px; font-weight: 600;
+}
+.sm-eco-win { color: var(--y); }
+.sm-eco-loss { color: var(--coral); }
+.twitch-iframe { width: 100%; height: 100%; border: none; display: none; }
+.twitch-iframe.visible { display: block; }
+.connect-btn {
+  margin-top: 10px; position: relative; z-index: 1;
+  display: flex; align-items: center; gap: 5px;
+  background: rgba(145,70,255,.2); border: 1px solid rgba(145,70,255,.4);
+  border-radius: 2px; padding: 5px 13px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 1.5px; color: #C084FC;
+  cursor: pointer; transition: all .2s; text-transform: uppercase;
+}
+.connect-btn:hover { background: rgba(145,70,255,.35); }
+
+/* ROUND TIMER */
+.rt-bar-wrap {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px; background: rgba(255,77,28,.04);
+  border-bottom: 1px solid var(--wire); flex-shrink: 0;
+}
+.rt-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 2px;
+  color: var(--coral); text-transform: uppercase; flex-shrink: 0;
+}
+.rt-track { flex: 1; height: 3px; background: var(--panel3); overflow: hidden; }
+.rt-fill { height: 100%; background: var(--coral); transition: width 1s linear; }
+.rt-time {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700; font-size: 14px; color: var(--coral); flex-shrink: 0;
+}
+
+/* EVENTS FEED */
+.events-section { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+.ev-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 12px; border-bottom: 1px solid var(--wire); flex-shrink: 0;
+}
+.ev-title {
+  display: flex; align-items: center; gap: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 2px;
+  color: var(--txt3); text-transform: uppercase;
+}
+.ev-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700;
+  background: var(--ydim); color: var(--y);
+  border: 1px solid var(--ybdr); border-radius: 2px; padding: 1px 6px;
+}
+.ev-clear {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; color: var(--txt4); cursor: pointer; transition: color .2s;
+}
+.ev-clear:hover { color: var(--txt2); }
+
+.events-list {
+  flex: 1; overflow-y: auto;
+  padding: 8px; display: flex; flex-direction: column; gap: 5px;
+}
+.events-list::-webkit-scrollbar { width: 3px; }
+.events-list::-webkit-scrollbar-thumb { background: var(--panel3); }
+
+/* EVENT CARD */
+.ev {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 9px 10px;
+  background: var(--panel2); border: 1px solid var(--wire);
+  border-radius: var(--r);
+  animation: evIn .3s ease; cursor: pointer;
+  transition: border-color .15s; flex-shrink: 0;
+}
+.ev:hover { border-color: var(--ybdr); }
+.ev.type-ace { border-left: 3px solid var(--coral); background: rgba(255,77,28,.04); }
+.ev.type-kill { border-left: 3px solid #FF6644; }
+.ev.type-eco { border-left: 3px solid #38BDF8; }
+.ev.type-bomb { border-left: 3px solid var(--coral); }
+.ev.type-round { border-left: 3px solid var(--y); background: var(--ydim); }
+.ev.type-economy { border-left: 3px solid var(--cyan); }
+.ev.type-insight { border-left: 3px solid var(--y); background: var(--ydim); }
+.ev.type-aposta { border-left: 3px solid var(--coral); background: var(--cdim); }
+
+.ev-ic {
+  width: 24px; height: 24px; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; background: var(--panel3); border-radius: 2px;
+}
+.ev-body { flex: 1; min-width: 0; }
+.ev-lbl {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 8px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; margin-bottom: 2px;
+}
+.ev.type-ace .ev-lbl { color: var(--coral); }
+.ev.type-kill .ev-lbl { color: #FF9977; }
+.ev.type-eco .ev-lbl { color: #38BDF8; }
+.ev.type-bomb .ev-lbl { color: var(--coral); }
+.ev.type-round .ev-lbl { color: var(--y); }
+.ev.type-economy .ev-lbl { color: var(--cyan); }
+.ev.type-insight .ev-lbl { color: var(--y); }
+.ev.type-aposta .ev-lbl { color: var(--coral); }
+.ev-txt { font-size: 11px; color: var(--txt); line-height: 1.4; font-weight: 500; }
+.ev-sub { font-size: 10px; color: var(--txt3); margin-top: 2px; font-family: 'IBM Plex Mono', monospace; }
+.ev-time { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: var(--txt4); flex-shrink: 0; }
+.odd-chip {
+  display: inline-flex; align-items: center; gap: 3px;
+  margin-top: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px; font-weight: 700;
+  padding: 2px 8px; border-radius: 2px;
+}
+.odd-chip.up { background: var(--cdim); color: var(--coral); border: 1px solid var(--cbdr); }
+.odd-chip.down { background: var(--ydim); color: var(--y); border: 1px solid var(--ybdr); }
+.bet-chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-top: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+  background: var(--y); color: var(--ink);
+  border-radius: 2px; padding: 4px 10px; cursor: pointer; transition: all .15s;
+}
+.bet-chip:hover { background: var(--coral); }
+
+/* MOBILE OVERLAY */
+.mobile-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,.8); z-index: 200;
+}
+.mobile-overlay.open { display: block; }
+
+/* ══ RESPONSIVE ══ */
+@media (max-width: 1200px) {
+  .layout { grid-template-columns: 200px 1fr 280px; }
+}
+
+@media (max-width: 1024px) {
+  .stream-panel {
+    position: fixed; right: 0; top: 54px; bottom: 0;
+    width: 300px; z-index: 100;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    border-left: 1px solid var(--ybdr);
+  }
+  .stream-panel.open { transform: translateX(0); }
+  .layout { grid-template-columns: 200px 1fr; grid-template-areas: "sidebar chat"; }
+  .stream-toggle-btn { display: flex !important; }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed; left: 0; top: 54px; bottom: 0;
+    width: 240px; z-index: 100;
+    transform: translateX(-100%);
+    transition: transform .3s ease;
+    border-right: 1px solid var(--ybdr);
+  }
+  .sidebar.open { transform: translateX(0); }
+  .layout { grid-template-columns: 1fr; grid-template-areas: "chat"; }
+  .hamburger { display: flex !important; }
+  .hdr-ticker { display: none; }
+  .hdr-pill { display: none; }
+}
+
+@media (max-width: 480px) {
+  .hdr { padding: 0 12px; }
+  .logo-mark { font-size: 18px; }
+  .mode-tabs { display: none; }
+  .msgs { padding: 12px; }
+  .inp { padding: 10px 12px; }
+}
+
+/* STREAM TOGGLE BUTTON */
+.stream-toggle-btn {
+  display: none;
+  align-items: center; gap: 5px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9px; font-weight: 700; letter-spacing: 1px;
+  text-transform: uppercase; cursor: pointer;
+  background: var(--cdim); border: 1px solid var(--cbdr);
+  color: var(--coral); border-radius: 2px; padding: 5px 11px;
+  transition: all .15s;
+}
+.stream-toggle-btn:hover { background: rgba(255,77,28,.2); }
+
+/* ANIMATIONS */
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1);}50%{opacity:.4;transform:scale(.75);} }
+@keyframes blink { 0%,100%{opacity:1;}50%{opacity:.2;} }
+@keyframes tickScroll { 0%{transform:translateX(0);}100%{transform:translateX(-50%);} }
+@keyframes fadeUp { from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)} }
+@keyframes typeDot { 0%,60%,100%{opacity:.3;transform:translateY(0)}30%{opacity:1;transform:translateY(-4px)} }
+@keyframes evIn { from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:translateX(0)} }
+</style>
+</head>
+<body>
+
+<!-- MOBILE OVERLAY -->
+<div class="mobile-overlay" id="overlay" onclick="closeAll()"></div>
+
+<!-- HEADER -->
+<header class="hdr">
+  <a class="hdr-logo" href="#">
+    <div class="logo-mark">SC</div>
+    <div class="logo-sup">
+      <div class="logo-by">Esportes da Sorte</div>
+      <div class="logo-tag">IA + Stream Live</div>
+    </div>
+  </a>
+
+  <div class="hdr-ticker">
+    <div class="ticker-scroll" id="ticker">
+      <div class="ti" onclick="qs('Analisa LOUD vs paiN ao vivo')"><span class="ti-live">⬤ LIVE</span><span class="ti-match">LOUD × paiN</span><span class="ti-score">9–6</span><span class="ti-odd">CS2 · R16</span></div>
+      <div class="ti" onclick="qs('Analisa Brasil x Marrocos Copa 2026')"><span class="ti-live">⬤ COPA</span><span class="ti-match">Brasil × Marrocos</span><span class="ti-score">13 JUN</span><span class="ti-odd">NY · 1.75</span></div>
+      <div class="ti" onclick="qs('Argentina vai ser campeã novamente?')"><span class="ti-live">⬤ COPA</span><span class="ti-match">Argentina × Áustria</span><span class="ti-score">GRP J</span><span class="ti-odd">ARG 1.40</span></div>
+      <div class="ti" onclick="qs('Analisa a final do CBLOL')"><span class="ti-live">⬤ CBLOL</span><span class="ti-match">LOUD × paiN SF</span><span class="ti-score">1–0</span><span class="ti-odd">BO3</span></div>
+      <div class="ti" onclick="qs('Analisa LOUD vs paiN ao vivo')"><span class="ti-live">⬤ LIVE</span><span class="ti-match">LOUD × paiN</span><span class="ti-score">9–6</span><span class="ti-odd">CS2 · R16</span></div>
+      <div class="ti" onclick="qs('Analisa Brasil x Marrocos Copa 2026')"><span class="ti-live">⬤ COPA</span><span class="ti-match">Brasil × Marrocos</span><span class="ti-score">13 JUN</span><span class="ti-odd">NY · 1.75</span></div>
+      <div class="ti" onclick="qs('Argentina vai ser campeã novamente?')"><span class="ti-live">⬤ COPA</span><span class="ti-match">Argentina × Áustria</span><span class="ti-score">GRP J</span><span class="ti-odd">ARG 1.40</span></div>
+      <div class="ti" onclick="qs('Analisa a final do CBLOL')"><span class="ti-live">⬤ CBLOL</span><span class="ti-match">LOUD × paiN SF</span><span class="ti-score">1–0</span><span class="ti-odd">BO3</span></div>
+    </div>
+  </div>
+
+  <div class="hdr-controls">
+    <div class="mode-tabs">
+      <button class="mtab on" id="mE" onclick="switchMode('esports')"><div class="mtab-dot"></div>E-SPORTS</button>
+      <button class="mtab" id="mC" onclick="switchMode('copa')"><div class="mtab-dot"></div>COPA 2026</button>
+    </div>
+    <div class="hdr-pill pill-motor"><div class="pill-dot"></div><span id="mtrL">PANDASCORE</span></div>
+    <div class="hdr-pill pill-lvl"><span id="lvlL">DETECTANDO</span></div>
+    <div class="stream-toggle-btn" id="streamToggleBtn" onclick="toggleStream()">📺 STREAM</div>
+    <div class="hamburger" id="ham" onclick="toggleSidebar()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</header>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar" id="sidebar">
+    <div class="sb-scroll">
+
+      <div id="sbE">
+        <div class="slbl">Ao vivo agora</div>
+        <div class="live-block" onclick="qs('Analisa LOUD vs paiN Gaming ao vivo agora no CS2')">
+          <div class="lb-badge"><div class="lb-blip"></div>AO VIVO · CS2 · CBLOL 2025</div>
+          <div class="lb-score-row">
+            <div><div class="lb-team-name">LOUD</div><div class="lb-score">9</div></div>
+            <div class="lb-vs">×</div>
+            <div style="text-align:right"><div class="lb-team-name">PAIN</div><div class="lb-score losing">6</div></div>
+          </div>
+          <div class="lb-bar">
+            <div class="lb-bs" style="width:60%;background:var(--y)"></div>
+            <div class="lb-bs" style="width:40%;background:var(--coral)"></div>
+          </div>
+          <div class="lb-eco">
+            <span style="color:var(--y)">$24.800 ▲</span>
+            <span style="color:var(--coral)">$9.200 ▼</span>
+          </div>
+        </div>
+        <div class="slbl" style="margin-top:4px">Analisar</div>
+        <button class="qa" onclick="qs('Analisa a economia LOUD vs paiN ao vivo')"><span class="qa-ic">💸</span>Economia ao vivo<span class="qa-tag live">CS2</span></button>
+        <button class="qa" onclick="qs('O aspas está dominando? K/D dele agora')"><span class="qa-ic">🎯</span>Análise do aspas</button>
+        <button class="qa" onclick="qs('Vale apostar na LOUD com odd 1.45 agora?')"><span class="qa-ic">💰</span>Vale a aposta?</button>
+        <button class="qa" onclick="qs('O que é economia em CS2? Explica simples para quem nunca jogou')"><span class="qa-ic">🆕</span>O que é economia?</button>
+        <button class="qa" onclick="qs('Como funciona live betting em e-sports? Explica')"><span class="qa-ic">⚡</span>Live betting<span class="qa-tag live">AO VIVO</span></button>
+      </div>
+
+      <div id="sbC" style="display:none">
+        <div class="slbl">Motor preditivo</div>
+        <div class="jb-block" onclick="qs('Como o JACKBOT funciona e qual a acurácia?')">
+          <div class="jb-title-row"><div class="jb-name">JACKBOT</div><div class="jb-pill">ATIVO</div></div>
+          <div class="jb-grid">
+            <div class="jbm"><span class="jbm-v">75%</span><span class="jbm-l">Acurácia</span></div>
+            <div class="jbm"><span class="jbm-v">RF</span><span class="jbm-l">RandomForest</span></div>
+            <div class="jbm"><span class="jbm-v" style="font-size:15px">64</span><span class="jbm-l">Jogos</span></div>
+            <div class="jbm"><span class="jbm-v" style="font-size:15px">4</span><span class="jbm-l">Variáveis</span></div>
+          </div>
+        </div>
+        <div class="slbl" style="margin-top:4px">Analisar</div>
+        <button class="qa" onclick="qs('Analisa Brasil x Marrocos com JACKBOT')"><span class="qa-ic">🇧🇷</span>Brasil × Marrocos<span class="qa-tag copa">JACKBOT</span></button>
+        <button class="qa" onclick="qs('Quem vai ganhar a Copa 2026?')"><span class="qa-ic">🏆</span>Favoritos</button>
+        <button class="qa" onclick="qs('Como apostar na Copa pela primeira vez?')"><span class="qa-ic">🆕</span>Primeira aposta</button>
+        <button class="qa" onclick="qs('Como funciona o novo formato 48 seleções?')"><span class="qa-ic">📋</span>Novo formato</button>
+      </div>
+
+      <div class="slbl" style="margin-top:6px">Perfil</div>
+      <div class="profile-block">
+        <div class="pb-row">
+          <div class="pb-ava">🧑</div>
+          <div><div class="pb-name">APOSTADOR</div><div class="pb-lvl" id="plvl">Aguardando detecção...</div></div>
+        </div>
+        <div class="xp-row"><span>XP · <span id="xpN">350</span></span><span>→ LV.3</span></div>
+        <div class="xp-track"><div class="xp-fill" id="xpF"></div></div>
+        <div class="stats-row">
+          <div class="st"><span class="st-v">8</span><span class="st-l">Apostas</span></div>
+          <div class="st"><span class="st-v" style="color:var(--coral)">67%</span><span class="st-l">Acerto</span></div>
+          <div class="st"><span class="st-v">+R$40</span><span class="st-l">Lucro</span></div>
+        </div>
+      </div>
+
+      <div class="slbl">Banca</div>
+      <div class="banca-block">
+        <div class="bc-label">Saldo atual</div>
+        <div class="bc-value">R$ 200,00</div>
+        <div class="bc-delta">▲ +R$40 esta semana</div>
+        <div class="bc-rule"><strong>Regra 5%</strong>Máx. R$10 por aposta. Copa = 39 dias — divida a banca por fase.</div>
+        <div class="guardian" id="guardian">
+          <div class="grd-hd">⚠ Guardião ativado</div>
+          <div class="grd-txt">Padrão de risco detectado. Apostar para recuperar costuma gerar mais perdas.</div>
+          <div class="grd-cta" onclick="qs('Quero entender jogo responsável')">CONVERSAR →</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- CHAT -->
+  <div class="chat">
+    <div class="chat-top">
+      <div class="ai-mark" id="aiMark">🎮</div>
+      <div>
+        <div class="ai-name" id="aiNm">SORTECAST · E-SPORTS</div>
+        <div class="ai-status"><span class="status-dot"></span>ONLINE · <span id="aiSt">PRONTO</span></div>
+      </div>
+      <div class="motor-badge"><div class="mbdot"></div><span id="mtrT">PANDASCORE · CBLOL 2025</span></div>
+    </div>
+
+    <div class="msgs" id="msgs"></div>
+
+    <div class="inp">
+      <div class="chips" id="chips">
+        <div class="chip" onclick="qs('Analisa LOUD vs paiN ao vivo agora')">LOUD VS PAIN</div>
+        <div class="chip" onclick="qs('Vale apostar na LOUD com odd 1.45?')">VALE APOSTAR?</div>
+        <div class="chip" onclick="qs('O que é economia no CS2?')">ECONOMIA CS2</div>
+        <div class="chip" onclick="qs('Aspas está dominando?')">ASPAS KD</div>
+        <div class="chip" onclick="qs('Como funciona live betting?')">LIVE BETTING</div>
+      </div>
+      <div class="inp-row">
+        <textarea class="ibox" id="ibox" placeholder="Pergunte sobre a partida, jogadores, odds..." rows="1"></textarea>
+        <button class="sbtn" id="sbtn" onclick="send()">▶</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STREAM PANEL -->
+  <div class="stream-panel" id="streamPanel">
+    <div class="sp-header">
+      <div class="sp-left">
+        <div class="sp-live-dot"></div>
+        <div class="sp-title" id="spTitle">STREAM AO VIVO</div>
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--txt4);"> · 12.4k</div>
+      </div>
+      <div class="sp-tabs">
+        <div class="sp-tab on" id="tabT" onclick="setStream('twitch')">TWITCH</div>
+        <div class="sp-tab" id="tabY" onclick="setStream('youtube')">YT</div>
+      </div>
+    </div>
+
+    <div class="stream-embed">
+      <iframe class="twitch-iframe" id="twitchIframe" src="" allowfullscreen></iframe>
+      <div class="stream-mock" id="streamMock">
+        <div class="sm-round-badge" id="smRound">ROUND 16 · INFERNO</div>
+        <div class="sm-top">
+          <div class="sm-teams-label" id="smTeams">LOUD × PAIN GAMING</div>
+          <div class="sm-score-big" id="smScore">9×6</div>
+          <div class="connect-btn" onclick="connectTwitch()">🟣 CONECTAR TWITCH</div>
+        </div>
+        <div class="sm-eco-row">
+          <span class="sm-eco-win">LOUD $24.800 ▲</span>
+          <span class="sm-eco-loss">PAIN $9.200 ▼</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="rt-bar-wrap">
+      <div class="rt-label">ROUND</div>
+      <div class="rt-track"><div class="rt-fill" id="rtFill" style="width:35%"></div></div>
+      <div class="rt-time" id="rtTime">1:42</div>
+    </div>
+
+    <div class="events-section">
+      <div class="ev-header">
+        <div class="ev-title">⚡ MOMENTOS <div class="ev-badge" id="evBadge">0</div></div>
+        <div class="ev-clear" onclick="clearEvs()">LIMPAR</div>
+      </div>
+      <div class="events-list" id="evList"></div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   SORTECAST · CAMPO QUENTE · ENGINE
+   PandaScore Live + JACKBOT + 4 perfis
+   Fully responsive: desktop → tablet → mobile
+═══════════════════════════════════════════════ */
+
+const PS = {
+  match:"LOUD vs paiN — CBLOL 2025",
+  map:"Inferno", round:16,
+  score:{L:9,P:6},
+  eco:{L:24800,P:9200},
+  odds:{L:1.45,P:2.80},
+  hist:{wr:0.74,h2h:'6-2',ctWr:0.71},
+  players:{
+    L:[
+      {n:'aspas',k:14,d:8,a:3,eco:5500,hp:100,gun:'AK-47'},
+      {n:'saadhak',k:11,d:7,a:5,eco:4800,hp:85,gun:'M4A4'},
+      {n:'Less',k:9,d:9,a:4,eco:5200,hp:75,gun:'AWP'},
+      {n:'tuyz',k:8,d:8,a:6,eco:4700,hp:90,gun:'AK-47'},
+      {n:'cauanzin',k:7,d:10,a:3,eco:4600,hp:60,gun:'FAMAS'}
+    ],
+    P:[
+      {n:'biguzera',k:9,d:12,a:4,eco:2100,hp:100,gun:'Galil'},
+      {n:'hardzao',k:7,d:11,a:3,eco:1800,hp:80,gun:'MP9'},
+      {n:'snowzin',k:6,d:12,a:2,eco:1900,hp:70,gun:'MP5'},
+      {n:'nqz',k:5,d:11,a:5,eco:1900,hp:65,gun:'P90'},
+      {n:'tixinha',k:4,d:13,a:4,eco:1500,hp:55,gun:'MP9'}
+    ]
+  }
+};
+
+const BRASIL = {
+  marrocos:{s:1.8,c:1.5,o:1.75,f:'🇲🇦',nm:'Marrocos'},
+  escocia:{s:2.2,c:1.8,o:1.45,f:'🏴󠁧󠁢󠁳󠁣󠁴󠁿',nm:'Escócia'},
+  haiti:{s:3.5,c:2.8,o:1.10,f:'🇭🇹',nm:'Haiti'}
+};
+
+const FEED_EVENTS = [
+  {type:'insight',ic:'🤖',lbl:'IA INSIGHT',txt:'LOUD domina com $15.600 de vantagem econômica. Win rate 74% nessa situação na Inferno.',sub:'PandaScore Live · ~420ms',bet:null},
+  {type:'economy',ic:'💰',lbl:'ECO CRÍTICO',txt:'paiN entra sem dinheiro pra comprar rifle — eco completo com SMGs.',sub:'$9.200 vs $24.800 · threshold crítico',odd:{dir:'down',from:'1.52',to:'1.45',team:'LOUD'}},
+  {type:'ace',ic:'🔥',lbl:'ACE! ASPAS',txt:'aspas faz ACE no site B — 5 kills com AK-47 em sequência!',sub:'aspas 14/8 · Round 14',bet:{lbl:'LOUD VENCER',odd:'1.45'}},
+  {type:'round',ic:'✅',lbl:'ROUND WIN',txt:'LOUD vence Round 15 — controla site B pelo 3º round consecutivo.',sub:'LOUD 9 × 6 paiN · Inferno',bet:{lbl:'LOUD MAPA',odd:'1.45'}},
+  {type:'bomb',ic:'💣',lbl:'BOMBA',txt:'paiN planta no site A! LOUD tem dinheiro e posição pra defender.',sub:'Round 13 · paiN sobrevivendo',odd:{dir:'up',from:'1.45',to:'1.58',team:'paiN'}},
+  {type:'kill',ic:'🎯',lbl:'MULTI-KILL',txt:'saadhak faz triple kill com M4A4 — LOUD domina o site B.',sub:'saadhak 11/7 · M4A4',bet:null},
+  {type:'economy',ic:'📊',lbl:'ANÁLISE ECO',txt:'paiN abaixo do threshold crítico de $10.000 — recuperação difícil.',sub:'Histórico: 83% de derrota nessa situação',bet:{lbl:'LOUD VENCER',odd:'1.45'}},
+  {type:'insight',ic:'🤖',lbl:'IA INSIGHT',txt:'H2H: LOUD 6 × 2 paiN nos últimos 6 meses. Padrão histórico favorável.',sub:'StatsBomb · Copa 2022 · JACKBOT',bet:null},
+];
+
+const S = {
+  level:null, label:'', hist:[],
+  xp:35, risk:0, onboarded:false,
+  mode:'esports', evCount:0,
+  roundTime:102, rtInterval:null, feedInterval:null,
+  twitchConnected:false,
+  streamOpen:false, sidebarOpen:false
+};
+
+// ── JACKBOT ──
+function jb(s,c,o){
+  let h=.40,d=.28,a=.32;
+  if(s>1.5){h+=.12;d-=.04;a-=.08;}else if(s<.7){a+=.10;h-=.08;d-=.02;}
+  if(c>1.4){h+=.05;a-=.05;}
+  if(o<1.6){h+=.10;d-=.05;a-=.05;}else if(o>3.0){a+=.08;h-=.08;}
+  const t=h+d+a;
+  return{h:+(h/t).toFixed(2),d:+(d/t).toFixed(2),a:+(a/t).toFixed(2)};
+}
+
+// ── SYSTEM ──
+function sys(jbCtx=''){
+  const p={
+    leigo:`LEIGO — linguagem cotidiana. "Odd 1.45 = aposta R$10, ganha R$4,50 se acertar". Economia CS2 = "dinheiro do time pra comprar armas". Seja didático e animado.`,
+    iniciante:`INICIANTE — pode usar odd, eco round, full buy, K/D. Explique brevemente. Foco em gestão de banca.`,
+    intermediario:`INTERMEDIÁRIO — linguagem técnica. Value bet, probabilidade implícita, Kelly, map control, win conditions.`,
+    nato:`NATO — profissional. xG, EV, CLV, economy threshold, force buy EV, clutch rate, line movements.`
+  };
+  const ctx = S.mode==='esports' ? `
+PANDASCORE LIVE: ${PS.match} · ${PS.map} · Round ${PS.round}
+Score: LOUD ${PS.score.L} × ${PS.score.P} paiN
+Eco: LOUD $${PS.eco.L} (full buy) vs paiN $${PS.eco.P} (eco)
+Win rate LOUD: ${PS.hist.wr*100}% · H2H ${PS.hist.h2h} · CT Inferno ${PS.hist.ctWr*100}%
+Odds: LOUD ${PS.odds.L} · paiN ${PS.odds.P}` : `
+COPA 2026: Brasil Grupo C · Ancelotti · 11jun–19jul · 48 seleções${jbCtx}`;
+  return `Você é o SorteCast, IA da Esportes da Sorte.
+PERFIL: ${p[S.level]||p.iniciante}
+${ctx}
+REGRAS: Adapte ao nível · Dados reais acima · "🎯 Sugestão SorteCast:" ao final · Máx 300 palavras · Detecte risco comportamental · Responda em português brasileiro`;
+}
+
+// ── RESPONSIVE ──
+function toggleSidebar(){
+  S.sidebarOpen=!S.sidebarOpen;
+  g('sidebar').classList.toggle('open',S.sidebarOpen);
+  g('overlay').classList.toggle('open',S.sidebarOpen||S.streamOpen);
+}
+function toggleStream(){
+  S.streamOpen=!S.streamOpen;
+  g('streamPanel').classList.toggle('open',S.streamOpen);
+  g('overlay').classList.toggle('open',S.streamOpen||S.sidebarOpen);
+}
+function closeAll(){
+  S.sidebarOpen=false; S.streamOpen=false;
+  g('sidebar').classList.remove('open');
+  g('streamPanel').classList.remove('open');
+  g('overlay').classList.remove('open');
+}
+
+// ── STREAM ──
+function connectTwitch(){
+  const ch = S.mode==='esports'?'cblol':'esportesdasorte';
+  const src=`https://player.twitch.tv/?channel=${ch}&parent=${location.hostname||'localhost'}&autoplay=true`;
+  g('twitchIframe').src=src;
+  g('twitchIframe').classList.add('visible');
+  g('streamMock').style.display='none';
+  S.twitchConnected=true;
+  addEv({type:'insight',ic:'📺',lbl:'STREAM',txt:`Twitch conectada — canal ${ch} ao vivo.`,sub:'Assista e aposte na mesma tela',bet:null});
+}
+function setStream(src){
+  g('tabT').classList.toggle('on',src==='twitch');
+  g('tabY').classList.toggle('on',src==='youtube');
+  if(src==='youtube'){
+    g('twitchIframe').src='https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1';
+    g('twitchIframe').classList.add('visible');
+    g('streamMock').style.display='none';
+  } else {
+    if(S.twitchConnected) connectTwitch();
+    else { g('twitchIframe').classList.remove('visible'); g('streamMock').style.display='flex'; }
+  }
+}
+
+// ── EVENTS FEED ──
+function addEv(ev){
+  const list=g('evList');
+  S.evCount++;
+  g('evBadge').textContent=S.evCount;
+  const card=document.createElement('div');
+  card.className=`ev type-${ev.type}`;
+  card.onclick=()=>{ if(ev.bet) qs(`Quanto apostar em ${ev.bet.lbl} com odd ${ev.bet.odd}?`); };
+  let extras='';
+  if(ev.odd) extras+=`<div class="odd-chip ${ev.odd.dir==='down'?'down':'up'}">${ev.odd.team} ${ev.odd.dir==='down'?'▼':'▲'} ${ev.odd.from}→${ev.odd.to}</div>`;
+  if(ev.bet) extras+=`<div class="bet-chip" onclick="qs('Quanto apostar ${ev.bet.lbl} odd ${ev.bet.odd}?')">▶ ${ev.bet.lbl} ${ev.bet.odd}</div>`;
+  card.innerHTML=`
+    <div class="ev-ic">${ev.ic}</div>
+    <div class="ev-body">
+      <div class="ev-lbl">${ev.lbl}</div>
+      <div class="ev-txt">${ev.txt}</div>
+      <div class="ev-sub">${ev.sub}</div>
+      ${extras}
+    </div>
+    <div class="ev-time">${now()}</div>`;
+  list.insertBefore(card,list.firstChild);
+  while(list.children.length>20) list.removeChild(list.lastChild);
+}
+function clearEvs(){g('evList').innerHTML='';S.evCount=0;g('evBadge').textContent='0';}
+
+function startFeed(){
+  let i=0;
+  S.feedInterval=setInterval(()=>{
+    if(i<FEED_EVENTS.length){addEv({...FEED_EVENTS[i],sub:FEED_EVENTS[i].sub});i++;}
+    else clearInterval(S.feedInterval);
+  },3200);
+}
+
+// ── ROUND TIMER ──
+function startTimer(){
+  S.roundTime=102;updateTimer();
+  S.rtInterval=setInterval(()=>{
+    S.roundTime--;
+    if(S.roundTime<=0){
+      clearInterval(S.rtInterval);
+      addEv({type:'round',ic:'✅',lbl:'ROUND END',txt:'Round 16 encerrado.',sub:'LOUD 9 × 6 paiN',bet:null});
+    }
+    updateTimer();
+  },1000);
+}
+function updateTimer(){
+  const pct=(S.roundTime/115)*100;
+  g('rtFill').style.width=pct+'%';
+  g('rtFill').style.background=S.roundTime<20?'var(--coral)':S.roundTime<45?'linear-gradient(90deg,var(--coral),#FF8844)':'var(--coral)';
+  const m=Math.floor(S.roundTime/60),s=S.roundTime%60;
+  g('rtTime').textContent=`${m}:${s.toString().padStart(2,'0')}`;
+}
+
+// ── ONBOARDING ──
+function startOnboarding(){
+  addAI(`Olá! <strong>SorteCast</strong> — stream ao vivo + inteligência de apostas. Tudo numa tela só.<br><br>📺 Painel direito: transmissão Twitch/YouTube + feed de momentos em tempo real<br>🤖 IA analisa cada evento e sugere a aposta certa na hora certa<br>⚙️ JACKBOT: modelo preditivo 75% de acurácia (Copa 2026)<br><br>Pra começar:`);
+  setTimeout(()=>{
+    const w=mkAI();
+    w.querySelector('.mbody').innerHTML=`
+      <div class="bbl" style="background:var(--panel2);border:1px solid var(--wire);border-left:3px solid var(--y)">
+        <div class="ob">
+          <div class="ob-q">COMO VOCÊ APOSTA?</div>
+          <div class="ob-opts">
+            <div class="ob-opt" onclick="pick('leigo','NOVATO','Nunca apostei')">
+              <div class="ob-ico">🆕</div>
+              <div class="ob-txt"><strong>Sou novato</strong><span>Nunca apostei — só assisto</span></div>
+            </div>
+            <div class="ob-opt" onclick="pick('iniciante','INICIANTE','Apostei algumas vezes')">
+              <div class="ob-ico">🌱</div>
+              <div class="ob-txt"><strong>Já apostei algumas vezes</strong><span>Conheço o básico</span></div>
+            </div>
+            <div class="ob-opt" onclick="pick('intermediario','INTERMEDIÁRIO','Aposto regularmente')">
+              <div class="ob-ico">📈</div>
+              <div class="ob-txt"><strong>Aposto regularmente</strong><span>Quero análises com dados</span></div>
+            </div>
+            <div class="ob-opt" onclick="pick('nato','APOSTADOR NATO','Aposto profissionalmente')">
+              <div class="ob-ico">⚡</div>
+              <div class="ob-txt"><strong>Apostador profissional</strong><span>Dados técnicos completos</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mts">${now()}</div>`;
+    g('msgs').appendChild(w); scroll();
+  },700);
+}
+
+function pick(lvl,lbl,desc){
+  S.level=lvl;S.label=lbl;S.onboarded=true;
+  g('lvlL').textContent=lbl;
+  g('plvl').textContent=desc;
+  document.querySelectorAll('.ob').forEach(el=>el.innerHTML=`<div style="padding:5px;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--y)">▶ ${lbl} — ${desc}</div>`);
+  addUser(lbl);
+  setTimeout(()=>{
+    const m={
+      leigo:`Beleza! 😊 Olha o painel direito — tem a partida ao vivo acontecendo agora. O placar é <strong>LOUD 9 × 6 paiN</strong>.\n\nA LOUD tem muito mais dinheiro que o adversário nesse round. Em CS2 isso é extremamente importante — quem tem dinheiro compra armas melhores. Quer entender melhor?`,
+      iniciante:`Ótimo! Stream ao vivo no painel direito. LOUD $24.800 vs paiN $9.200 — gap econômico crítico no Round 16. Odd LOUD 1.45. Analiso a situação?`,
+      intermediario:`Confirmado. PandaScore frame ativo. LOUD full buy $24.8k vs paiN eco. Win rate 74% nessa situação. Odd implícita 68.9%. Há value? Analisando...`,
+      nato:`Frame PandaScore. Economy gap $15.6k. Force buy EV negativo paiN. LOUD CT Inferno 71% WR. Linha LOUD 1.45 — análise de value.`
+    };
+    addAI(m[S.level]);
+    startFeed();
+    startTimer();
+  },400);
+}
+
+// ── MODE SWITCH ──
+function switchMode(mode){
+  S.mode=mode;
+  g('mE').classList.toggle('on',mode==='esports');
+  g('mC').classList.toggle('on',mode==='copa');
+  g('sbE').style.display=mode==='esports'?'block':'none';
+  g('sbC').style.display=mode==='copa'?'block':'none';
+  g('aiMark').textContent=mode==='esports'?'🎮':'⚽';
+  g('aiNm').textContent=mode==='esports'?'SORTECAST · E-SPORTS':'SORTECAST · COPA 2026';
+  g('mtrT').textContent=mode==='esports'?'PANDASCORE · CBLOL 2025':'JACKBOT · 75% ACC';
+  g('mtrL').textContent=mode==='esports'?'PANDASCORE':'JACKBOT';
+  g('spTitle').textContent=mode==='esports'?'STREAM AO VIVO':'COPA 2026 STREAM';
+  g('smTeams').textContent=mode==='esports'?'LOUD × PAIN GAMING':'BRASIL × ADVERSÁRIO';
+  g('smScore').textContent=mode==='esports'?'9×6':'🏆';
+  g('smRound').textContent=mode==='esports'?'ROUND 16 · INFERNO':'COPA 2026 · GRUPO C';
+  const chips=g('chips');
+  chips.innerHTML=mode==='esports'?`
+    <div class="chip" onclick="qs('Analisa LOUD vs paiN ao vivo')">LOUD VS PAIN</div>
+    <div class="chip" onclick="qs('Vale apostar LOUD odd 1.45?')">VALE APOSTAR?</div>
+    <div class="chip" onclick="qs('O que é economia CS2?')">ECONOMIA CS2</div>
+    <div class="chip" onclick="qs('Aspas K/D agora')">ASPAS KD</div>
+    <div class="chip" onclick="qs('Live betting e-sports como funciona?')">LIVE BETTING</div>`:`
+    <div class="chip" onclick="qs('Analisa Brasil x Marrocos JACKBOT')">BRASIL × MARROCOS</div>
+    <div class="chip" onclick="qs('Quem ganha Copa 2026?')">FAVORITOS</div>
+    <div class="chip" onclick="qs('Formato 48 times Copa como funciona')">FORMATO</div>
+    <div class="chip" onclick="qs('R$200 de banca como gerir na Copa')">GESTÃO COPA</div>`;
+  if(!S.onboarded) return;
+  addAI(mode==='esports'
+    ?`MODO E-SPORTS ativo. 🎮 PandaScore conectado.\n\nPartida ao vivo: <strong>LOUD 9 × 6 paiN</strong>, Round 16, Inferno. Clique em "CONECTAR TWITCH" no painel direito para assistir ao vivo.`
+    :`MODO COPA 2026 ativo. ⚽ JACKBOT pronto.\n\nBrasil está no <strong>Grupo C</strong> com Marrocos, Escócia e Haiti. Técnico: Ancelotti. Por onde quer começar?`);
+}
+
+// ── SEND ──
+async function send(){
+  const box=g('ibox');
+  const txt=box.value.trim();
+  if(!txt||!S.onboarded) return;
+  box.value=''; box.style.height='auto';
+  addUser(txt);
+  const btn=g('sbtn'); btn.disabled=true;
+  addTyping(); checkRisk(txt);
+  g('aiSt').textContent='ANALISANDO...';
+  let jbCtx='';
+  for(const[k,m] of Object.entries(BRASIL)){
+    if(txt.toLowerCase().includes(k)||txt.toLowerCase().includes(m.nm.toLowerCase())){
+      const p=jb(m.s,m.c,m.o);
+      jbCtx=`\nJACKBOT → Brasil×${m.nm}: ${(p.h*100).toFixed(0)}% Brasil · ${(p.d*100).toFixed(0)}% Empate · ${(p.a*100).toFixed(0)}% ${m.nm}`;
+      break;
+    }
+  }
+  try{
+    S.hist.push({role:'user',content:txt});
+    const r=await fetch('https://api.anthropic.com/v1/messages',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({model:'claude-sonnet-4-20250514',max_tokens:1000,system:sys(jbCtx),messages:S.hist})
+    });
+    const d=await r.json();
+    const rep=d.content?.[0]?.text||'Tive um problema. Tente de novo!';
+    S.hist.push({role:'assistant',content:rep});
+    hideTyping(); addAI(rep); gainXP(8);
+    g('aiSt').textContent='PRONTO';
+    if(/analisa|aposta|vale|como/i.test(txt)){
+      setTimeout(()=>addEv({type:'insight',ic:'🤖',lbl:'IA RESPONDEU',txt:rep.substring(0,70)+'...',sub:'SorteCast · resposta em tempo real',bet:null}),600);
+    }
+  } catch(e){
+    hideTyping(); addAI('Ops! Conexão falhou. Tente de novo. 🔄');
+    g('aiSt').textContent='PRONTO';
+  }
+  btn.disabled=false;
+}
+
+function qs(t){if(!S.onboarded)return;g('ibox').value=t;send();}
+
+// ── HELPERS ──
+function mkAI(){
+  const w=document.createElement('div');w.className='msg ai';
+  const av=document.createElement('div');av.className='mav';av.textContent=S.mode==='esports'?'🎮':'⚽';
+  const b=document.createElement('div');b.className='mbody';
+  w.appendChild(av);w.appendChild(b);return w;
+}
+function addAI(h){
+  const c=g('msgs'),w=mkAI();
+  w.querySelector('.mbody').innerHTML=`<div class="bbl">${h.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>').replace(/\n/g,'<br>')}</div><div class="mts">${now()}</div>`;
+  c.appendChild(w);scroll();
+}
+function addUser(txt){
+  const c=g('msgs'),w=document.createElement('div');w.className='msg u';
+  w.innerHTML=`<div class="mav">🧑</div><div class="mbody" style="align-items:flex-end"><div class="bbl">${txt}</div><div class="mts" style="text-align:right">${now()}</div></div>`;
+  c.appendChild(w);scroll();
+}
+function addTyping(){
+  const c=g('msgs'),w=document.createElement('div');w.className='msg ai';w.id='ty';
+  w.innerHTML=`<div class="mav" style="background:var(--y)">${S.mode==='esports'?'🎮':'⚽'}</div><div class="mbody"><div class="typing"><span></span><span></span><span></span></div></div>`;
+  c.appendChild(w);scroll();
+}
+function hideTyping(){const e=g('ty');if(e)e.remove();}
+function scroll(){const c=g('msgs');c.scrollTop=c.scrollHeight;}
+function now(){return new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}
+function g(x){return document.getElementById(x);}
+function gainXP(n){S.xp=Math.min(S.xp+n,100);g('xpF').style.width=S.xp+'%';g('xpN').textContent=Math.round(S.xp*10);}
+function checkRisk(t){if(/perdi|recuper|dobrar|tudo/i.test(t)){S.risk++;if(S.risk>=2)g('guardian').classList.add('on');}}
+
+// ── INPUT ──
+g('ibox').addEventListener('input',function(){this.style.height='auto';this.style.height=Math.min(this.scrollHeight,88)+'px';});
+g('ibox').addEventListener('keydown',function(e){if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send();}});
+window.addEventListener('resize',()=>{
+  if(window.innerWidth>1024){g('streamPanel').classList.remove('open');g('overlay').classList.remove('open');S.streamOpen=false;}
+  if(window.innerWidth>768){g('sidebar').classList.remove('open');S.sidebarOpen=false;}
+});
+
+startOnboarding();
+</script>
+</body>
+</html>
